@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="32dp"
+    android:background="@drawable/dialogbkg">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:scaleType="centerCrop"
+        android:src="@drawable/round_remove_24" />
+
+    <ImageView
+        android:id="@+id/close_bottom"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:paddingRight="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/baseline_close_24" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:paddingTop="20dp"
+        android:text="REFEIÇÃO"
+        android:textAlignment="textStart"
+        android:textColor="@color/mint_cream"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edit_glicemia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="mg/dL"
+        android:drawablePadding="10dp"
+        android:textColorHint="@color/gray_500"
+        android:inputType="numberDecimal"
+        android:background="@drawable/background_edit_text"
+        android:maxLines="1"
+        android:layout_marginEnd="250dp"
+        android:textSize="18sp"
+        android:layout_margin="16dp"
+        android:padding="15dp"
+        android:drawableTint="@color/gray_500"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:layout_margin="16dp"
+        android:hint="@string/select"
+        android:textColorHint="@color/gray_500"
+        android:background="@drawable/background_edit_text"
+        android:maxLines="1"
+        android:layout_marginEnd="230dp"
+        android:textSize="18sp"
+        android:drawableTint="@color/gray_500"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+        <AutoCompleteTextView
+            android:id="@+id/auto_complete_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:background="@drawable/background_button_selector"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:textAllCaps="false"
+        android:enabled="true"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue_teal"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp" />
+
+
+</LinearLayout>

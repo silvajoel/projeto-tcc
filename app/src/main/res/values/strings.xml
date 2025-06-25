@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">TCC</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_nome">Nome</string>
+    <string name="hint_sobrenome">Sobrenome</string>
+    <string name="hint_dataNasc">Data de Nascimento</string>
+    <string name="hint_password">Senha</string>
+    <string name="txt_button_entrar">Entrar</string>
+    <string name="txt_LOGIN">Login</string>
+    <string name="txt_button_cadastrar">Cadastrar</string>
+    <string name="txt_tela_login">Esqueceu sua senha?</string>
+    <string name="txt_tela_login_cadastro">Não possui cadastro? Cadastre-se!</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="possui_conta">Já possui conta? Entrar. </string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="about">Sobre nós</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="media">Média semanal</string>
+    <string name="numero">120 mg/dL</string>
+    <string name="inicio">Olá, Alice!</string>
+    <string name="inicio_2">Como está seu controle hoje?</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="glicemia">Glicemia</string>
+    <string name="insulina">Insulina</string>
+    <string name="alimentacao">Alimentação</string>
+    <string name="remedios">Remédios</string>
+    <string name="relatorios">Relatórios</string>
+    <string name="select">Selecione um item.</string>
+    <string name="save">Salvar</string>
+    <string name="data_hora">Data e hora da medição</string>
+</resources>

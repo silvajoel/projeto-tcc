@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/alimentacao_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8FF"
+    tools:context=".fragment.alimentacao.Fragment_Alimentacao">
+
+    <TextView
+        android:id="@+id/textoTopo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:text="Selecione a Refeição"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Cards explícitos -->
+    <include
+        android:id="@+id/cardCafeManha"
+        layout="@layout/item_card_home" />
+
+    <include
+        android:id="@+id/cardAlmoco"
+        layout="@layout/item_card_home" />
+
+    <include
+        android:id="@+id/cardCafeTarde"
+        layout="@layout/item_card_home" />
+
+    <include
+        android:id="@+id/cardJantar"
+        layout="@layout/item_card_home" />
+
+    <include
+        android:id="@+id/cardCeia"
+        layout="@layout/item_card_home" />
+
+    <include
+        android:id="@+id/cardAvulso"
+        layout="@layout/item_card_home" />
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/flow_cards"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="cardCafeManha,cardAlmoco,cardCafeTarde,cardJantar,cardCeia,cardAvulso"
+        app:flow_wrapMode="chain"
+        app:flow_horizontalGap="16dp"
+        app:flow_verticalGap="16dp"
+        app:flow_maxElementsWrap="2"
+        app:layout_constraintTop_toBottomOf="@id/textoTopo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
