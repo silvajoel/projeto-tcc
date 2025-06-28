@@ -135,6 +135,31 @@ class DatabaseHelper(private val context: Context) :
         return db.insert(DatabaseConstants.insulina.TABLE_NAME, null, values)
     }
 
+    fun insertAlimento(
+        nome: String,
+        quantidade_gramas: Double,
+        calorias: Double,
+        gorduras: Double,
+        carboidratos: Double
+    ): Long {
+        val sharedPref = context.getSharedPreferences("AppPrefs", Context.MODE_PRIVATE)
+        val userId = sharedPref.getInt("USER_ID", -1)
+
+        if (userId == -1) return -1
+
+        val db = writableDatabase
+        val values = ContentValues().apply {
+            put(DatabaseConstants.alimentoconsumido.Colunas.USER_ID, userId)
+            put(DatabaseConstants.alimentoconsumido.Colunas.NOME, nome)
+            put(DatabaseConstants.alimentoconsumido.Colunas.QUANTIDADE_GRAMAS, quantidade_gramas)
+            put(DatabaseConstants.alimentoconsumido.Colunas.CALORIAS, calorias)
+            put(DatabaseConstants.alimentoconsumido.Colunas.GORDURAS, gorduras)
+            put(DatabaseConstants.alimentoconsumido.Colunas.CARBOIDRATOS, carboidratos)
+        }
+
+        return db.insert(DatabaseConstants.alimentoconsumido.NOME_TABELA, null, values)
+    }
+
     fun getAllInsulinas(userId: Int): List<InsulinaData> {
         val insulinaList = mutableListOf<InsulinaData>()
         val db = readableDatabase

@@ -12,33 +12,33 @@
 
     <LinearLayout
         android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="vertical"
-        android:layout_height="wrap_content"
         android:paddingStart="10dp">
 
         <TextView
             android:id="@+id/text_tipo_insulina"
-            android:text="Insulina Rápida"
-            android:textStyle="bold"
-            android:textSize="16sp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="Insulina Rápida"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/text_momento"
-            android:text="Antes do café às 08:00"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="Antes do café às 08:00" />
 
     </LinearLayout>
 
     <TextView
         android:id="@+id/text_quantidade"
-        android:text="10 UI"
-        android:textSize="16sp"
-        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="end"/>
+        android:gravity="end"
+        android:text="10 UI"
+        android:textSize="16sp"
+        android:textStyle="bold" />
 </LinearLayout>

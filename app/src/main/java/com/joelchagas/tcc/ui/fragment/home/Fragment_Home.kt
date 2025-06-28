@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment
 import com.joelchagas.tcc.R
 import com.joelchagas.tcc.databinding.FragmentHomeBinding
 import com.joelchagas.tcc.data.db.DatabaseHelper
-import com.joelchagas.tcc.ui.fragment.alimentacao.Fragment_Alimentacao
+import com.joelchagas.tcc.ui.fragment.alimentacao.SelecionarRefeicaoFragment
 import com.joelchagas.tcc.ui.fragment.glicemia.Fragment_Glicemia
 import com.joelchagas.tcc.ui.fragment.insulina.Fragment_Insulina
 import com.joelchagas.tcc.ui.fragment.relatorios.Fragment_Relatorios
@@ -34,7 +34,7 @@ class Fragment_Home : Fragment() {
             HomeCardItem(R.drawable.insulina, "Insulina", R.id.cardInsulina, Fragment_Insulina()),
             HomeCardItem(
                 R.drawable.alimentacao, "Alimentação",
-                R.id.cardAlimentacao, Fragment_Alimentacao()
+                R.id.cardAlimentacao, SelecionarRefeicaoFragment()
             ),
             HomeCardItem(R.drawable.remedio, "Remédios", R.id.cardRemedio, Fragment_Remedios()),
             HomeCardItem(
@@ -89,6 +89,7 @@ class Fragment_Home : Fragment() {
                     .addToBackStack(null)
                     .commit()
             }
+
         }
     }
 

@@ -3,17 +3,23 @@ package com.joelchagas.tcc.ui.fragment.alimentacao
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.joelchagas.tcc.data.model.TacoAlimento
 
-class RefeicaoViewModel: ViewModel(){
+class RefeicaoViewModel : ViewModel() {
 
-    private val _text = MutableLiveData<String>().apply {
-        value = "This is home Fragment"
-    }
+    private val _alimentos = MutableLiveData<List<TacoAlimento>>()
+    val alimentos: LiveData<List<TacoAlimento>> get() = _alimentos
 
-    //private val repository = RefeicaoR
-    val text: LiveData<String> = _text
+    var todosAlimentos: List<TacoAlimento> = emptyList()
 
-    fun getAllRefeicoes() {
-
+    fun filtrarAlimentos(query: String) {
+        val resultado = if (query.isBlank()) {
+            todosAlimentos
+        } else {
+            todosAlimentos.filter {
+                it.descricao.contains(query, ignoreCase = true)
+            }
+        }
+        _alimentos.value = resultado
     }
 }

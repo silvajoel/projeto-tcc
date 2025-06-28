@@ -9,23 +9,18 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import com.joelchagas.tcc.R
-import com.joelchagas.tcc.ui.fragment.relatorios.Fragment_Relatorios
-import com.joelchagas.tcc.ui.fragment.remedios.Fragment_Remedios
-import com.joelchagas.tcc.ui.fragment.glicemia.Fragment_Glicemia
-import com.joelchagas.tcc.ui.fragment.insulina.Fragment_Insulina
 import com.joelchagas.tcc.data.model.HomeCardItem
-import com.joelchagas.tcc.data.model.TacoAlimento
 
-class Fragment_Alimentacao : Fragment() {
+class SelecionarRefeicaoFragment : Fragment() {
 
     private val cards by lazy {
         listOf(
-            HomeCardItem(R.drawable.cafe, "Café da Manhã", R.id.cardCafeManha, Fragment_Remedios()),
-            HomeCardItem(R.drawable.almoco, "Almoço", R.id.cardAlmoco, Fragment_Insulina()),
-            HomeCardItem(R.drawable.biscoito, "Café da tarde", R.id.cardCafeTarde, Fragment_Remedios()),
-            HomeCardItem(R.drawable.alimentacao, "Jantar", R.id.cardJantar, Fragment_Remedios()),
-            HomeCardItem(R.drawable.ultima_ceia, "Ceia", R.id.cardCeia, Fragment_Relatorios()),
-            HomeCardItem(R.drawable.elipse, "Refeição Avulsa", R.id.cardAvulso, Fragment_Glicemia())
+            HomeCardItem(R.drawable.cafe, "Café da Manhã", R.id.cardCafeManha, ListaAlimentosRefeicaoFragment()),
+            HomeCardItem(R.drawable.almoco, "Almoço", R.id.cardAlmoco, ListaAlimentosRefeicaoFragment()),
+            HomeCardItem(R.drawable.biscoito, "Café da tarde", R.id.cardCafeTarde, ListaAlimentosRefeicaoFragment()),
+            HomeCardItem(R.drawable.alimentacao, "Jantar", R.id.cardJantar, ListaAlimentosRefeicaoFragment()),
+            HomeCardItem(R.drawable.ultima_ceia, "Ceia", R.id.cardCeia, ListaAlimentosRefeicaoFragment()),
+            HomeCardItem(R.drawable.elipse, "Refeição Avulsa", R.id.cardAvulso, ListaAlimentosRefeicaoFragment())
         )
     }
 

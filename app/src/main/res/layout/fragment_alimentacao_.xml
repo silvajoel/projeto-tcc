@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFF8FF"
-    tools:context=".fragment.alimentacao.Fragment_Alimentacao">
+    tools:context="ui.fragment.alimentacao.SelecionarRefeicaoFragment">
 
     <TextView
         android:id="@+id/textoTopo"
