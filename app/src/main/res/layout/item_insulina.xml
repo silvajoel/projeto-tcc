@@ -8,7 +8,8 @@
     <ImageView
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:src="@drawable/insulina" />
+        android:src="@drawable/insulina"
+        android:contentDescription="desc_icon_insulina" />
 
     <LinearLayout
         android:layout_width="0dp"
@@ -22,15 +23,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Insulina Rápida"
-            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/text_momento"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Antes do café às 08:00" />
-
+            android:text="Antes do café às 08:00"
+            android:textAppearance="@style/TextAppearance.Material3.BodyMedium" />
     </LinearLayout>
 
     <TextView
@@ -39,6 +40,6 @@
         android:layout_height="wrap_content"
         android:gravity="end"
         android:text="10 UI"
-        android:textSize="16sp"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
         android:textStyle="bold" />
 </LinearLayout>

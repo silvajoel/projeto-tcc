@@ -12,222 +12,172 @@
         android:id="@+id/containerTop"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
+        android:id="@+id/text_topo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/text_topo"
         android:text="@string/txt_button_cadastrar"
         android:textStyle="bold"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintTop_toBottomOf="@id/containerTop"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginEnd="30dp"
-        android:textColor="@color/black"
-        android:layout_marginTop="40dp"
-        android:gravity="center"
-        android:textSize="30dp"
-        android:layout_marginStart="10dp"
-        />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <!-- Nome -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/nome"
-        android:text="Nome"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
+        android:hint="@string/hint_nome"
         app:layout_constraintTop_toBottomOf="@id/text_topo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:boxStrokeColor="@color/blue_teal"
-        app:hintAnimationEnabled="true"
-        app:hintTextColor="@color/black"
-        app:errorTextColor="@color/red_500"
         app:errorEnabled="true"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        >
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edit_nome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableLeft="@drawable/person"
-            android:drawablePadding="10dp"
-            android:drawableTint="@color/gray_500"
-            android:hint="@string/hint_nome"
-            android:background="@drawable/background_edit_text"
-            android:inputType="textEmailAddress"
+            android:inputType="text"
             android:maxLines="1"
-            android:textColorHint="@color/gray_500"
             android:textSize="18sp"
-            tools:ignore="VisualLintTextFieldSize" />
+            android:hint="@string/hint_nome"
+            android:textColorHint="@color/gray_500" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <!-- Sobrenome -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/sobrenome"
-        android:text="Sobrenome"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
+        android:hint="@string/hint_sobrenome"
         app:layout_constraintTop_toBottomOf="@id/nome"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:boxStrokeColor="@color/blue_teal"
-        app:hintAnimationEnabled="true"
-        app:hintTextColor="@color/black"
-        app:errorTextColor="@color/red_500"
         app:errorEnabled="true"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        >
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/editSobrenome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/hint_sobrenome"
-            android:background="@drawable/background_edit_text"
-            android:drawablePadding="10dp"
-            android:textColorHint="@color/gray_500"
+            android:inputType="text"
             android:maxLines="1"
             android:textSize="18sp"
-            android:padding="15dp"
-            android:drawableStart="@drawable/person"
-            android:drawableTint="@color/gray_500"
-            />
+            android:textColorHint="@color/gray_500"
+            android:hint="@string/hint_sobrenome" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <!-- Data de Nascimento -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/dataNasc"
-        android:text="Data de nascimento"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
+        android:hint="@string/hint_dataNasc"
         app:layout_constraintTop_toBottomOf="@id/sobrenome"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:boxStrokeColor="@color/blue_teal"
-        app:hintAnimationEnabled="true"
-        app:hintTextColor="@color/black"
-        app:errorTextColor="@color/red_500"
         app:errorEnabled="true"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        >
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/editDataNascimento"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/hint_dataNasc"
-            android:background="@drawable/background_edit_text"
-            android:drawablePadding="10dp"
-            android:textColorHint="@color/gray_500"
             android:inputType="date"
             android:maxLines="1"
             android:textSize="18sp"
-            android:padding="15dp"
-            android:drawableStart="@drawable/calendar"
-            android:drawableTint="@color/gray_500"
-            />
+            android:textColorHint="@color/gray_500"
+            android:hint="@string/hint_dataNasc" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <!-- E-mail -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/email_input_layout"
-        android:text="E-mail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
+        android:hint="@string/hint_email"
         app:layout_constraintTop_toBottomOf="@id/dataNasc"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:boxStrokeColor="@color/blue_teal"
-        app:hintAnimationEnabled="true"
-        app:hintTextColor="@color/black"
-        app:errorTextColor="@color/red_500"
         app:errorEnabled="true"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        >
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edit_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableLeft="@drawable/mail"
-            android:background="@drawable/background_edit_text"
-            android:drawablePadding="10dp"
-            android:drawableTint="@color/gray_500"
-            android:hint="@string/hint_email"
             android:inputType="textEmailAddress"
             android:maxLines="1"
-            android:textColorHint="@color/gray_500"
             android:textSize="18sp"
-            tools:ignore="VisualLintTextFieldSize" />
+            android:textColorHint="@color/gray_500"
+            android:hint="@string/hint_email" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <!-- Senha -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/password_input_layout"
-        android:text="Senha"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
+        android:hint="@string/hint_password"
         app:layout_constraintTop_toBottomOf="@id/email_input_layout"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:boxStrokeColor="@color/blue_teal"
-        app:hintAnimationEnabled="true"
-        app:hintTextColor="@color/black"
-        app:errorTextColor="@color/red_500"
-        app:errorEnabled="true"
         app:passwordToggleEnabled="true"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        >
+        app:errorEnabled="true"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/editSenha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/background_edit_text"
-            android:hint="@string/hint_password"
-            android:drawablePadding="10dp"
-            android:textColorHint="@color/gray_500"
             android:inputType="textPassword"
             android:maxLines="1"
             android:textSize="18sp"
-            android:padding="15dp"
-            android:drawableStart="@drawable/lock"
-            android:drawableEnd="@drawable/visibility"
-            android:drawableTint="@color/gray_500"
-            />
+            android:textColorHint="@color/gray_500"
+            android:hint="@string/hint_password" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <androidx.appcompat.widget.AppCompatButton
+    <!-- Botão Cadastrar -->
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/button_cadastrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/txt_button_cadastrar"
-        android:background="@drawable/background_edit_text"
-        android:padding="15dp"
-        android:textColor="@color/white"
-        android:backgroundTint="@color/blue_teal"
-        app:layout_constraintTop_toBottomOf="@id/password_input_layout"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="30dp"
         android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp" />
+        android:layout_marginEnd="30dp"
+        android:text="@string/txt_button_cadastrar"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/blue_teal"
+        app:layout_constraintTop_toBottomOf="@id/password_input_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -237,8 +187,7 @@
         app:layout_constraintTop_toBottomOf="@id/button_cadastrar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="20dp"
-        />
+        android:layout_marginTop="20dp" />
 
     <TextView
         android:id="@+id/button_entrar_2"
@@ -248,14 +197,13 @@
         android:clickable="true"
         android:onClick="onClick"
         android:textStyle="bold"
+        android:textColor="?android:attr/textColorPrimary"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="30dp"
         app:layout_constraintTop_toBottomOf="@id/button_cadastrar"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginEnd="30dp"
-        android:textColor="@color/black"
-        android:layout_marginTop="30dp"
-        android:gravity="center"
-        android:layout_marginStart="10dp"
-        />
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

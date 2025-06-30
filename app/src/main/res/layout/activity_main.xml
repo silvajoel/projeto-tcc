@@ -12,22 +12,24 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <androidx.appcompat.widget.Toolbar
+        <!-- Toolbar atualizada para Material3 -->
+        <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/blue_teal"
+            android:backgroundTint="@color/blue_teal"
             android:elevation="4dp"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            android:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+            android:theme="@style/ThemeOverlay.Material3.Dark"
+            android:popupTheme="@style/ThemeOverlay.Material3.Light" />
 
+        <!-- Fragment container -->
         <FrameLayout
             android:id="@+id/fragment_container"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="?attr/actionBarSize">
-        </FrameLayout>
+            android:layout_marginTop="?attr/actionBarSize" />
 
+        <!-- BottomAppBar ainda é compatível -->
         <com.google.android.material.bottomappbar.BottomAppBar
             android:id="@+id/bottomAppBar"
             android:layout_width="match_parent"
@@ -39,6 +41,7 @@
             app:fabCradleVerticalOffset="10dp"
             app:hideOnScroll="false" />
 
+        <!-- BottomNavigationView continua válido no Material 3 -->
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottom_navigation"
             android:layout_width="match_parent"
@@ -49,6 +52,8 @@
             app:itemIconTint="@color/white"
             app:itemTextColor="@color/white"
             app:labelVisibilityMode="labeled" />
+
+        <!-- Fundo escurecido -->
         <View
             android:id="@+id/fab_background"
             android:layout_width="match_parent"
@@ -56,6 +61,7 @@
             android:background="#88000000"
             android:visibility="gone"/>
 
+        <!-- Botões Estendidos (Material 3 mantém compatibilidade) -->
         <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
             android:id="@+id/fab_glicemia"
             android:layout_width="wrap_content"
@@ -65,10 +71,9 @@
             android:backgroundTint="@color/verde_petroleo"
             android:text="Glicemia"
             android:textColor="@color/white"
-            android:textStyle="bold"
             app:icon="@drawable/glicosimetro"
-            android:visibility="invisible"
-            app:iconTint="@null"/>
+            app:iconTint="@null"
+            android:visibility="invisible" />
 
         <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
             android:id="@+id/fab_insulina"
@@ -79,7 +84,6 @@
             android:backgroundTint="@color/verde_petroleo"
             android:text="Insulina"
             android:textColor="@color/white"
-            android:textStyle="bold"
             app:icon="@drawable/insulina"
             app:iconTint="@null"
             android:visibility="invisible" />
@@ -93,29 +97,27 @@
             android:backgroundTint="@color/verde_petroleo"
             android:text="Remédios"
             android:textColor="@color/white"
-            android:textStyle="bold"
-            android:visibility="invisible"
+            app:icon="@drawable/remedio"
             app:iconTint="@null"
-            app:icon="@drawable/remedio" />
+            android:visibility="invisible" />
 
-        <!-- Botão flutuante central -->
+        <!-- FAB central -->
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
             android:layout_marginBottom="77dp"
-            android:focusable="true"
-            android:src="@drawable/baseline_add_24"
+            android:backgroundTint="@color/blue_teal"
             app:layout_anchor="@id/bottomAppBar"
             app:layout_anchorGravity="center"
-            android:backgroundTint="@color/blue_teal"
+            android:src="@drawable/baseline_add_24"
             app:tint="@color/white"
-            app:maxImageSize="40dp"/>
+            app:maxImageSize="40dp" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-    <!-- Menu Lateral -->
+    <!-- NavigationDrawer -->
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigation_drawer"
         android:layout_width="wrap_content"

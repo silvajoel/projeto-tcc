@@ -37,7 +37,6 @@ class Bottom_Sheet_Glicemia : BottomSheetDialogFragment() {
     ): View? {
         val view = inflater.inflate(R.layout.bottomsheet_glicemia, container, false)
 
-        // Inicializar o DatabaseHelper
         databaseHelper = DatabaseHelper(requireContext())
 
         val autoCompleteTextView = view.findViewById<AutoCompleteTextView>(R.id.auto_complete_txt)
@@ -53,7 +52,6 @@ class Bottom_Sheet_Glicemia : BottomSheetDialogFragment() {
             autoCompleteTextView.showDropDown()
         }
 
-        // Aplica o DatePicker e TimePicker ao campo
         setupDataHoraPicker(editDataHoraMedicao)
 
         buttonSave.setOnClickListener {

@@ -7,21 +7,24 @@
 
     <TextView
         android:id="@+id/text_nivel_glicose"
-        android:text="120 mg/dL"
-        android:textSize="18sp"
-        android:textStyle="bold"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="120 mg/dL"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/text_data_hora"
-        android:text="2025-06-12 08:00"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="2025-06-12 08:00"
+        android:textAppearance="@style/TextAppearance.Material3.BodyMedium" />
 
     <TextView
         android:id="@+id/text_momento_medicao"
-        android:text="Antes do café"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Antes do café"
+        android:textAppearance="@style/TextAppearance.Material3.BodyMedium" />
+
 </LinearLayout>

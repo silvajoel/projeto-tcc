@@ -8,7 +8,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.joelchagas.tcc.R
 import com.joelchagas.tcc.data.model.GlicemiaData
 
-class GlicemiaAdapter(private val lista: List<GlicemiaData>) :
+class GlicemiaAdapter(
+    private val lista: List<GlicemiaData>) :
     RecyclerView.Adapter<GlicemiaAdapter.ViewHolder>() {
 
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {

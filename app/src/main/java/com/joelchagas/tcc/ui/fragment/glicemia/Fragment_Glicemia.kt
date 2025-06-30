@@ -40,7 +40,5 @@ class Fragment_Glicemia : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
-        // Fechar o databaseHelper se necessário, depende da implementação
-        // databaseHelper.close()
     }
 }

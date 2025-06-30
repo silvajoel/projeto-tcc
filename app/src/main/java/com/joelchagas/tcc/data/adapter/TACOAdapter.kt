@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.joelchagas.tcc.data.model.TacoAlimento
 import com.joelchagas.tcc.databinding.ItemTacoAlimentoBinding
+
 class TACOAdapter(
     private var itens: List<TacoAlimento>,
     private val onItemClick: (TacoAlimento) -> Unit

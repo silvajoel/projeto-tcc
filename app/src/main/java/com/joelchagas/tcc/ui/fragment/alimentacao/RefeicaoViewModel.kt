@@ -1,5 +1,6 @@
 package com.joelchagas.tcc.ui.fragment.alimentacao
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -14,12 +15,13 @@ class RefeicaoViewModel : ViewModel() {
 
     fun filtrarAlimentos(query: String) {
         val resultado = if (query.isBlank()) {
-            todosAlimentos
+            emptyList() // Não mostra nada até que seja realizada uma pesquisa
         } else {
             todosAlimentos.filter {
                 it.descricao.contains(query, ignoreCase = true)
             }
         }
+
         _alimentos.value = resultado
     }
 }

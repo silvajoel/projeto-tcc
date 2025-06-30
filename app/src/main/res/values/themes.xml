@@ -1,46 +1,45 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+    <!-- Base application theme (Material 3) -->
     <style name="Base.Theme.TCC" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
+        <!-- Paleta personalizada -->
         <item name="colorPrimary">@color/blue_teal</item>
-        <item name="colorPrimaryVariant">@color/blue_teal</item>
-        <item name="colorOnPrimary">@color/blue_teal</item>
+        <item name="colorOnPrimary">@android:color/white</item>
         <item name="colorSecondary">@color/blue_teal</item>
-        <item name="colorSecondaryVariant">@color/blue_teal</item>
-        <item name="colorOnSecondary">@color/blue_teal</item>
+        <item name="colorOnSecondary">@android:color/white</item>
         <item name="android:statusBarColor">@color/blue_teal</item>
     </style>
 
-    <!-- Base application theme. -->
-    <style name="Theme.Fab_Bottom_app_bar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <!-- Tema com FAB centralizado na BottomAppBar -->
+    <style name="Theme.Fab_Bottom_app_bar" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">#0F9D58</item>
-        <item name="colorPrimaryVariant">#0F9D58</item>
-        <item name="colorOnPrimary">#000</item>
+        <item name="colorOnPrimary">#000000</item>
     </style>
 
+    <!-- Animação de entrada e saída de diálogos -->
     <style name="DialogAnimation">
         <item name="android:windowEnterAnimation">@anim/slide_in</item>
         <item name="android:windowExitAnimation">@anim/slide_out</item>
     </style>
 
+    <!-- Referência ao tema base -->
     <style name="Theme.TCC" parent="Base.Theme.TCC" />
 
-    <style name="Theme.TCC.NoActionBar">
+    <!-- Variante sem ActionBar -->
+    <style name="Theme.TCC.NoActionBar" parent="Base.Theme.TCC">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.TCC.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <!-- Sobrescritas de overlay antigas (opcional atualizar para Material3) -->
+    <style name="Theme.TCC.AppBarOverlay" parent="ThemeOverlay.Material3.ActionBar" />
+    <style name="Theme.TCC.PopupOverlay" parent="ThemeOverlay.Material3.Toolbar.Surface" />
 
-    <style name="Theme.TCC.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-    
-    <style name="ButtomSheetDialog" parent="Theme.Design.BottomSheetDialog">
-        <item name="bottomSheetStyle">
-            @style/BottomSheetStyle
-        </item>
+    <!-- BottomSheetDialog com Material 3 -->
+    <style name="ButtomSheetDialog" parent="Theme.Material3.Dark.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
     </style>
-    
-    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+
+    <style name="BottomSheetStyle" parent="Widget.Material3.BottomSheet.Modal">
         <item name="android:background">@android:color/transparent</item>
     </style>
 </resources>

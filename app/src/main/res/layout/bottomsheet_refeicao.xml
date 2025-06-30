@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="80dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center|top"
+        android:layout_gravity="center_horizontal"
         android:scaleType="centerCrop"
         android:src="@drawable/round_remove_24" />
 
@@ -17,8 +17,8 @@
         android:id="@+id/close_bottom"
         android:layout_width="40dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="right|top"
-        android:paddingRight="10dp"
+        android:layout_gravity="end"
+        android:paddingEnd="10dp"
         android:scaleType="centerCrop"
         android:src="@drawable/baseline_close_24" />
 
@@ -33,58 +33,54 @@
         android:textSize="20sp"
         android:textStyle="bold" />
 
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/edit_glicemia"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="mg/dL"
-        android:drawablePadding="10dp"
-        android:textColorHint="@color/gray_500"
-        android:inputType="numberDecimal"
-        android:background="@drawable/background_edit_text"
-        android:maxLines="1"
-        android:layout_marginEnd="250dp"
-        android:textSize="18sp"
-        android:layout_margin="16dp"
-        android:padding="15dp"
-        android:drawableTint="@color/gray_500"
-        />
-
+    <!-- Campo de Glicemia -->
     <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawablePadding="10dp"
-        android:layout_margin="16dp"
-        android:hint="@string/select"
-        android:textColorHint="@color/gray_500"
-        android:background="@drawable/background_edit_text"
-        android:maxLines="1"
-        android:layout_marginEnd="230dp"
-        android:textSize="18sp"
-        android:drawableTint="@color/gray_500"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="8dp"
+        android:hint="mg/dL">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_glicemia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/gray_500"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Dropdown para Tipo de Refeição -->
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/select">
 
         <AutoCompleteTextView
             android:id="@+id/auto_complete_txt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="none"/>
-
+            android:inputType="none"
+            android:textColorHint="@color/gray_500"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <androidx.appcompat.widget.AppCompatButton
+    <!-- Botão Salvar -->
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/buttonSave"
         android:layout_width="match_parent"
-        android:background="@drawable/background_button_selector"
         android:layout_height="wrap_content"
         android:text="@string/save"
         android:textAllCaps="false"
-        android:enabled="true"
         android:textColor="@color/white"
-        android:backgroundTint="@color/blue_teal"
         android:layout_marginTop="20dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp" />
-
-
+        android:layout_marginHorizontal="30dp"
+        app:backgroundTint="@color/blue_teal"
+        app:cornerRadius="12dp" />
 </LinearLayout>

@@ -4,15 +4,13 @@
     android:id="@+id/relatorios_fragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.remedios.Fragment_Remedios">
+    tools:context=".ui.fragment.remedios.Fragment_Remedios">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:text="Relatórios"
-        android:textColor="@color/blue_teal"
-        android:textSize="34dp" />
-
+        android:textAppearance="@style/TextAppearance.Material3.DisplaySmall"
+        android:textColor="@color/blue_teal" />
 </FrameLayout>

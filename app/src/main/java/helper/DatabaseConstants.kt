@@ -50,8 +50,10 @@ class DatabaseConstants private constructor() {
         object Colunas {
             const val ID = "id"
             const val ID_USUARIO = "id_usuario"
+            const val ID_REFEICAO = "id_refeicao"
             const val DESCRICAO = "descricao"
             const val CATEGORIA = "categoria"
+            const val QUANTIDADE = "quantidade_gramas"
             const val CALORIAS = "calorias"
             const val PROTEINAS = "proteinas"
             const val GORDURAS = "gorduras"
@@ -59,17 +61,14 @@ class DatabaseConstants private constructor() {
         }
     }
 
-    object alimentoconsumido {
-        const val NOME_TABELA = "alimento_consumido"
+    object refeicao {
+        const val NOME_TABELA = "refeicao"
 
         object Colunas {
             const val ID = "id"
             const val USER_ID = "id_usuario"
-            const val NOME = "nome"
-            const val QUANTIDADE_GRAMAS = "quantidade_gramas"
-            const val CALORIAS = "calorias"
-            const val GORDURAS = "gorduras"
-            const val CARBOIDRATOS = "carboidratos"
+            const val TIPO_REFEICAO = "tipo_refeicao"
+            const val DATA_HORA= "data_hora"
         }
     }
 }
