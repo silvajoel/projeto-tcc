@@ -1,39 +1,37 @@
 package com.joelchagas.tcc.ui.auth
 
-import android.annotation.SuppressLint
-import android.content.Intent
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.view.View
+import android.view.ViewGroup
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.joelchagas.tcc.R
-import com.joelchagas.tcc.ui.auth.LoginActivity
-import com.joelchagas.tcc.databinding.ActivityCadastroBinding
 import com.joelchagas.tcc.data.db.DatabaseHelper
+import com.joelchagas.tcc.databinding.ActivityCadastroBinding
 
-class Cadastro : AppCompatActivity() {
-    private lateinit var binding: ActivityCadastroBinding
+class Cadastro : Fragment() {
+
+    private var _binding: ActivityCadastroBinding? = null
+    private val binding get() = _binding!!
     private lateinit var databaseHelper: DatabaseHelper
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        binding = ActivityCadastroBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-        databaseHelper = DatabaseHelper(this)
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?,
+    ): View {
+        _binding = ActivityCadastroBinding.inflate(inflater, container, false)
+        return binding.root
+    }
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        databaseHelper = DatabaseHelper(requireContext())
 
         binding.buttonEntrar2.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
-            startActivity(intent)
+            findNavController().navigate(R.id.action_cadastro_to_login)
         }
 
         binding.buttonCadastrar.setOnClickListener {
@@ -44,61 +42,58 @@ class Cadastro : AppCompatActivity() {
             val senha = binding.editSenha.text.toString()
 
             sigupDatabase(nome, sobrenome, dataNasc, email, senha)
-
         }
     }
 
-    @SuppressLint("SuspiciousIndentation")
-    private fun sigupDatabase(nome: String, sobrenome: String, dataNasc: String, email: String, senha: String) {
-
+    private fun sigupDatabase(
+        nome: String,
+        sobrenome: String,
+        dataNasc: String,
+        email: String,
+        senha: String
+    ) {
         when {
             nome.isEmpty() -> {
-                Toast.makeText(this, "Digite o nome.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(requireContext(), "Digite o nome.", Toast.LENGTH_SHORT).show()
                 binding.editNome.requestFocus()
             }
 
             sobrenome.isEmpty() -> {
-                Toast.makeText(this, "Digite o sobrenome.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(requireContext(), "Digite o sobrenome.", Toast.LENGTH_SHORT).show()
                 binding.editSobrenome.requestFocus()
             }
 
             dataNasc.isEmpty() -> {
-                Toast.makeText(this, "Digite a data de nascimento.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(requireContext(), "Digite a data de nascimento.", Toast.LENGTH_SHORT).show()
                 binding.editDataNascimento.requestFocus()
             }
 
             email.isEmpty() -> {
-                Toast.makeText(this, "Digite o E-mail.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(requireContext(), "Digite o E-mail.", Toast.LENGTH_SHORT).show()
                 binding.editEmail.requestFocus()
             }
 
             senha.isEmpty() -> {
-                Toast.makeText(this, "Digite a senha.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(requireContext(), "Digite a senha.", Toast.LENGTH_SHORT).show()
                 binding.editSenha.requestFocus()
             }
+
             else -> {
                 val insertRowId = databaseHelper.insertUsuario(nome, sobrenome, dataNasc, email, senha)
                 try {
-                    if (insertRowId != -1L)
-                        Toast.makeText(this, "Dados inseridos com sucesso", Toast.LENGTH_SHORT).show()
-                        val intent = Intent(this, LoginActivity::class.java)
-                        startActivity(intent)
-                        finish()
+                    if (insertRowId != -1L) {
+                        Toast.makeText(requireContext(), "Dados inseridos com sucesso", Toast.LENGTH_SHORT).show()
+                        findNavController().navigate(R.id.action_cadastro_to_login)
+                    }
                 } catch (ex: Exception) {
-                    Toast.makeText(this, "Erro ao inserir: ${ex.message}", Toast.LENGTH_LONG).show()
+                    Toast.makeText(requireContext(), "Erro ao inserir: ${ex.message}", Toast.LENGTH_LONG).show()
                 }
             }
         }
     }
 
-    fun onClick(view: View) {}
-    /*
-    private fun clearFields() {
-        binding.editNome.text?.clear()
-        binding.editSobrenome.text?.clear()
-        binding.editDataNascimento.text?.clear()
-        binding.editEmail.text?.clear()
-        binding.editSenha.text?.clear()
-    }*/
-
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
 }

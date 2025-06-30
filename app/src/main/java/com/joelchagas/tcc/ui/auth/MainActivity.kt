@@ -12,8 +12,12 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import androidx.fragment.app.Fragment
+import androidx.navigation.NavController
 import androidx.navigation.findNavController
-import com.google.android.material.appbar.MaterialToolbar
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.navigateUp
+import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.navigation.NavigationView
 import com.joelchagas.tcc.R
 import com.joelchagas.tcc.databinding.ActivityMainBinding
@@ -22,145 +26,134 @@ import com.joelchagas.tcc.ui.bottomsheet.Bottom_Sheet_Remedio
 import com.joelchagas.tcc.ui.fragment.glicemia.Fragment_Glicemia
 import com.joelchagas.tcc.ui.fragment.home.Fragment_Home
 
-class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener, HomeToMain {
+class MainActivity : AppCompatActivity(),
+    NavigationView.OnNavigationItemSelectedListener,
+    HomeToMain {
 
     private lateinit var binding: ActivityMainBinding
-    private lateinit var toggle: ActionBarDrawerToggle
+    private lateinit var navController: NavController
+    private lateinit var appBarCfg: AppBarConfiguration
     private var isExpanded = false
 
+    /* ---------- animações ---------- */
     private val fromBottomFabAnim: Animation by lazy {
         AnimationUtils.loadAnimation(this, R.anim.from_bottom_fab)
     }
-
     private val toBottomFabAnim: Animation by lazy {
         AnimationUtils.loadAnimation(this, R.anim.to_bottom_fab)
     }
 
+    /* ====================================================================== */
+    /* onCreate                                                               */
+    /* ====================================================================== */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val toolbar = findViewById<MaterialToolbar>(R.id.toolbar)
-        setSupportActionBar(toolbar)
-
-        supportActionBar?.setDisplayShowTitleEnabled(false)
-
-        val navController = findNavController(R.id.fragment_container)
-        navController.addOnDestinationChangedListener { _, _, _ ->
-            // zera sempre que muda de tela
-            supportActionBar?.title = ""
-        }
-        val navigationView = findViewById<NavigationView>(R.id.navigation_drawer)
-        val headerView = navigationView.getHeaderView(0)
-        val textViewNome = headerView.findViewById<TextView>(R.id.txtViewNome)
-        val textViewEmail = headerView.findViewById<TextView>(R.id.txtViewEmail)
-
-        val sharedPreferences = getSharedPreferences("AppPrefs", MODE_PRIVATE)
-        val userNome = sharedPreferences.getString("NOME", "Usuário")
-        val userEmail = sharedPreferences.getString("EMAIL", "email@exemplo.com")
-
-        textViewNome.text = "$userNome"
-        textViewEmail.text = userEmail
 
         setSupportActionBar(binding.toolbar)
+        supportActionBar?.setDisplayShowTitleEnabled(false)
 
-        toggle = ActionBarDrawerToggle(
+        navController = findNavController(R.id.nav_home)
+
+        // Destinos de topo (não mostram Up‑Button)
+        appBarCfg = AppBarConfiguration(
+            setOf(
+                R.id.fragment_Home,
+                R.id.fragment_Glicemia,
+                R.id.fragment_Insulina,
+                R.id.fragment_Remedios,
+                R.id.fragment_Relatorios
+            ),
+            binding.drawerLayout
+        )
+        setupActionBarWithNavController(navController, appBarCfg)
+
+        // BottomNavigation + Drawer ligados ao NavController
+        binding.bottomNavigation.apply {
+            background = null          // deixa transparência p/ FAB
+            setupWithNavController(navController)
+        }
+        binding.navigationDrawer.setupWithNavController(navController)
+
+        // Mantém o item Sair no Drawer fora da navegação automática
+        binding.navigationDrawer.setNavigationItemSelectedListener(this)
+
+        /* ---------- Drawer Toggle (hambúrguer) ---------- */
+        val toggle = ActionBarDrawerToggle(
             this, binding.drawerLayout, binding.toolbar,
             R.string.navigation_drawer_open, R.string.navigation_drawer_close
         )
         binding.drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
 
-        binding.navigationDrawer.setNavigationItemSelectedListener(this)
+        /* ---------- Dados do cabeçalho do Drawer ---------- */
+        val header = binding.navigationDrawer.getHeaderView(0)
+        header.findViewById<TextView>(R.id.txtViewNome).text =
+            getSharedPreferences("AppPrefs", MODE_PRIVATE).getString("NOME", "Usuário")
+        header.findViewById<TextView>(R.id.txtViewEmail).text =
+            getSharedPreferences("AppPrefs", MODE_PRIVATE).getString("EMAIL", "email@exemplo.com")
 
+        /* ---------- FAB e extensões ---------- */
+        binding.fab.setOnClickListener { if (isExpanded) shrinkFab() else expandFab() }
         binding.fabBackground.setOnClickListener { shrinkFab() }
+        binding.fabGlicemia   .setOnClickListener { Bottom_Sheet_Glicemia().show(supportFragmentManager, null) }
+        binding.fabInsulina   .setOnClickListener { showDialogInsulina() }
+        binding.fabMedicamento.setOnClickListener { Bottom_Sheet_Remedio().show(supportFragmentManager, null) }
+        setFabVisibility(View.INVISIBLE)                  // começa recolhido
 
-        binding.bottomNavigation.background = null
-        binding.bottomNavigation.setOnItemSelectedListener { item ->
-            when (item.itemId) {
-                R.id.bottom_home -> openFragment(Fragment_Home())
-                R.id.bottom_calender -> openFragment(Fragment_Glicemia())
-                else -> false
-            }
-            true
-        }
-
-        openFragment(Fragment_Home())
-        setFabVisibility(View.INVISIBLE)
-
-        binding.fab.setOnClickListener {
-            if (isExpanded) shrinkFab() else expandFab()
-        }
-
-        binding.fabGlicemia.setOnClickListener { showDialogGlicemia() }
-        binding.fabInsulina.setOnClickListener { showDialogInsulina() }
-        binding.fabMedicamento.setOnClickListener { showDialogRemedio() }
-
-        supportFragmentManager.addOnBackStackChangedListener {
-            val currentFragment = supportFragmentManager.findFragmentById(R.id.fragment_container)
-            updateToolbarNavigation(currentFragment)
-        }
-
+        /* ---------- Back‑Press: fecha Drawer ou delega ao NavController ---------- */
         onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
-                if (binding.drawerLayout.isDrawerOpen(GravityCompat.START)) {
-                    binding.drawerLayout.closeDrawer(GravityCompat.START)
-                } else if (supportFragmentManager.backStackEntryCount > 0) {
-                    supportFragmentManager.popBackStack()
-                } else {
-                    // Volta para a Home se não houver mais fragments
-                    openFragment(Fragment_Home())
+                when {
+                    binding.drawerLayout.isDrawerOpen(GravityCompat.START) ->
+                        binding.drawerLayout.closeDrawer(GravityCompat.START)
+
+                    !navController.navigateUp(appBarCfg) ->     // pilha vazia?
+                        finish()
+
+                    else -> Unit
                 }
             }
         })
+
+        /* ---------- Zera título ao trocar de destino ---------- */
+        navController.addOnDestinationChangedListener { _, _, _ ->
+            supportActionBar?.title = ""
+        }
     }
 
+    /* ====================================================================== */
+    /* Navegação do Drawer (apenas item "Sair")                               */
+    /* ====================================================================== */
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
-        when (item.itemId) {
-            R.id.nav_home -> openFragment(Fragment_Home())
+        return when (item.itemId) {
             R.id.nav_logout -> {
-                val intent = Intent(this, LoginActivity::class.java)
-                intent.putExtra("msg", "add")
-                startActivity(intent)
+                startActivity(Intent(this, LoginActivity::class.java))
+                finish()
+                true
             }
-            else -> return false
+            else -> false
+        }.also {
+            binding.drawerLayout.closeDrawer(GravityCompat.START)
         }
-        binding.drawerLayout.closeDrawer(GravityCompat.START)
-        return true
     }
 
+    /* ====================================================================== */
+    /* Interface HomeToMain (mapeia Fragment -> destino do nav_graph)         */
+    /* ====================================================================== */
     override fun openFragment(fragment: Fragment) {
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.fragment_container, fragment)
-            .addToBackStack(null)
-            .commit()
-        updateToolbarNavigation(fragment)
-    }
-
-    private fun updateToolbarNavigation(fragment: Fragment?) {
-        val isHome = fragment is Fragment_Home
-        supportActionBar?.setDisplayHomeAsUpEnabled(!isHome)
-        binding.toolbar.setNavigationOnClickListener(null)
-
-        if (isHome) {
-            toggle = ActionBarDrawerToggle(
-                this, binding.drawerLayout, binding.toolbar,
-                R.string.navigation_drawer_open, R.string.navigation_drawer_close
-            )
-            binding.drawerLayout.addDrawerListener(toggle)
-            toggle.syncState()
-            binding.toolbar.setNavigationOnClickListener {
-                binding.drawerLayout.openDrawer(GravityCompat.START)
-            }
-        } else {
-            binding.toolbar.navigationIcon = getDrawable(R.drawable.baseline_arrow_back_24)
-            binding.toolbar.setNavigationOnClickListener {
-                onBackPressedDispatcher.onBackPressed()
-            }
+        when (fragment) {
+            is Fragment_Home     -> navController.navigate(R.id.fragment_Home)
+            is Fragment_Glicemia -> navController.navigate(R.id.fragment_Glicemia)
+            else -> { /* adicione outros mapeamentos se ainda precisar */ }
         }
     }
 
+    /* ====================================================================== */
+    /* FAB helpers                                                            */
+    /* ====================================================================== */
     private fun expandFab() {
         binding.fab.animate().rotation(45f).setDuration(200).start()
         showFab(binding.fabGlicemia)
@@ -201,18 +194,17 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         binding.fabMedicamento.visibility = visibility
     }
 
+    /* ====================================================================== */
+    /* BottomSheets extras (só muda Insulina, já que outros foram simplificados) */
+    /* ====================================================================== */
     private fun showDialogInsulina() {
-        val bottomSheetFragment = com.joelchagas.tcc.ui.bottomsheet.Bottom_Sheet_Insulina()
-        bottomSheetFragment.show(supportFragmentManager, bottomSheetFragment.tag)
+        com.joelchagas.tcc.ui.bottomsheet.Bottom_Sheet_Insulina()
+            .show(supportFragmentManager, null)
     }
 
-    private fun showDialogGlicemia() {
-        val bottomSheetFragment = Bottom_Sheet_Glicemia()
-        bottomSheetFragment.show(supportFragmentManager, bottomSheetFragment.tag)
-    }
-
-    private fun showDialogRemedio() {
-        val bottomSheetFragment = Bottom_Sheet_Remedio()
-        bottomSheetFragment.show(supportFragmentManager, bottomSheetFragment.tag)
-    }
+    /* ====================================================================== */
+    /* Support Navigate Up (Toolbar)                                          */
+    /* ====================================================================== */
+    override fun onSupportNavigateUp(): Boolean =
+        navController.navigateUp(appBarCfg) || super.onSupportNavigateUp()
 }

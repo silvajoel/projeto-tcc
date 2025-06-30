@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.google.android.material.card.MaterialCardView
 import com.joelchagas.tcc.R
 import com.joelchagas.tcc.data.model.HomeCardItem
@@ -72,13 +73,13 @@ class SelecionarRefeicaoFragment : Fragment() {
 
             cardView.setOnClickListener {
                 val tipo = removerAcentos(item.label.uppercase()).replace(" ", "_")
-                val frag = item.fragment.apply {
-                    arguments = Bundle().apply { putString("TIPO_REFEICAO", tipo) }
+                val bundle = Bundle().apply {
+                    putString("TIPO_REFEICAO", tipo)
                 }
-                parentFragmentManager.beginTransaction()
-                    .replace(R.id.fragment_container, frag)
-                    .addToBackStack(null)
-                    .commit()
+                findNavController().navigate(
+                    R.id.action_selecionar_to_lista,
+                    bundle
+                )
             }
         }
     }

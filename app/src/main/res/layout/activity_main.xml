@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <!-- Barra superior -->
+        <!-- Toolbar -->
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
@@ -23,7 +23,7 @@
             android:popupTheme="@style/ThemeOverlay.Material3.Dark"
             android:title="" />
 
-        <!-- Container de Fragments -->
+        <!-- Fragment Container (NavHostFragment) -->
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/nav_host_fragment"
             android:name="androidx.navigation.fragment.NavHostFragment"
@@ -31,10 +31,10 @@
             android:layout_height="match_parent"
             android:layout_marginTop="?attr/actionBarSize"
             android:layout_marginBottom="80dp"
-            app:defaultNavHost="true"
-            app:navGraph="@navigation/nav_graph" />
+            app:navGraph="@navigation/nav_graph"
+            app:defaultNavHost="true" />
 
-        <!-- Botão de ação flutuante principal -->
+        <!-- FAB principal -->
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab"
             android:layout_width="wrap_content"
@@ -43,12 +43,9 @@
             android:layout_marginBottom="40dp"
             android:backgroundTint="@color/blue_teal"
             android:src="@drawable/baseline_add_24"
-            app:tint="@color/white"
-            app:layout_anchor="@id/bottomAppBar"
-            app:layout_anchorGravity="center"
-            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.Material3.Corner.Bottom" />
+            app:tint="@color/white" />
 
-        <!-- FABs estendidos adicionais -->
+        <!-- FABs adicionais -->
         <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
             android:id="@+id/fab_glicemia"
             android:layout_width="wrap_content"
@@ -88,7 +85,7 @@
             app:icon="@drawable/remedio"
             app:iconTint="@null" />
 
-        <!-- Fundo escurecido (modal background) -->
+        <!-- Fundo escurecido -->
         <View
             android:id="@+id/fab_background"
             android:layout_width="match_parent"
@@ -96,7 +93,7 @@
             android:background="#88000000"
             android:visibility="gone" />
 
-        <!-- Barra inferior -->
+        <!-- BottomAppBar -->
         <com.google.android.material.bottomappbar.BottomAppBar
             android:id="@+id/bottomAppBar"
             android:layout_width="match_parent"
@@ -108,7 +105,7 @@
             app:fabCradleVerticalOffset="10dp"
             app:hideOnScroll="false" />
 
-        <!-- Menu de navegação inferior -->
+        <!-- BottomNavigation -->
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottom_navigation"
             android:layout_width="match_parent"
@@ -119,9 +116,10 @@
             app:itemTextColor="@color/white"
             app:labelVisibilityMode="labeled"
             app:menu="@menu/bottom_menu" />
+
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-    <!-- Menu lateral (drawer) -->
+    <!-- Drawer lateral -->
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigation_drawer"
         android:layout_width="wrap_content"

@@ -15,25 +15,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TCC"
         tools:targetApi="31">
-
-        <!-- Tela de Login (Main Launcher) -->
+        
         <activity
-            android:name=".ui.auth.LoginActivity"
+            android:name=".ui.auth.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- Demais atividades -->
-        <activity
-            android:name=".ui.auth.MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.auth.Cadastro"
-            android:exported="false" />
-
     </application>
 
 </manifest>
