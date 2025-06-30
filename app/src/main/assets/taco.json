@@ -1,0 +1,5572 @@
+[
+  {
+    "id": 1,
+    "idUsuario": null,
+    "descricao": "Arroz, integral, cozido",
+    "categoria": "Cereais e derivados",
+    "calorias": 123.5348925,
+    "proteinas": 2.58825,
+    "gorduras": 1.00033333333333,
+    "carboidratos": 25.80975
+  },
+  {
+    "id": 2,
+    "idUsuario": null,
+    "descricao": "Arroz, integral, cru",
+    "categoria": "Cereais e derivados",
+    "calorias": 359.678002032609,
+    "proteinas": 7.32328586956522,
+    "gorduras": 1.86483333333333,
+    "carboidratos": 77.4507141304348
+  },
+  {
+    "id": 3,
+    "idUsuario": null,
+    "descricao": "Arroz, tipo 1, cozido",
+    "categoria": "Cereais e derivados",
+    "calorias": 128.258485666667,
+    "proteinas": 2.52081666666667,
+    "gorduras": 0.227,
+    "carboidratos": 28.18955
+  },
+  {
+    "id": 4,
+    "idUsuario": null,
+    "descricao": "Arroz, tipo 1, cru",
+    "categoria": "Cereais e derivados",
+    "calorias": 366.602816923077,
+    "proteinas": 6.83984615384615,
+    "gorduras": 0.316833333333333,
+    "carboidratos": 80.1190769230769
+  },
+  {
+    "id": 5,
+    "idUsuario": null,
+    "descricao": "Arroz, tipo 2, cozido",
+    "categoria": "Cereais e derivados",
+    "calorias": 126.7909985,
+    "proteinas": 2.65835,
+    "gorduras": 0.297,
+    "carboidratos": 27.65995
+  },
+  {
+    "id": 6,
+    "idUsuario": null,
+    "descricao": "Arroz, tipo 2, cru",
+    "categoria": "Cereais e derivados",
+    "calorias": 361.684179361702,
+    "proteinas": 7.32757446808511,
+    "gorduras": 0.317,
+    "carboidratos": 79.2559574468085
+  },
+  {
+    "id": 7,
+    "idUsuario": null,
+    "descricao": "Arroz, parboilizado, cozido",
+    "categoria": "Cereais e derivados",
+    "calorias": 122.9515,
+    "proteinas": 2.56,
+    "gorduras": 0.23,
+    "carboidratos": 26.68
+  },
+  {
+    "id": 8,
+    "idUsuario": null,
+    "descricao": "Arroz, parboilizado, cru",
+    "categoria": "Cereais e derivados",
+    "calorias": 357.771904761905,
+    "proteinas": 7.33714285714286,
+    "gorduras": 0.657,
+    "carboidratos": 77.0142857142857
+  },
+  {
+    "id": 9,
+    "idUsuario": null,
+    "descricao": "Arroz, selvagem, cozido",
+    "categoria": "Cereais e derivados",
+    "calorias": 101.0,
+    "proteinas": 4.0,
+    "gorduras": 0.3,
+    "carboidratos": 21.0
+  },
+  {
+    "id": 10,
+    "idUsuario": null,
+    "descricao": "Biscoito, doce, maisena",
+    "categoria": "Cereais e derivados",
+    "calorias": 444.0,
+    "proteinas": 7.5,
+    "gorduras": 12.8,
+    "carboidratos": 74.0
+  },
+  {
+    "id": 11,
+    "idUsuario": null,
+    "descricao": "Biscoito, doce, maria",
+    "categoria": "Cereais e derivados",
+    "calorias": 441.0,
+    "proteinas": 7.6,
+    "gorduras": 12.1,
+    "carboidratos": 74.8
+  },
+  {
+    "id": 12,
+    "idUsuario": null,
+    "descricao": "Biscoito, doce, recheado com chocolate",
+    "categoria": "Cereais e derivados",
+    "calorias": 468.0,
+    "proteinas": 5.9,
+    "gorduras": 19.3,
+    "carboidratos": 68.6
+  },
+  {
+    "id": 13,
+    "idUsuario": null,
+    "descricao": "Biscoito, doce, recheado com morango",
+    "categoria": "Cereais e derivados",
+    "calorias": 453.0,
+    "proteinas": 5.0,
+    "gorduras": 17.5,
+    "carboidratos": 70.8
+  },
+  {
+    "id": 14,
+    "idUsuario": null,
+    "descricao": "Biscoito, doce, recheado com chocolate branco",
+    "categoria": "Cereais e derivados",
+    "calorias": 483.0,
+    "proteinas": 5.6,
+    "gorduras": 22.1,
+    "carboidratos": 67.2
+  },
+  {
+    "id": 15,
+    "idUsuario": null,
+    "descricao": "Biscoito, doce, waffer, com chocolate",
+    "categoria": "Cereais e derivados",
+    "calorias": 506.0,
+    "proteinas": 7.1,
+    "gorduras": 25.1,
+    "carboidratos": 64.9
+  },
+  {
+    "id": 16,
+    "idUsuario": null,
+    "descricao": "Biscoito, doce, waffer, recheado com limão",
+    "categoria": "Cereais e derivados",
+    "calorias": 512.0,
+    "proteinas": 5.3,
+    "gorduras": 26.6,
+    "carboidratos": 63.6
+  },
+  {
+    "id": 17,
+    "idUsuario": null,
+    "descricao": "Biscoito, doce, waffer, recheado com morango",
+    "categoria": "Cereais e derivados",
+    "calorias": 507.0,
+    "proteinas": 5.0,
+    "gorduras": 25.6,
+    "carboidratos": 64.6
+  },
+  {
+    "id": 18,
+    "idUsuario": null,
+    "descricao": "Biscoito, doce, waffer, recheado com baunilha",
+    "categoria": "Cereais e derivados",
+    "calorias": 507.0,
+    "proteinas": 5.2,
+    "gorduras": 25.5,
+    "carboidratos": 64.8
+  },
+  {
+    "id": 19,
+    "idUsuario": null,
+    "descricao": "Biscoito, salgado, cream cracker",
+    "categoria": "Cereais e derivados",
+    "calorias": 435.0,
+    "proteinas": 9.5,
+    "gorduras": 12.9,
+    "carboidratos": 69.8
+  },
+  {
+    "id": 20,
+    "idUsuario": null,
+    "descricao": "Biscoito, salgado, água e sal",
+    "categoria": "Cereais e derivados",
+    "calorias": 438.0,
+    "proteinas": 9.3,
+    "gorduras": 13.5,
+    "carboidratos": 69.4
+  },
+  {
+    "id": 21,
+    "idUsuario": null,
+    "descricao": "Bolo, pronto, aipim",
+    "categoria": "Cereais e derivados",
+    "calorias": 309.0,
+    "proteinas": 3.7,
+    "gorduras": 13.9,
+    "carboidratos": 42.4
+  },
+  {
+    "id": 22,
+    "idUsuario": null,
+    "descricao": "Bolo, pronto, banana",
+    "categoria": "Cereais e derivados",
+    "calorias": 328.0,
+    "proteinas": 3.9,
+    "gorduras": 14.1,
+    "carboidratos": 48.0
+  },
+  {
+    "id": 23,
+    "idUsuario": null,
+    "descricao": "Bolo, pronto, chocolate",
+    "categoria": "Cereais e derivados",
+    "calorias": 372.0,
+    "proteinas": 4.9,
+    "gorduras": 19.3,
+    "carboidratos": 45.4
+  },
+  {
+    "id": 24,
+    "idUsuario": null,
+    "descricao": "Bolo, pronto, coco",
+    "categoria": "Cereais e derivados",
+    "calorias": 361.0,
+    "proteinas": 4.5,
+    "gorduras": 17.5,
+    "carboidratos": 46.7
+  },
+  {
+    "id": 25,
+    "idUsuario": null,
+    "descricao": "Bolo, pronto, laranja",
+    "categoria": "Cereais e derivados",
+    "calorias": 339.0,
+    "proteinas": 4.1,
+    "gorduras": 15.6,
+    "carboidratos": 47.1
+  },
+  {
+    "id": 26,
+    "idUsuario": null,
+    "descricao": "Bolo, pronto, milho",
+    "categoria": "Cereais e derivados",
+    "calorias": 313.0,
+    "proteinas": 3.7,
+    "gorduras": 14.2,
+    "carboidratos": 43.1
+  },
+  {
+    "id": 27,
+    "idUsuario": null,
+    "descricao": "Bolo, pronto, queijo",
+    "categoria": "Cereais e derivados",
+    "calorias": 349.0,
+    "proteinas": 5.4,
+    "gorduras": 16.7,
+    "carboidratos": 45.1
+  },
+  {
+    "id": 28,
+    "idUsuario": null,
+    "descricao": "Bolo, pronto, simples",
+    "categoria": "Cereais e derivados",
+    "calorias": 346.0,
+    "proteinas": 4.2,
+    "gorduras": 16.6,
+    "carboidratos": 45.6
+  },
+  {
+    "id": 29,
+    "idUsuario": null,
+    "descricao": "Canjica, branca, cozida",
+    "categoria": "Cereais e derivados",
+    "calorias": 105.0,
+    "proteinas": 2.7,
+    "gorduras": 0.4,
+    "carboidratos": 22.8
+  },
+  {
+    "id": 30,
+    "idUsuario": null,
+    "descricao": "Canjica, branca, crua",
+    "categoria": "Cereais e derivados",
+    "calorias": 361.0,
+    "proteinas": 9.4,
+    "gorduras": 1.4,
+    "carboidratos": 79.5
+  },
+  {
+    "id": 31,
+    "idUsuario": null,
+    "descricao": "Cereal matinal, milho",
+    "categoria": "Cereais e derivados",
+    "calorias": 363.0,
+    "proteinas": 7.4,
+    "gorduras": 0.6,
+    "carboidratos": 82.5
+  },
+  {
+    "id": 32,
+    "idUsuario": null,
+    "descricao": "Cereal matinal, milho, açúcar",
+    "categoria": "Cereais e derivados",
+    "calorias": 372.0,
+    "proteinas": 6.8,
+    "gorduras": 0.5,
+    "carboidratos": 85.0
+  },
+  {
+    "id": 33,
+    "idUsuario": null,
+    "descricao": "Cereal matinal, milho, chocolate",
+    "categoria": "Cereais e derivados",
+    "calorias": 381.0,
+    "proteinas": 6.6,
+    "gorduras": 2.1,
+    "carboidratos": 83.1
+  },
+  {
+    "id": 34,
+    "idUsuario": null,
+    "descricao": "Cereal matinal, arroz",
+    "categoria": "Cereais e derivados",
+    "calorias": 380.0,
+    "proteinas": 5.9,
+    "gorduras": 0.7,
+    "carboidratos": 87.0
+  },
+  {
+    "id": 35,
+    "idUsuario": null,
+    "descricao": "Cereal matinal, trigo",
+    "categoria": "Cereais e derivados",
+    "calorias": 343.0,
+    "proteinas": 10.9,
+    "gorduras": 1.9,
+    "carboidratos": 75.0
+  },
+  {
+    "id": 36,
+    "idUsuario": null,
+    "descricao": "Creme de arroz, pó",
+    "categoria": "Cereais e derivados",
+    "calorias": 370.0,
+    "proteinas": 6.5,
+    "gorduras": 0.7,
+    "carboidratos": 84.5
+  },
+  {
+    "id": 37,
+    "idUsuario": null,
+    "descricao": "Creme de milho, pó",
+    "categoria": "Cereais e derivados",
+    "calorias": 363.0,
+    "proteinas": 6.9,
+    "gorduras": 1.0,
+    "carboidratos": 81.1
+  },
+  {
+    "id": 38,
+    "idUsuario": null,
+    "descricao": "Curau de milho verde",
+    "categoria": "Cereais e derivados",
+    "calorias": 101.0,
+    "proteinas": 2.2,
+    "gorduras": 2.4,
+    "carboidratos": 17.6
+  },
+  {
+    "id": 39,
+    "idUsuario": null,
+    "descricao": "Farinha, de arroz, enriquecida",
+    "categoria": "Cereais e derivados",
+    "calorias": 363.0,
+    "proteinas": 6.5,
+    "gorduras": 1.1,
+    "carboidratos": 79.5
+  },
+  {
+    "id": 40,
+    "idUsuario": null,
+    "descricao": "Farinha, de milho, amarela",
+    "categoria": "Cereais e derivados",
+    "calorias": 351.0,
+    "proteinas": 7.2,
+    "gorduras": 1.7,
+    "carboidratos": 77.2
+  },
+  {
+    "id": 41,
+    "idUsuario": null,
+    "descricao": "Farinha, de trigo, integral",
+    "categoria": "Cereais e derivados",
+    "calorias": 339.0,
+    "proteinas": 12.0,
+    "gorduras": 1.7,
+    "carboidratos": 72.0
+  },
+  {
+    "id": 42,
+    "idUsuario": null,
+    "descricao": "Farinha, de trigo, tipo 1",
+    "categoria": "Cereais e derivados",
+    "calorias": 360.0,
+    "proteinas": 9.8,
+    "gorduras": 1.4,
+    "carboidratos": 76.2
+  },
+  {
+    "id": 43,
+    "idUsuario": null,
+    "descricao": "Flocos, de arroz",
+    "categoria": "Cereais e derivados",
+    "calorias": 377.0,
+    "proteinas": 6.7,
+    "gorduras": 1.2,
+    "carboidratos": 82.8
+  },
+  {
+    "id": 44,
+    "idUsuario": null,
+    "descricao": "Flocos, de milho",
+    "categoria": "Cereais e derivados",
+    "calorias": 363.0,
+    "proteinas": 7.4,
+    "gorduras": 0.6,
+    "carboidratos": 82.5
+  },
+  {
+    "id": 45,
+    "idUsuario": null,
+    "descricao": "Macarrão, cozido",
+    "categoria": "Cereais e derivados",
+    "calorias": 131.0,
+    "proteinas": 4.5,
+    "gorduras": 0.7,
+    "carboidratos": 27.6
+  },
+  {
+    "id": 46,
+    "idUsuario": null,
+    "descricao": "Macarrão, instantâneo",
+    "categoria": "Cereais e derivados",
+    "calorias": 466.0,
+    "proteinas": 9.4,
+    "gorduras": 20.0,
+    "carboidratos": 61.1
+  },
+  {
+    "id": 47,
+    "idUsuario": null,
+    "descricao": "Macarrão, cru",
+    "categoria": "Cereais e derivados",
+    "calorias": 371.0,
+    "proteinas": 12.5,
+    "gorduras": 1.3,
+    "carboidratos": 77.0
+  },
+  {
+    "id": 48,
+    "idUsuario": null,
+    "descricao": "Milho, amido",
+    "categoria": "Cereais e derivados",
+    "calorias": 358.0,
+    "proteinas": 0.2,
+    "gorduras": 0.1,
+    "carboidratos": 89.0
+  },
+  {
+    "id": 49,
+    "idUsuario": null,
+    "descricao": "Milho, fubá",
+    "categoria": "Cereais e derivados",
+    "calorias": 351.0,
+    "proteinas": 7.2,
+    "gorduras": 1.7,
+    "carboidratos": 77.2
+  },
+  {
+    "id": 50,
+    "idUsuario": null,
+    "descricao": "Milho, de pipoca, cru",
+    "categoria": "Cereais e derivados",
+    "calorias": 364.0,
+    "proteinas": 9.0,
+    "gorduras": 4.6,
+    "carboidratos": 70.0
+  },
+  {
+    "id": 51,
+    "idUsuario": null,
+    "descricao": "Mingau, de farinha láctea",
+    "categoria": "Cereais e derivados",
+    "calorias": 103.0,
+    "proteinas": 3.7,
+    "gorduras": 3.2,
+    "carboidratos": 15.0
+  },
+  {
+    "id": 52,
+    "idUsuario": null,
+    "descricao": "Pão, aveia",
+    "categoria": "Cereais e derivados",
+    "calorias": 286.0,
+    "proteinas": 11.2,
+    "gorduras": 5.2,
+    "carboidratos": 49.3
+  },
+  {
+    "id": 53,
+    "idUsuario": null,
+    "descricao": "Pão, forma, branco",
+    "categoria": "Cereais e derivados",
+    "calorias": 288.0,
+    "proteinas": 8.0,
+    "gorduras": 4.9,
+    "carboidratos": 53.6
+  },
+  {
+    "id": 54,
+    "idUsuario": null,
+    "descricao": "Pão, forma, integral",
+    "categoria": "Cereais e derivados",
+    "calorias": 253.0,
+    "proteinas": 9.4,
+    "gorduras": 3.7,
+    "carboidratos": 47.9
+  },
+  {
+    "id": 55,
+    "idUsuario": null,
+    "descricao": "Pão, francês",
+    "categoria": "Cereais e derivados",
+    "calorias": 300.0,
+    "proteinas": 9.7,
+    "gorduras": 2.7,
+    "carboidratos": 58.6
+  },
+  {
+    "id": 56,
+    "idUsuario": null,
+    "descricao": "Pão, glúten",
+    "categoria": "Cereais e derivados",
+    "calorias": 269.0,
+    "proteinas": 12.0,
+    "gorduras": 3.0,
+    "carboidratos": 46.8
+  },
+  {
+    "id": 57,
+    "idUsuario": null,
+    "descricao": "Pão, milho",
+    "categoria": "Cereais e derivados",
+    "calorias": 260.0,
+    "proteinas": 6.8,
+    "gorduras": 2.1,
+    "carboidratos": 53.2
+  },
+  {
+    "id": 58,
+    "idUsuario": null,
+    "descricao": "Pão, sovado",
+    "categoria": "Cereais e derivados",
+    "calorias": 298.0,
+    "proteinas": 9.1,
+    "gorduras": 4.1,
+    "carboidratos": 55.4
+  },
+  {
+    "id": 59,
+    "idUsuario": null,
+    "descricao": "Pipoca, com óleo, salgada",
+    "categoria": "Cereais e derivados",
+    "calorias": 446.0,
+    "proteinas": 8.0,
+    "gorduras": 18.0,
+    "carboidratos": 62.0
+  },
+  {
+    "id": 60,
+    "idUsuario": null,
+    "descricao": "Trigo, farinha integral",
+    "categoria": "Cereais e derivados",
+    "calorias": 339.0,
+    "proteinas": 12.0,
+    "gorduras": 1.7,
+    "carboidratos": 72.0
+  },
+  {
+    "id": 61,
+    "idUsuario": null,
+    "descricao": "Trigo, grão",
+    "categoria": "Cereais e derivados",
+    "calorias": 333.0,
+    "proteinas": 12.5,
+    "gorduras": 1.5,
+    "carboidratos": 71.0
+  },
+  {
+    "id": 62,
+    "idUsuario": null,
+    "descricao": "Agrião, cru",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 17.0,
+    "proteinas": 2.6,
+    "gorduras": 0.3,
+    "carboidratos": 2.3
+  },
+  {
+    "id": 63,
+    "idUsuario": null,
+    "descricao": "Agrião, refogado",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 29.0,
+    "proteinas": 2.0,
+    "gorduras": 1.9,
+    "carboidratos": 1.6
+  },
+  {
+    "id": 64,
+    "idUsuario": null,
+    "descricao": "Alface, americana, crua",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 13.0,
+    "proteinas": 0.9,
+    "gorduras": 0.2,
+    "carboidratos": 2.0
+  },
+  {
+    "id": 65,
+    "idUsuario": null,
+    "descricao": "Alface, crespa, crua",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 11.0,
+    "proteinas": 1.3,
+    "gorduras": 0.2,
+    "carboidratos": 1.7
+  },
+  {
+    "id": 66,
+    "idUsuario": null,
+    "descricao": "Alface, lisa, crua",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 11.0,
+    "proteinas": 1.3,
+    "gorduras": 0.2,
+    "carboidratos": 1.7
+  },
+  {
+    "id": 67,
+    "idUsuario": null,
+    "descricao": "Alface, roxa, crua",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 13.0,
+    "proteinas": 1.3,
+    "gorduras": 0.2,
+    "carboidratos": 2.2
+  },
+  {
+    "id": 68,
+    "idUsuario": null,
+    "descricao": "Alho, cru",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 137.0,
+    "proteinas": 6.7,
+    "gorduras": 0.2,
+    "carboidratos": 30.7
+  },
+  {
+    "id": 69,
+    "idUsuario": null,
+    "descricao": "Alho-poró, cru",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 52.0,
+    "proteinas": 1.5,
+    "gorduras": 0.3,
+    "carboidratos": 12.0
+  },
+  {
+    "id": 70,
+    "idUsuario": null,
+    "descricao": "Almeirão, cru",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 19.0,
+    "proteinas": 1.9,
+    "gorduras": 0.2,
+    "carboidratos": 3.7
+  },
+  {
+    "id": 71,
+    "idUsuario": null,
+    "descricao": "Almeirão, refogado",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 35.0,
+    "proteinas": 1.9,
+    "gorduras": 2.6,
+    "carboidratos": 1.3
+  },
+  {
+    "id": 72,
+    "idUsuario": null,
+    "descricao": "Batata, cozida",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 86.0,
+    "proteinas": 1.8,
+    "gorduras": 0.1,
+    "carboidratos": 20.1
+  },
+  {
+    "id": 73,
+    "idUsuario": null,
+    "descricao": "Batata, frita, tipo chips",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 543.0,
+    "proteinas": 6.3,
+    "gorduras": 34.0,
+    "carboidratos": 53.6
+  },
+  {
+    "id": 74,
+    "idUsuario": null,
+    "descricao": "Batata, frita, tipo palha",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 540.0,
+    "proteinas": 5.4,
+    "gorduras": 34.0,
+    "carboidratos": 53.5
+  },
+  {
+    "id": 75,
+    "idUsuario": null,
+    "descricao": "Batata, inglesa, crua",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 64.0,
+    "proteinas": 1.8,
+    "gorduras": 0.1,
+    "carboidratos": 14.7
+  },
+  {
+    "id": 76,
+    "idUsuario": null,
+    "descricao": "Batata, doce, cozida",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 77.0,
+    "proteinas": 0.6,
+    "gorduras": 0.1,
+    "carboidratos": 18.4
+  },
+  {
+    "id": 77,
+    "idUsuario": null,
+    "descricao": "Batata, doce, crua",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 105.0,
+    "proteinas": 1.3,
+    "gorduras": 0.1,
+    "carboidratos": 24.0
+  },
+  {
+    "id": 78,
+    "idUsuario": null,
+    "descricao": "Berinjela, cozida",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 19.0,
+    "proteinas": 0.8,
+    "gorduras": 0.2,
+    "carboidratos": 4.5
+  },
+  {
+    "id": 79,
+    "idUsuario": null,
+    "descricao": "Berinjela, crua",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 20.0,
+    "proteinas": 1.2,
+    "gorduras": 0.2,
+    "carboidratos": 4.3
+  },
+  {
+    "id": 80,
+    "idUsuario": null,
+    "descricao": "Brócolis, cozido",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 25.0,
+    "proteinas": 2.8,
+    "gorduras": 0.3,
+    "carboidratos": 4.4
+  },
+  {
+    "id": 81,
+    "idUsuario": null,
+    "descricao": "Brócolis, cru",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 25.0,
+    "proteinas": 2.4,
+    "gorduras": 0.3,
+    "carboidratos": 4.4
+  },
+  {
+    "id": 82,
+    "idUsuario": null,
+    "descricao": "Cará, cozido",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 89.0,
+    "proteinas": 1.5,
+    "gorduras": 0.2,
+    "carboidratos": 20.6
+  },
+  {
+    "id": 83,
+    "idUsuario": null,
+    "descricao": "Cará, cru",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 88.0,
+    "proteinas": 1.5,
+    "gorduras": 0.2,
+    "carboidratos": 20.7
+  },
+  {
+    "id": 84,
+    "idUsuario": null,
+    "descricao": "Cenoura, cozida",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 28.0,
+    "proteinas": 0.9,
+    "gorduras": 0.2,
+    "carboidratos": 6.5
+  },
+  {
+    "id": 85,
+    "idUsuario": null,
+    "descricao": "Cenoura, crua",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 40.0,
+    "proteinas": 1.3,
+    "gorduras": 0.2,
+    "carboidratos": 9.3
+  },
+  {
+    "id": 86,
+    "idUsuario": null,
+    "descricao": "Couve, manteiga, cozida",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 27.0,
+    "proteinas": 1.4,
+    "gorduras": 1.3,
+    "carboidratos": 2.6
+  },
+  {
+    "id": 87,
+    "idUsuario": null,
+    "descricao": "Couve, manteiga, crua",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 27.0,
+    "proteinas": 2.9,
+    "gorduras": 0.4,
+    "carboidratos": 4.3
+  },
+  {
+    "id": 88,
+    "idUsuario": null,
+    "descricao": "Couve-flor, cozida",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 25.0,
+    "proteinas": 2.0,
+    "gorduras": 0.2,
+    "carboidratos": 4.4
+  },
+  {
+    "id": 89,
+    "idUsuario": null,
+    "descricao": "Couve-flor, crua",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 23.0,
+    "proteinas": 1.9,
+    "gorduras": 0.2,
+    "carboidratos": 4.1
+  },
+  {
+    "id": 90,
+    "idUsuario": null,
+    "descricao": "Espinafre, cozido",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 23.0,
+    "proteinas": 2.8,
+    "gorduras": 0.4,
+    "carboidratos": 3.4
+  },
+  {
+    "id": 91,
+    "idUsuario": null,
+    "descricao": "Espinafre, cru",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 23.0,
+    "proteinas": 2.9,
+    "gorduras": 0.3,
+    "carboidratos": 3.6
+  },
+  {
+    "id": 92,
+    "idUsuario": null,
+    "descricao": "Inhame, cozido",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 99.0,
+    "proteinas": 2.1,
+    "gorduras": 0.2,
+    "carboidratos": 23.2
+  },
+  {
+    "id": 93,
+    "idUsuario": null,
+    "descricao": "Inhame, cru",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 118.0,
+    "proteinas": 1.5,
+    "gorduras": 0.2,
+    "carboidratos": 27.9
+  },
+  {
+    "id": 94,
+    "idUsuario": null,
+    "descricao": "Mandioca, cozida",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 151.0,
+    "proteinas": 0.6,
+    "gorduras": 0.3,
+    "carboidratos": 36.1
+  },
+  {
+    "id": 95,
+    "idUsuario": null,
+    "descricao": "Mandioca, farinha, crua",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 362.0,
+    "proteinas": 1.6,
+    "gorduras": 0.2,
+    "carboidratos": 87.8
+  },
+  {
+    "id": 96,
+    "idUsuario": null,
+    "descricao": "Mandioca, torrada",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 381.0,
+    "proteinas": 1.5,
+    "gorduras": 0.3,
+    "carboidratos": 92.4
+  },
+  {
+    "id": 97,
+    "idUsuario": null,
+    "descricao": "Mandioca, crua",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 151.0,
+    "proteinas": 1.3,
+    "gorduras": 0.3,
+    "carboidratos": 36.1
+  },
+  {
+    "id": 98,
+    "idUsuario": null,
+    "descricao": "Mandioquinha, cozida",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 80.0,
+    "proteinas": 1.0,
+    "gorduras": 0.2,
+    "carboidratos": 19.1
+  },
+  {
+    "id": 99,
+    "idUsuario": null,
+    "descricao": "Mandioquinha, crua",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 109.0,
+    "proteinas": 1.0,
+    "gorduras": 0.2,
+    "carboidratos": 26.6
+  },
+  {
+    "id": 100,
+    "idUsuario": null,
+    "descricao": "Mostarda, folha, crua",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 22.0,
+    "proteinas": 2.5,
+    "gorduras": 0.3,
+    "carboidratos": 3.7
+  },
+  {
+    "id": 101,
+    "idUsuario": null,
+    "descricao": "Nabo, cru",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 28.0,
+    "proteinas": 1.0,
+    "gorduras": 0.2,
+    "carboidratos": 6.2
+  },
+  {
+    "id": 102,
+    "idUsuario": null,
+    "descricao": "Pimentão, verde, cru",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 23.0,
+    "proteinas": 1.2,
+    "gorduras": 0.2,
+    "carboidratos": 4.9
+  },
+  {
+    "id": 103,
+    "idUsuario": null,
+    "descricao": "Quiabo, cozido",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 30.0,
+    "proteinas": 1.9,
+    "gorduras": 0.3,
+    "carboidratos": 6.3
+  },
+  {
+    "id": 104,
+    "idUsuario": null,
+    "descricao": "Rabanete, cru",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 14.0,
+    "proteinas": 0.8,
+    "gorduras": 0.1,
+    "carboidratos": 2.7
+  },
+  {
+    "id": 105,
+    "idUsuario": null,
+    "descricao": "Repolho, branco, cru",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 17.0,
+    "proteinas": 1.3,
+    "gorduras": 0.1,
+    "carboidratos": 3.9
+  },
+  {
+    "id": 106,
+    "idUsuario": null,
+    "descricao": "Repolho, refogado",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 24.0,
+    "proteinas": 1.4,
+    "gorduras": 1.1,
+    "carboidratos": 2.7
+  },
+  {
+    "id": 107,
+    "idUsuario": null,
+    "descricao": "Repolho, roxo, cru",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 27.0,
+    "proteinas": 1.4,
+    "gorduras": 0.2,
+    "carboidratos": 6.0
+  },
+  {
+    "id": 108,
+    "idUsuario": null,
+    "descricao": "Rúcula, crua",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 13.0,
+    "proteinas": 1.8,
+    "gorduras": 0.3,
+    "carboidratos": 2.2
+  },
+  {
+    "id": 109,
+    "idUsuario": null,
+    "descricao": "Salsa, crua",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 33.0,
+    "proteinas": 3.3,
+    "gorduras": 0.6,
+    "carboidratos": 5.7
+  },
+  {
+    "id": 110,
+    "idUsuario": null,
+    "descricao": "Taioba, crua",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 28.0,
+    "proteinas": 2.8,
+    "gorduras": 0.5,
+    "carboidratos": 4.5
+  },
+  {
+    "id": 111,
+    "idUsuario": null,
+    "descricao": "Tomate, cereja, cru",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 20.0,
+    "proteinas": 1.0,
+    "gorduras": 0.2,
+    "carboidratos": 4.3
+  },
+  {
+    "id": 112,
+    "idUsuario": null,
+    "descricao": "Tomate, extrato",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 83.0,
+    "proteinas": 3.7,
+    "gorduras": 0.5,
+    "carboidratos": 17.1
+  },
+  {
+    "id": 113,
+    "idUsuario": null,
+    "descricao": "Tomate, molho",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 40.0,
+    "proteinas": 1.9,
+    "gorduras": 0.7,
+    "carboidratos": 7.3
+  },
+  {
+    "id": 114,
+    "idUsuario": null,
+    "descricao": "Tomate, salada",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 22.0,
+    "proteinas": 1.0,
+    "gorduras": 0.2,
+    "carboidratos": 4.9
+  },
+  {
+    "id": 115,
+    "idUsuario": null,
+    "descricao": "Tomate, suco",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 19.0,
+    "proteinas": 0.8,
+    "gorduras": 0.2,
+    "carboidratos": 4.2
+  },
+  {
+    "id": 116,
+    "idUsuario": null,
+    "descricao": "Tomate, cru",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 20.0,
+    "proteinas": 1.1,
+    "gorduras": 0.2,
+    "carboidratos": 4.3
+  },
+  {
+    "id": 117,
+    "idUsuario": null,
+    "descricao": "Vagem, cozida",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 35.0,
+    "proteinas": 1.9,
+    "gorduras": 0.2,
+    "carboidratos": 7.7
+  },
+  {
+    "id": 118,
+    "idUsuario": null,
+    "descricao": "Abacate, cru",
+    "categoria": "Frutas",
+    "calorias": 162.0,
+    "proteinas": 1.2,
+    "gorduras": 15.0,
+    "carboidratos": 8.6
+  },
+  {
+    "id": 119,
+    "idUsuario": null,
+    "descricao": "Abacaxi, cru",
+    "categoria": "Frutas",
+    "calorias": 50.0,
+    "proteinas": 0.5,
+    "gorduras": 0.2,
+    "carboidratos": 13.1
+  },
+  {
+    "id": 120,
+    "idUsuario": null,
+    "descricao": "Abacaxi, enlatado, em calda",
+    "categoria": "Frutas",
+    "calorias": 76.0,
+    "proteinas": 0.4,
+    "gorduras": 0.1,
+    "carboidratos": 20.0
+  },
+  {
+    "id": 121,
+    "idUsuario": null,
+    "descricao": "Abacaxi, suco concentrado, enlatado",
+    "categoria": "Frutas",
+    "calorias": 50.0,
+    "proteinas": 0.4,
+    "gorduras": 0.1,
+    "carboidratos": 12.9
+  },
+  {
+    "id": 122,
+    "idUsuario": null,
+    "descricao": "Abacaxi, suco, concentrado, diluído",
+    "categoria": "Frutas",
+    "calorias": 49.0,
+    "proteinas": 0.4,
+    "gorduras": 0.1,
+    "carboidratos": 12.8
+  },
+  {
+    "id": 123,
+    "idUsuario": null,
+    "descricao": "Abacaxi, suco, natural",
+    "categoria": "Frutas",
+    "calorias": 50.0,
+    "proteinas": 0.5,
+    "gorduras": 0.1,
+    "carboidratos": 13.0
+  },
+  {
+    "id": 124,
+    "idUsuario": null,
+    "descricao": "Abricó, cru",
+    "categoria": "Frutas",
+    "calorias": 48.0,
+    "proteinas": 1.4,
+    "gorduras": 0.4,
+    "carboidratos": 11.2
+  },
+  {
+    "id": 125,
+    "idUsuario": null,
+    "descricao": "Acerola, crua",
+    "categoria": "Frutas",
+    "calorias": 32.0,
+    "proteinas": 0.8,
+    "gorduras": 0.3,
+    "carboidratos": 7.7
+  },
+  {
+    "id": 126,
+    "idUsuario": null,
+    "descricao": "Acerola, suco concentrado",
+    "categoria": "Frutas",
+    "calorias": 27.0,
+    "proteinas": 0.9,
+    "gorduras": 0.2,
+    "carboidratos": 6.6
+  },
+  {
+    "id": 127,
+    "idUsuario": null,
+    "descricao": "Acerola, suco, natural",
+    "categoria": "Frutas",
+    "calorias": 27.0,
+    "proteinas": 0.7,
+    "gorduras": 0.2,
+    "carboidratos": 6.7
+  },
+  {
+    "id": 128,
+    "idUsuario": null,
+    "descricao": "Amora, crua",
+    "categoria": "Frutas",
+    "calorias": 52.0,
+    "proteinas": 1.4,
+    "gorduras": 0.4,
+    "carboidratos": 11.9
+  },
+  {
+    "id": 129,
+    "idUsuario": null,
+    "descricao": "Banana, prata, crua",
+    "categoria": "Frutas",
+    "calorias": 98.0,
+    "proteinas": 1.4,
+    "gorduras": 0.1,
+    "carboidratos": 25.8
+  },
+  {
+    "id": 130,
+    "idUsuario": null,
+    "descricao": "Banana, pacova, crua",
+    "categoria": "Frutas",
+    "calorias": 102.0,
+    "proteinas": 1.2,
+    "gorduras": 0.2,
+    "carboidratos": 26.5
+  },
+  {
+    "id": 131,
+    "idUsuario": null,
+    "descricao": "Banana, pacova, frita",
+    "categoria": "Frutas",
+    "calorias": 255.0,
+    "proteinas": 1.0,
+    "gorduras": 12.0,
+    "carboidratos": 36.6
+  },
+  {
+    "id": 132,
+    "idUsuario": null,
+    "descricao": "Banana, pão, crua",
+    "categoria": "Frutas",
+    "calorias": 128.0,
+    "proteinas": 1.6,
+    "gorduras": 0.2,
+    "carboidratos": 33.0
+  },
+  {
+    "id": 133,
+    "idUsuario": null,
+    "descricao": "Banana, pão, frita",
+    "categoria": "Frutas",
+    "calorias": 298.0,
+    "proteinas": 1.8,
+    "gorduras": 14.0,
+    "carboidratos": 41.5
+  },
+  {
+    "id": 134,
+    "idUsuario": null,
+    "descricao": "Caju, cru",
+    "categoria": "Frutas",
+    "calorias": 43.0,
+    "proteinas": 1.0,
+    "gorduras": 0.2,
+    "carboidratos": 10.3
+  },
+  {
+    "id": 135,
+    "idUsuario": null,
+    "descricao": "Caju, suco concentrado, enlatado",
+    "categoria": "Frutas",
+    "calorias": 44.0,
+    "proteinas": 0.8,
+    "gorduras": 0.2,
+    "carboidratos": 10.5
+  },
+  {
+    "id": 136,
+    "idUsuario": null,
+    "descricao": "Caju, suco, diluído",
+    "categoria": "Frutas",
+    "calorias": 44.0,
+    "proteinas": 0.8,
+    "gorduras": 0.2,
+    "carboidratos": 10.5
+  },
+  {
+    "id": 137,
+    "idUsuario": null,
+    "descricao": "Caju, suco, natural",
+    "categoria": "Frutas",
+    "calorias": 41.0,
+    "proteinas": 0.8,
+    "gorduras": 0.2,
+    "carboidratos": 9.9
+  },
+  {
+    "id": 138,
+    "idUsuario": null,
+    "descricao": "Caqui, chocolate, cru",
+    "categoria": "Frutas",
+    "calorias": 71.0,
+    "proteinas": 0.4,
+    "gorduras": 0.2,
+    "carboidratos": 18.7
+  },
+  {
+    "id": 139,
+    "idUsuario": null,
+    "descricao": "Carambola, crua",
+    "categoria": "Frutas",
+    "calorias": 38.0,
+    "proteinas": 0.9,
+    "gorduras": 0.2,
+    "carboidratos": 8.7
+  },
+  {
+    "id": 140,
+    "idUsuario": null,
+    "descricao": "Cereja, crua",
+    "categoria": "Frutas",
+    "calorias": 63.0,
+    "proteinas": 1.1,
+    "gorduras": 0.3,
+    "carboidratos": 16.0
+  },
+  {
+    "id": 141,
+    "idUsuario": null,
+    "descricao": "Ciriguela, crua",
+    "categoria": "Frutas",
+    "calorias": 76.0,
+    "proteinas": 1.5,
+    "gorduras": 0.5,
+    "carboidratos": 18.5
+  },
+  {
+    "id": 142,
+    "idUsuario": null,
+    "descricao": "Coco, seco",
+    "categoria": "Frutas",
+    "calorias": 591.0,
+    "proteinas": 5.9,
+    "gorduras": 56.6,
+    "carboidratos": 23.0
+  },
+  {
+    "id": 143,
+    "idUsuario": null,
+    "descricao": "Cupuaçu, cru",
+    "categoria": "Frutas",
+    "calorias": 49.0,
+    "proteinas": 1.8,
+    "gorduras": 0.3,
+    "carboidratos": 10.6
+  },
+  {
+    "id": 144,
+    "idUsuario": null,
+    "descricao": "Cupuaçu, suco concentrado",
+    "categoria": "Frutas",
+    "calorias": 49.0,
+    "proteinas": 1.7,
+    "gorduras": 0.4,
+    "carboidratos": 10.4
+  },
+  {
+    "id": 145,
+    "idUsuario": null,
+    "descricao": "Cupuaçu, suco, natural",
+    "categoria": "Frutas",
+    "calorias": 48.0,
+    "proteinas": 1.7,
+    "gorduras": 0.3,
+    "carboidratos": 10.3
+  },
+  {
+    "id": 146,
+    "idUsuario": null,
+    "descricao": "Damasco, cru",
+    "categoria": "Frutas",
+    "calorias": 48.0,
+    "proteinas": 1.4,
+    "gorduras": 0.4,
+    "carboidratos": 11.2
+  },
+  {
+    "id": 147,
+    "idUsuario": null,
+    "descricao": "Figo, cru",
+    "categoria": "Frutas",
+    "calorias": 74.0,
+    "proteinas": 0.8,
+    "gorduras": 0.3,
+    "carboidratos": 19.2
+  },
+  {
+    "id": 148,
+    "idUsuario": null,
+    "descricao": "Figo, enlatado, em calda",
+    "categoria": "Frutas",
+    "calorias": 83.0,
+    "proteinas": 0.5,
+    "gorduras": 0.1,
+    "carboidratos": 21.6
+  },
+  {
+    "id": 149,
+    "idUsuario": null,
+    "descricao": "Fruta-pão, crua",
+    "categoria": "Frutas",
+    "calorias": 102.0,
+    "proteinas": 1.1,
+    "gorduras": 0.2,
+    "carboidratos": 27.1
+  },
+  {
+    "id": 150,
+    "idUsuario": null,
+    "descricao": "Goiaba, branca, crua",
+    "categoria": "Frutas",
+    "calorias": 52.0,
+    "proteinas": 0.8,
+    "gorduras": 0.4,
+    "carboidratos": 12.3
+  },
+  {
+    "id": 151,
+    "idUsuario": null,
+    "descricao": "Goiaba, vermelha, crua",
+    "categoria": "Frutas",
+    "calorias": 50.0,
+    "proteinas": 0.8,
+    "gorduras": 0.4,
+    "carboidratos": 11.9
+  },
+  {
+    "id": 152,
+    "idUsuario": null,
+    "descricao": "Graviola, crua",
+    "categoria": "Frutas",
+    "calorias": 66.0,
+    "proteinas": 1.0,
+    "gorduras": 0.3,
+    "carboidratos": 16.8
+  },
+  {
+    "id": 153,
+    "idUsuario": null,
+    "descricao": "Jaca, crua",
+    "categoria": "Frutas",
+    "calorias": 94.0,
+    "proteinas": 1.5,
+    "gorduras": 0.3,
+    "carboidratos": 24.0
+  },
+  {
+    "id": 154,
+    "idUsuario": null,
+    "descricao": "Jambo, cru",
+    "categoria": "Frutas",
+    "calorias": 25.0,
+    "proteinas": 0.7,
+    "gorduras": 0.2,
+    "carboidratos": 5.7
+  },
+  {
+    "id": 155,
+    "idUsuario": null,
+    "descricao": "Jatobá, cru",
+    "categoria": "Frutas",
+    "calorias": 41.0,
+    "proteinas": 1.5,
+    "gorduras": 0.2,
+    "carboidratos": 9.9
+  },
+  {
+    "id": 156,
+    "idUsuario": null,
+    "descricao": "Kiwi, cru",
+    "categoria": "Frutas",
+    "calorias": 61.0,
+    "proteinas": 1.1,
+    "gorduras": 0.5,
+    "carboidratos": 14.7
+  },
+  {
+    "id": 157,
+    "idUsuario": null,
+    "descricao": "Laranja, baia, crua",
+    "categoria": "Frutas",
+    "calorias": 49.0,
+    "proteinas": 1.0,
+    "gorduras": 0.1,
+    "carboidratos": 12.3
+  },
+  {
+    "id": 158,
+    "idUsuario": null,
+    "descricao": "Laranja, lima, crua",
+    "categoria": "Frutas",
+    "calorias": 36.0,
+    "proteinas": 1.0,
+    "gorduras": 0.1,
+    "carboidratos": 9.0
+  },
+  {
+    "id": 159,
+    "idUsuario": null,
+    "descricao": "Laranja, pêra, crua",
+    "categoria": "Frutas",
+    "calorias": 46.0,
+    "proteinas": 1.0,
+    "gorduras": 0.1,
+    "carboidratos": 11.5
+  },
+  {
+    "id": 160,
+    "idUsuario": null,
+    "descricao": "Laranja, seleta, crua",
+    "categoria": "Frutas",
+    "calorias": 47.0,
+    "proteinas": 1.0,
+    "gorduras": 0.1,
+    "carboidratos": 11.8
+  },
+  {
+    "id": 161,
+    "idUsuario": null,
+    "descricao": "Laranja, valência, crua",
+    "categoria": "Frutas",
+    "calorias": 45.0,
+    "proteinas": 1.0,
+    "gorduras": 0.1,
+    "carboidratos": 11.3
+  },
+  {
+    "id": 162,
+    "idUsuario": null,
+    "descricao": "Lichia, crua",
+    "categoria": "Frutas",
+    "calorias": 66.0,
+    "proteinas": 0.8,
+    "gorduras": 0.4,
+    "carboidratos": 16.5
+  },
+  {
+    "id": 163,
+    "idUsuario": null,
+    "descricao": "Limão, galego, cru",
+    "categoria": "Frutas",
+    "calorias": 29.0,
+    "proteinas": 1.1,
+    "gorduras": 0.2,
+    "carboidratos": 7.3
+  },
+  {
+    "id": 164,
+    "idUsuario": null,
+    "descricao": "Limão, tahiti, cru",
+    "categoria": "Frutas",
+    "calorias": 29.0,
+    "proteinas": 1.1,
+    "gorduras": 0.2,
+    "carboidratos": 7.3
+  },
+  {
+    "id": 165,
+    "idUsuario": null,
+    "descricao": "Maçã, com casca, crua",
+    "categoria": "Frutas",
+    "calorias": 52.0,
+    "proteinas": 0.3,
+    "gorduras": 0.2,
+    "carboidratos": 13.8
+  },
+  {
+    "id": 166,
+    "idUsuario": null,
+    "descricao": "Maçã, sem casca, crua",
+    "categoria": "Frutas",
+    "calorias": 53.0,
+    "proteinas": 0.3,
+    "gorduras": 0.2,
+    "carboidratos": 14.0
+  },
+  {
+    "id": 167,
+    "idUsuario": null,
+    "descricao": "Mamão, formosa, cru",
+    "categoria": "Frutas",
+    "calorias": 40.0,
+    "proteinas": 0.6,
+    "gorduras": 0.1,
+    "carboidratos": 10.4
+  },
+  {
+    "id": 168,
+    "idUsuario": null,
+    "descricao": "Mamão, papaia, cru",
+    "categoria": "Frutas",
+    "calorias": 43.0,
+    "proteinas": 0.5,
+    "gorduras": 0.1,
+    "carboidratos": 11.0
+  },
+  {
+    "id": 169,
+    "idUsuario": null,
+    "descricao": "Manga, palmer, crua",
+    "categoria": "Frutas",
+    "calorias": 65.0,
+    "proteinas": 0.5,
+    "gorduras": 0.3,
+    "carboidratos": 17.0
+  },
+  {
+    "id": 170,
+    "idUsuario": null,
+    "descricao": "Manga, rosa, crua",
+    "categoria": "Frutas",
+    "calorias": 60.0,
+    "proteinas": 0.4,
+    "gorduras": 0.3,
+    "carboidratos": 15.8
+  },
+  {
+    "id": 171,
+    "idUsuario": null,
+    "descricao": "Maracujá, cru",
+    "categoria": "Frutas",
+    "calorias": 68.0,
+    "proteinas": 2.2,
+    "gorduras": 0.7,
+    "carboidratos": 13.0
+  },
+  {
+    "id": 172,
+    "idUsuario": null,
+    "descricao": "Maracujá, suco, concentrado, enlatado",
+    "categoria": "Frutas",
+    "calorias": 47.0,
+    "proteinas": 1.2,
+    "gorduras": 0.2,
+    "carboidratos": 11.0
+  },
+  {
+    "id": 173,
+    "idUsuario": null,
+    "descricao": "Maracujá, suco, concentrado, diluído",
+    "categoria": "Frutas",
+    "calorias": 48.0,
+    "proteinas": 1.2,
+    "gorduras": 0.2,
+    "carboidratos": 11.2
+  },
+  {
+    "id": 174,
+    "idUsuario": null,
+    "descricao": "Maracujá, suco, natural",
+    "categoria": "Frutas",
+    "calorias": 47.0,
+    "proteinas": 1.1,
+    "gorduras": 0.2,
+    "carboidratos": 11.2
+  },
+  {
+    "id": 175,
+    "idUsuario": null,
+    "descricao": "Melancia, crua",
+    "categoria": "Frutas",
+    "calorias": 30.0,
+    "proteinas": 0.6,
+    "gorduras": 0.2,
+    "carboidratos": 7.6
+  },
+  {
+    "id": 176,
+    "idUsuario": null,
+    "descricao": "Melão, cru",
+    "categoria": "Frutas",
+    "calorias": 34.0,
+    "proteinas": 0.8,
+    "gorduras": 0.2,
+    "carboidratos": 8.2
+  },
+  {
+    "id": 177,
+    "idUsuario": null,
+    "descricao": "Mexerica, crua",
+    "categoria": "Frutas",
+    "calorias": 53.0,
+    "proteinas": 0.8,
+    "gorduras": 0.3,
+    "carboidratos": 13.3
+  },
+  {
+    "id": 178,
+    "idUsuario": null,
+    "descricao": "Morango, cru",
+    "categoria": "Frutas",
+    "calorias": 32.0,
+    "proteinas": 0.7,
+    "gorduras": 0.3,
+    "carboidratos": 7.7
+  },
+  {
+    "id": 179,
+    "idUsuario": null,
+    "descricao": "Nêspera, crua",
+    "categoria": "Frutas",
+    "calorias": 47.0,
+    "proteinas": 0.4,
+    "gorduras": 0.2,
+    "carboidratos": 12.0
+  },
+  {
+    "id": 180,
+    "idUsuario": null,
+    "descricao": "Pera, com casca, crua",
+    "categoria": "Frutas",
+    "calorias": 57.0,
+    "proteinas": 0.4,
+    "gorduras": 0.1,
+    "carboidratos": 15.2
+  },
+  {
+    "id": 181,
+    "idUsuario": null,
+    "descricao": "Pêssego, cru",
+    "categoria": "Frutas",
+    "calorias": 39.0,
+    "proteinas": 0.9,
+    "gorduras": 0.3,
+    "carboidratos": 9.5
+  },
+  {
+    "id": 182,
+    "idUsuario": null,
+    "descricao": "Pêssego, enlatado, em calda",
+    "categoria": "Frutas",
+    "calorias": 60.0,
+    "proteinas": 0.5,
+    "gorduras": 0.1,
+    "carboidratos": 15.3
+  },
+  {
+    "id": 183,
+    "idUsuario": null,
+    "descricao": "Pitanga, crua",
+    "categoria": "Frutas",
+    "calorias": 41.0,
+    "proteinas": 0.9,
+    "gorduras": 0.4,
+    "carboidratos": 9.9
+  },
+  {
+    "id": 184,
+    "idUsuario": null,
+    "descricao": "Pitanga, suco, natural",
+    "categoria": "Frutas",
+    "calorias": 37.0,
+    "proteinas": 0.6,
+    "gorduras": 0.3,
+    "carboidratos": 9.0
+  },
+  {
+    "id": 185,
+    "idUsuario": null,
+    "descricao": "Romã, crua",
+    "categoria": "Frutas",
+    "calorias": 83.0,
+    "proteinas": 1.7,
+    "gorduras": 1.2,
+    "carboidratos": 18.7
+  },
+  {
+    "id": 186,
+    "idUsuario": null,
+    "descricao": "Tamarindo, cru",
+    "categoria": "Frutas",
+    "calorias": 239.0,
+    "proteinas": 2.8,
+    "gorduras": 0.6,
+    "carboidratos": 62.5
+  },
+  {
+    "id": 187,
+    "idUsuario": null,
+    "descricao": "Tangerina, crua",
+    "categoria": "Frutas",
+    "calorias": 53.0,
+    "proteinas": 0.8,
+    "gorduras": 0.3,
+    "carboidratos": 13.3
+  },
+  {
+    "id": 188,
+    "idUsuario": null,
+    "descricao": "Umbu, cru",
+    "categoria": "Frutas",
+    "calorias": 46.0,
+    "proteinas": 1.0,
+    "gorduras": 0.2,
+    "carboidratos": 11.2
+  },
+  {
+    "id": 189,
+    "idUsuario": null,
+    "descricao": "Uva, americana, crua",
+    "categoria": "Frutas",
+    "calorias": 69.0,
+    "proteinas": 0.7,
+    "gorduras": 0.4,
+    "carboidratos": 18.1
+  },
+  {
+    "id": 190,
+    "idUsuario": null,
+    "descricao": "Uva, itália, crua",
+    "categoria": "Frutas",
+    "calorias": 69.0,
+    "proteinas": 0.7,
+    "gorduras": 0.4,
+    "carboidratos": 18.1
+  },
+  {
+    "id": 191,
+    "idUsuario": null,
+    "descricao": "Uva, rubi, crua",
+    "categoria": "Frutas",
+    "calorias": 69.0,
+    "proteinas": 0.7,
+    "gorduras": 0.4,
+    "carboidratos": 18.1
+  },
+  {
+    "id": 192,
+    "idUsuario": null,
+    "descricao": "Uva, passa",
+    "categoria": "Frutas",
+    "calorias": 299.0,
+    "proteinas": 3.1,
+    "gorduras": 0.5,
+    "carboidratos": 79.2
+  },
+  {
+    "id": 193,
+    "idUsuario": null,
+    "descricao": "Uva, suco concentrado",
+    "categoria": "Frutas",
+    "calorias": 68.0,
+    "proteinas": 0.5,
+    "gorduras": 0.2,
+    "carboidratos": 17.6
+  },
+  {
+    "id": 194,
+    "idUsuario": null,
+    "descricao": "Uva, suco, natural",
+    "categoria": "Frutas",
+    "calorias": 67.0,
+    "proteinas": 0.4,
+    "gorduras": 0.2,
+    "carboidratos": 17.3
+  },
+  {
+    "id": 195,
+    "idUsuario": null,
+    "descricao": "Amendoim, torrado, salgado",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 583.0,
+    "proteinas": 25.4,
+    "gorduras": 49.9,
+    "carboidratos": 20.9
+  },
+  {
+    "id": 196,
+    "idUsuario": null,
+    "descricao": "Ervilha, em conserva",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 68.0,
+    "proteinas": 4.6,
+    "gorduras": 0.4,
+    "carboidratos": 12.0
+  },
+  {
+    "id": 197,
+    "idUsuario": null,
+    "descricao": "Ervilha, fresca, cozida",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 81.0,
+    "proteinas": 5.4,
+    "gorduras": 0.4,
+    "carboidratos": 14.5
+  },
+  {
+    "id": 198,
+    "idUsuario": null,
+    "descricao": "Feijão, carioca, cozido",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 76.0,
+    "proteinas": 4.8,
+    "gorduras": 0.5,
+    "carboidratos": 13.6
+  },
+  {
+    "id": 199,
+    "idUsuario": null,
+    "descricao": "Feijão, carioca, cru",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 321.0,
+    "proteinas": 20.8,
+    "gorduras": 1.2,
+    "carboidratos": 58.7
+  },
+  {
+    "id": 200,
+    "idUsuario": null,
+    "descricao": "Feijão, fradinho, cozido",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 91.0,
+    "proteinas": 6.8,
+    "gorduras": 0.5,
+    "carboidratos": 16.6
+  },
+  {
+    "id": 201,
+    "idUsuario": null,
+    "descricao": "Feijão, fradinho, cru",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 341.0,
+    "proteinas": 24.3,
+    "gorduras": 1.7,
+    "carboidratos": 62.0
+  },
+  {
+    "id": 202,
+    "idUsuario": null,
+    "descricao": "Feijão, jalo, cozido",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 76.0,
+    "proteinas": 4.8,
+    "gorduras": 0.5,
+    "carboidratos": 13.6
+  },
+  {
+    "id": 203,
+    "idUsuario": null,
+    "descricao": "Feijão, jalo, cru",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 321.0,
+    "proteinas": 20.8,
+    "gorduras": 1.2,
+    "carboidratos": 58.7
+  },
+  {
+    "id": 204,
+    "idUsuario": null,
+    "descricao": "Feijão, preto, cozido",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 76.0,
+    "proteinas": 4.5,
+    "gorduras": 0.5,
+    "carboidratos": 13.6
+  },
+  {
+    "id": 205,
+    "idUsuario": null,
+    "descricao": "Feijão, preto, cru",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 321.0,
+    "proteinas": 21.0,
+    "gorduras": 1.0,
+    "carboidratos": 58.7
+  },
+  {
+    "id": 206,
+    "idUsuario": null,
+    "descricao": "Feijão, roxo, cozido",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 76.0,
+    "proteinas": 4.8,
+    "gorduras": 0.5,
+    "carboidratos": 13.6
+  },
+  {
+    "id": 207,
+    "idUsuario": null,
+    "descricao": "Feijão, roxo, cru",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 321.0,
+    "proteinas": 20.8,
+    "gorduras": 1.2,
+    "carboidratos": 58.7
+  },
+  {
+    "id": 208,
+    "idUsuario": null,
+    "descricao": "Feijão, rosinha, cozido",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 76.0,
+    "proteinas": 4.8,
+    "gorduras": 0.5,
+    "carboidratos": 13.6
+  },
+  {
+    "id": 209,
+    "idUsuario": null,
+    "descricao": "Feijão, rosinha, cru",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 321.0,
+    "proteinas": 20.8,
+    "gorduras": 1.2,
+    "carboidratos": 58.7
+  },
+  {
+    "id": 210,
+    "idUsuario": null,
+    "descricao": "Feijão, verde, cozido",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 35.0,
+    "proteinas": 1.9,
+    "gorduras": 0.2,
+    "carboidratos": 7.7
+  },
+  {
+    "id": 211,
+    "idUsuario": null,
+    "descricao": "Feijão, verde, cru",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 31.0,
+    "proteinas": 2.2,
+    "gorduras": 0.2,
+    "carboidratos": 6.8
+  },
+  {
+    "id": 212,
+    "idUsuario": null,
+    "descricao": "Grão de bico, cozido",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 139.0,
+    "proteinas": 7.6,
+    "gorduras": 2.6,
+    "carboidratos": 23.3
+  },
+  {
+    "id": 213,
+    "idUsuario": null,
+    "descricao": "Grão de bico, cru",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 364.0,
+    "proteinas": 20.7,
+    "gorduras": 4.9,
+    "carboidratos": 61.6
+  },
+  {
+    "id": 214,
+    "idUsuario": null,
+    "descricao": "Leite de soja",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 54.0,
+    "proteinas": 2.9,
+    "gorduras": 1.9,
+    "carboidratos": 6.0
+  },
+  {
+    "id": 215,
+    "idUsuario": null,
+    "descricao": "Lentilha, cozida",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 115.0,
+    "proteinas": 8.5,
+    "gorduras": 0.4,
+    "carboidratos": 20.1
+  },
+  {
+    "id": 216,
+    "idUsuario": null,
+    "descricao": "Lentilha, crua",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 338.0,
+    "proteinas": 23.5,
+    "gorduras": 1.0,
+    "carboidratos": 60.1
+  },
+  {
+    "id": 217,
+    "idUsuario": null,
+    "descricao": "Pasta, de amendoim",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 588.0,
+    "proteinas": 22.0,
+    "gorduras": 50.0,
+    "carboidratos": 20.0
+  },
+  {
+    "id": 218,
+    "idUsuario": null,
+    "descricao": "Pão de queijo",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 298.0,
+    "proteinas": 8.8,
+    "gorduras": 11.4,
+    "carboidratos": 41.5
+  },
+  {
+    "id": 219,
+    "idUsuario": null,
+    "descricao": "Soja, extrato, pó",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 429.0,
+    "proteinas": 36.0,
+    "gorduras": 18.0,
+    "carboidratos": 28.0
+  },
+  {
+    "id": 220,
+    "idUsuario": null,
+    "descricao": "Soja, farinha",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 381.0,
+    "proteinas": 36.6,
+    "gorduras": 20.5,
+    "carboidratos": 26.6
+  },
+  {
+    "id": 221,
+    "idUsuario": null,
+    "descricao": "Tofu",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 76.0,
+    "proteinas": 8.0,
+    "gorduras": 4.8,
+    "carboidratos": 1.9
+  },
+  {
+    "id": 222,
+    "idUsuario": null,
+    "descricao": "Margarina, com óleo de milho",
+    "categoria": "Gorduras e óleos",
+    "calorias": 725.0,
+    "proteinas": 0.4,
+    "gorduras": 81.0,
+    "carboidratos": 0.1
+  },
+  {
+    "id": 223,
+    "idUsuario": null,
+    "descricao": "Margarina, creme vegetal, com sal",
+    "categoria": "Gorduras e óleos",
+    "calorias": 725.0,
+    "proteinas": 0.4,
+    "gorduras": 81.0,
+    "carboidratos": 0.1
+  },
+  {
+    "id": 224,
+    "idUsuario": null,
+    "descricao": "Margarina, creme vegetal, sem sal",
+    "categoria": "Gorduras e óleos",
+    "calorias": 725.0,
+    "proteinas": 0.4,
+    "gorduras": 81.0,
+    "carboidratos": 0.1
+  },
+  {
+    "id": 225,
+    "idUsuario": null,
+    "descricao": "Óleo, de babaçu",
+    "categoria": "Gorduras e óleos",
+    "calorias": 900.0,
+    "proteinas": 0.0,
+    "gorduras": 100.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 226,
+    "idUsuario": null,
+    "descricao": "Óleo, de dendê",
+    "categoria": "Gorduras e óleos",
+    "calorias": 900.0,
+    "proteinas": 0.0,
+    "gorduras": 100.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 227,
+    "idUsuario": null,
+    "descricao": "Óleo, de girassol",
+    "categoria": "Gorduras e óleos",
+    "calorias": 900.0,
+    "proteinas": 0.0,
+    "gorduras": 100.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 228,
+    "idUsuario": null,
+    "descricao": "Óleo, de milho",
+    "categoria": "Gorduras e óleos",
+    "calorias": 900.0,
+    "proteinas": 0.0,
+    "gorduras": 100.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 229,
+    "idUsuario": null,
+    "descricao": "Óleo, de soja",
+    "categoria": "Gorduras e óleos",
+    "calorias": 900.0,
+    "proteinas": 0.0,
+    "gorduras": 100.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 230,
+    "idUsuario": null,
+    "descricao": "Toucinho, defumado, cru",
+    "categoria": "Gorduras e óleos",
+    "calorias": 782.0,
+    "proteinas": 5.9,
+    "gorduras": 84.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 231,
+    "idUsuario": null,
+    "descricao": "Toucinho, salgado, cru",
+    "categoria": "Gorduras e óleos",
+    "calorias": 894.0,
+    "proteinas": 0.2,
+    "gorduras": 99.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 232,
+    "idUsuario": null,
+    "descricao": "Toucinho, frito",
+    "categoria": "Gorduras e óleos",
+    "calorias": 651.0,
+    "proteinas": 20.0,
+    "gorduras": 60.1,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 233,
+    "idUsuario": null,
+    "descricao": "Aves, galinha, caipira, com pele, cozida",
+    "categoria": "Carnes e ovos",
+    "calorias": 215.0,
+    "proteinas": 26.2,
+    "gorduras": 11.7,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 234,
+    "idUsuario": null,
+    "descricao": "Aves, galinha, caipira, com pele, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 194.0,
+    "proteinas": 21.0,
+    "gorduras": 11.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 235,
+    "idUsuario": null,
+    "descricao": "Aves, galinha, caipira, sem pele, cozida",
+    "categoria": "Carnes e ovos",
+    "calorias": 159.0,
+    "proteinas": 28.9,
+    "gorduras": 4.1,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 236,
+    "idUsuario": null,
+    "descricao": "Aves, galinha, caipira, sem pele, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 128.0,
+    "proteinas": 22.1,
+    "gorduras": 3.7,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 237,
+    "idUsuario": null,
+    "descricao": "Aves, frango, asa, com pele, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 215.0,
+    "proteinas": 19.3,
+    "gorduras": 15.1,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 238,
+    "idUsuario": null,
+    "descricao": "Aves, frango, asa, sem pele, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 169.0,
+    "proteinas": 21.6,
+    "gorduras": 8.7,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 239,
+    "idUsuario": null,
+    "descricao": "Aves, frango, coração, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 178.0,
+    "proteinas": 15.6,
+    "gorduras": 12.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 240,
+    "idUsuario": null,
+    "descricao": "Aves, frango, coxa, com pele, assada",
+    "categoria": "Carnes e ovos",
+    "calorias": 236.0,
+    "proteinas": 27.6,
+    "gorduras": 12.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 241,
+    "idUsuario": null,
+    "descricao": "Aves, frango, coxa, com pele, cozida",
+    "categoria": "Carnes e ovos",
+    "calorias": 210.0,
+    "proteinas": 24.6,
+    "gorduras": 11.7,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 242,
+    "idUsuario": null,
+    "descricao": "Aves, frango, coxa, com pele, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 196.0,
+    "proteinas": 19.3,
+    "gorduras": 12.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 243,
+    "idUsuario": null,
+    "descricao": "Aves, frango, coxa, sem pele, assada",
+    "categoria": "Carnes e ovos",
+    "calorias": 167.0,
+    "proteinas": 28.5,
+    "gorduras": 5.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 244,
+    "idUsuario": null,
+    "descricao": "Aves, frango, coxa, sem pele, cozida",
+    "categoria": "Carnes e ovos",
+    "calorias": 163.0,
+    "proteinas": 26.6,
+    "gorduras": 5.6,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 245,
+    "idUsuario": null,
+    "descricao": "Aves, frango, coxa, sem pele, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 134.0,
+    "proteinas": 20.3,
+    "gorduras": 5.4,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 246,
+    "idUsuario": null,
+    "descricao": "Aves, frango, fígado, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 124.0,
+    "proteinas": 18.0,
+    "gorduras": 4.9,
+    "carboidratos": 1.7
+  },
+  {
+    "id": 247,
+    "idUsuario": null,
+    "descricao": "Aves, frango, filé, à milanesa",
+    "categoria": "Carnes e ovos",
+    "calorias": 223.0,
+    "proteinas": 19.6,
+    "gorduras": 10.6,
+    "carboidratos": 11.3
+  },
+  {
+    "id": 248,
+    "idUsuario": null,
+    "descricao": "Aves, frango, filé, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 120.0,
+    "proteinas": 22.6,
+    "gorduras": 2.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 249,
+    "idUsuario": null,
+    "descricao": "Aves, frango, peito, com pele, assado",
+    "categoria": "Carnes e ovos",
+    "calorias": 178.0,
+    "proteinas": 31.8,
+    "gorduras": 4.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 250,
+    "idUsuario": null,
+    "descricao": "Aves, frango, peito, com pele, cozido",
+    "categoria": "Carnes e ovos",
+    "calorias": 169.0,
+    "proteinas": 29.8,
+    "gorduras": 4.6,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 251,
+    "idUsuario": null,
+    "descricao": "Aves, frango, peito, com pele, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 150.0,
+    "proteinas": 21.9,
+    "gorduras": 6.3,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 252,
+    "idUsuario": null,
+    "descricao": "Aves, frango, peito, sem pele, assado",
+    "categoria": "Carnes e ovos",
+    "calorias": 167.0,
+    "proteinas": 32.8,
+    "gorduras": 3.4,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 253,
+    "idUsuario": null,
+    "descricao": "Aves, frango, peito, sem pele, cozido",
+    "categoria": "Carnes e ovos",
+    "calorias": 164.0,
+    "proteinas": 31.8,
+    "gorduras": 3.7,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 254,
+    "idUsuario": null,
+    "descricao": "Aves, frango, peito, sem pele, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 110.0,
+    "proteinas": 23.3,
+    "gorduras": 1.4,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 255,
+    "idUsuario": null,
+    "descricao": "Aves, frango, sobrecoxa, com pele, assada",
+    "categoria": "Carnes e ovos",
+    "calorias": 236.0,
+    "proteinas": 27.6,
+    "gorduras": 12.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 256,
+    "idUsuario": null,
+    "descricao": "Aves, frango, sobrecoxa, com pele, cozida",
+    "categoria": "Carnes e ovos",
+    "calorias": 210.0,
+    "proteinas": 24.6,
+    "gorduras": 11.7,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 257,
+    "idUsuario": null,
+    "descricao": "Aves, frango, sobrecoxa, com pele, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 196.0,
+    "proteinas": 19.3,
+    "gorduras": 12.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 258,
+    "idUsuario": null,
+    "descricao": "Aves, frango, sobrecoxa, sem pele, assada",
+    "categoria": "Carnes e ovos",
+    "calorias": 167.0,
+    "proteinas": 28.5,
+    "gorduras": 5.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 259,
+    "idUsuario": null,
+    "descricao": "Aves, frango, sobrecoxa, sem pele, cozida",
+    "categoria": "Carnes e ovos",
+    "calorias": 163.0,
+    "proteinas": 26.6,
+    "gorduras": 5.6,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 260,
+    "idUsuario": null,
+    "descricao": "Aves, frango, sobrecoxa, sem pele, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 134.0,
+    "proteinas": 20.3,
+    "gorduras": 5.4,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 261,
+    "idUsuario": null,
+    "descricao": "Aves, chester, com pele, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 204.0,
+    "proteinas": 19.0,
+    "gorduras": 13.9,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 262,
+    "idUsuario": null,
+    "descricao": "Aves, chester, sem pele, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 119.0,
+    "proteinas": 20.4,
+    "gorduras": 3.7,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 263,
+    "idUsuario": null,
+    "descricao": "Aves, peru, com pele, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 193.0,
+    "proteinas": 19.0,
+    "gorduras": 12.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 264,
+    "idUsuario": null,
+    "descricao": "Aves, peru, sem pele, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 105.0,
+    "proteinas": 19.3,
+    "gorduras": 2.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 265,
+    "idUsuario": null,
+    "descricao": "Carne bovina, acém, moído, cozido",
+    "categoria": "Carnes e ovos",
+    "calorias": 218.0,
+    "proteinas": 27.5,
+    "gorduras": 11.2,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 266,
+    "idUsuario": null,
+    "descricao": "Carne bovina, acém, moído, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 201.0,
+    "proteinas": 21.3,
+    "gorduras": 12.5,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 267,
+    "idUsuario": null,
+    "descricao": "Carne bovina, acém, sem gordura, cozido",
+    "categoria": "Carnes e ovos",
+    "calorias": 182.0,
+    "proteinas": 30.6,
+    "gorduras": 5.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 268,
+    "idUsuario": null,
+    "descricao": "Carne bovina, acém, sem gordura, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 122.0,
+    "proteinas": 21.1,
+    "gorduras": 3.6,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 269,
+    "idUsuario": null,
+    "descricao": "Carne bovina, alcatra, com gordura, grelhada",
+    "categoria": "Carnes e ovos",
+    "calorias": 242.0,
+    "proteinas": 29.5,
+    "gorduras": 12.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 270,
+    "idUsuario": null,
+    "descricao": "Carne bovina, alcatra, com gordura, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 154.0,
+    "proteinas": 21.0,
+    "gorduras": 7.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 271,
+    "idUsuario": null,
+    "descricao": "Carne bovina, alcatra, sem gordura, grelhada",
+    "categoria": "Carnes e ovos",
+    "calorias": 204.0,
+    "proteinas": 33.6,
+    "gorduras": 6.7,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 272,
+    "idUsuario": null,
+    "descricao": "Carne bovina, alcatra, sem gordura, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 125.0,
+    "proteinas": 21.6,
+    "gorduras": 3.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 273,
+    "idUsuario": null,
+    "descricao": "Carne bovina, bucho, cozido",
+    "categoria": "Carnes e ovos",
+    "calorias": 113.0,
+    "proteinas": 19.8,
+    "gorduras": 3.7,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 274,
+    "idUsuario": null,
+    "descricao": "Carne bovina, bucho, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 96.0,
+    "proteinas": 16.7,
+    "gorduras": 3.2,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 275,
+    "idUsuario": null,
+    "descricao": "Carne bovina, capa de filé, com gordura, cozida",
+    "categoria": "Carnes e ovos",
+    "calorias": 218.0,
+    "proteinas": 28.1,
+    "gorduras": 11.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 276,
+    "idUsuario": null,
+    "descricao": "Carne bovina, capa de filé, com gordura, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 202.0,
+    "proteinas": 20.8,
+    "gorduras": 12.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 277,
+    "idUsuario": null,
+    "descricao": "Carne bovina, capa de filé, sem gordura, cozida",
+    "categoria": "Carnes e ovos",
+    "calorias": 182.0,
+    "proteinas": 31.4,
+    "gorduras": 5.6,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 278,
+    "idUsuario": null,
+    "descricao": "Carne bovina, capa de filé, sem gordura, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 122.0,
+    "proteinas": 21.0,
+    "gorduras": 3.7,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 279,
+    "idUsuario": null,
+    "descricao": "Carne bovina, contrafilé, com gordura, grelhado",
+    "categoria": "Carnes e ovos",
+    "calorias": 278.0,
+    "proteinas": 28.3,
+    "gorduras": 17.5,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 280,
+    "idUsuario": null,
+    "descricao": "Carne bovina, contrafilé, com gordura, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 196.0,
+    "proteinas": 20.0,
+    "gorduras": 12.4,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 281,
+    "idUsuario": null,
+    "descricao": "Carne bovina, contrafilé, sem gordura, grelhado",
+    "categoria": "Carnes e ovos",
+    "calorias": 207.0,
+    "proteinas": 33.3,
+    "gorduras": 7.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 282,
+    "idUsuario": null,
+    "descricao": "Carne bovina, contrafilé, sem gordura, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 127.0,
+    "proteinas": 21.6,
+    "gorduras": 4.1,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 283,
+    "idUsuario": null,
+    "descricao": "Carne bovina, costela, com gordura, assada",
+    "categoria": "Carnes e ovos",
+    "calorias": 393.0,
+    "proteinas": 24.3,
+    "gorduras": 32.1,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 284,
+    "idUsuario": null,
+    "descricao": "Carne bovina, costela, com gordura, cozida",
+    "categoria": "Carnes e ovos",
+    "calorias": 305.0,
+    "proteinas": 25.1,
+    "gorduras": 22.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 285,
+    "idUsuario": null,
+    "descricao": "Carne bovina, costela, com gordura, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 307.0,
+    "proteinas": 16.5,
+    "gorduras": 26.6,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 286,
+    "idUsuario": null,
+    "descricao": "Carne bovina, costela, sem gordura, cozida",
+    "categoria": "Carnes e ovos",
+    "calorias": 241.0,
+    "proteinas": 30.6,
+    "gorduras": 12.3,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 287,
+    "idUsuario": null,
+    "descricao": "Carne bovina, costela, sem gordura, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 182.0,
+    "proteinas": 20.3,
+    "gorduras": 10.7,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 288,
+    "idUsuario": null,
+    "descricao": "Carne bovina, cupim, com gordura, assado",
+    "categoria": "Carnes e ovos",
+    "calorias": 353.0,
+    "proteinas": 32.3,
+    "gorduras": 23.3,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 289,
+    "idUsuario": null,
+    "descricao": "Carne bovina, cupim, com gordura, cozido",
+    "categoria": "Carnes e ovos",
+    "calorias": 344.0,
+    "proteinas": 28.5,
+    "gorduras": 23.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 290,
+    "idUsuario": null,
+    "descricao": "Carne bovina, cupim, com gordura, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 294.0,
+    "proteinas": 17.1,
+    "gorduras": 24.3,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 291,
+    "idUsuario": null,
+    "descricao": "Carne bovina, cupim, sem gordura, assado",
+    "categoria": "Carnes e ovos",
+    "calorias": 203.0,
+    "proteinas": 33.3,
+    "gorduras": 6.9,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 292,
+    "idUsuario": null,
+    "descricao": "Carne bovina, cupim, sem gordura, cozido",
+    "categoria": "Carnes e ovos",
+    "calorias": 194.0,
+    "proteinas": 33.1,
+    "gorduras": 6.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 293,
+    "idUsuario": null,
+    "descricao": "Carne bovina, cupim, sem gordura, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 128.0,
+    "proteinas": 21.0,
+    "gorduras": 4.5,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 294,
+    "idUsuario": null,
+    "descricao": "Carne bovina, fígado, grelhado",
+    "categoria": "Carnes e ovos",
+    "calorias": 170.0,
+    "proteinas": 25.1,
+    "gorduras": 6.8,
+    "carboidratos": 3.7
+  },
+  {
+    "id": 295,
+    "idUsuario": null,
+    "descricao": "Carne bovina, fígado, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 127.0,
+    "proteinas": 20.7,
+    "gorduras": 4.1,
+    "carboidratos": 3.9
+  },
+  {
+    "id": 296,
+    "idUsuario": null,
+    "descricao": "Carne bovina, filé mignon, grelhado",
+    "categoria": "Carnes e ovos",
+    "calorias": 195.0,
+    "proteinas": 32.7,
+    "gorduras": 6.4,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 297,
+    "idUsuario": null,
+    "descricao": "Carne bovina, filé mignon, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 133.0,
+    "proteinas": 22.0,
+    "gorduras": 4.7,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 298,
+    "idUsuario": null,
+    "descricao": "Carne bovina, língua, cozida",
+    "categoria": "Carnes e ovos",
+    "calorias": 228.0,
+    "proteinas": 23.3,
+    "gorduras": 14.7,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 299,
+    "idUsuario": null,
+    "descricao": "Carne bovina, língua, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 207.0,
+    "proteinas": 16.7,
+    "gorduras": 15.6,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 300,
+    "idUsuario": null,
+    "descricao": "Carne bovina, músculo, cozido",
+    "categoria": "Carnes e ovos",
+    "calorias": 194.0,
+    "proteinas": 29.5,
+    "gorduras": 7.7,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 301,
+    "idUsuario": null,
+    "descricao": "Carne bovina, músculo, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 133.0,
+    "proteinas": 21.0,
+    "gorduras": 4.9,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 302,
+    "idUsuario": null,
+    "descricao": "Carne bovina, patinho, moído, cozido",
+    "categoria": "Carnes e ovos",
+    "calorias": 178.0,
+    "proteinas": 28.5,
+    "gorduras": 6.3,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 303,
+    "idUsuario": null,
+    "descricao": "Carne bovina, patinho, moído, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 119.0,
+    "proteinas": 21.0,
+    "gorduras": 3.7,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 304,
+    "idUsuario": null,
+    "descricao": "Carne bovina, picanha, com gordura, grelhada",
+    "categoria": "Carnes e ovos",
+    "calorias": 301.0,
+    "proteinas": 29.7,
+    "gorduras": 19.5,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 305,
+    "idUsuario": null,
+    "descricao": "Carne bovina, picanha, com gordura, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 242.0,
+    "proteinas": 19.0,
+    "gorduras": 18.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 306,
+    "idUsuario": null,
+    "descricao": "Carne bovina, picanha, sem gordura, grelhada",
+    "categoria": "Carnes e ovos",
+    "calorias": 204.0,
+    "proteinas": 33.6,
+    "gorduras": 6.7,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 307,
+    "idUsuario": null,
+    "descricao": "Carne bovina, picanha, sem gordura, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 125.0,
+    "proteinas": 21.6,
+    "gorduras": 3.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 308,
+    "idUsuario": null,
+    "descricao": "Ovo, de codorna, inteiro, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 158.0,
+    "proteinas": 13.1,
+    "gorduras": 11.1,
+    "carboidratos": 0.4
+  },
+  {
+    "id": 309,
+    "idUsuario": null,
+    "descricao": "Ovo, de galinha, cozido",
+    "categoria": "Carnes e ovos",
+    "calorias": 147.0,
+    "proteinas": 13.0,
+    "gorduras": 10.7,
+    "carboidratos": 1.1
+  },
+  {
+    "id": 310,
+    "idUsuario": null,
+    "descricao": "Ovo, de galinha, frito",
+    "categoria": "Carnes e ovos",
+    "calorias": 198.0,
+    "proteinas": 13.6,
+    "gorduras": 15.6,
+    "carboidratos": 0.7
+  },
+  {
+    "id": 311,
+    "idUsuario": null,
+    "descricao": "Ovo, de galinha, gema, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 355.0,
+    "proteinas": 16.0,
+    "gorduras": 30.7,
+    "carboidratos": 0.6
+  },
+  {
+    "id": 312,
+    "idUsuario": null,
+    "descricao": "Ovo, de galinha, inteiro, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 149.0,
+    "proteinas": 13.0,
+    "gorduras": 10.7,
+    "carboidratos": 1.1
+  },
+  {
+    "id": 313,
+    "idUsuario": null,
+    "descricao": "Ovo, de galinha, clara, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 52.0,
+    "proteinas": 10.9,
+    "gorduras": 0.1,
+    "carboidratos": 0.7
+  },
+  {
+    "id": 314,
+    "idUsuario": null,
+    "descricao": "Perna de carneiro, com gordura, assada",
+    "categoria": "Carnes e ovos",
+    "calorias": 289.0,
+    "proteinas": 28.5,
+    "gorduras": 18.9,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 315,
+    "idUsuario": null,
+    "descricao": "Perna de carneiro, com gordura, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 218.0,
+    "proteinas": 18.0,
+    "gorduras": 15.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 316,
+    "idUsuario": null,
+    "descricao": "Perna de carneiro, sem gordura, assada",
+    "categoria": "Carnes e ovos",
+    "calorias": 196.0,
+    "proteinas": 33.6,
+    "gorduras": 6.4,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 317,
+    "idUsuario": null,
+    "descricao": "Perna de carneiro, sem gordura, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 115.0,
+    "proteinas": 20.3,
+    "gorduras": 3.2,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 318,
+    "idUsuario": null,
+    "descricao": "Pernil de porco, com gordura, assado",
+    "categoria": "Carnes e ovos",
+    "calorias": 257.0,
+    "proteinas": 30.6,
+    "gorduras": 13.9,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 319,
+    "idUsuario": null,
+    "descricao": "Pernil de porco, com gordura, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 218.0,
+    "proteinas": 19.3,
+    "gorduras": 15.3,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 320,
+    "idUsuario": null,
+    "descricao": "Pernil de porco, sem gordura, assado",
+    "categoria": "Carnes e ovos",
+    "calorias": 210.0,
+    "proteinas": 32.5,
+    "gorduras": 7.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 321,
+    "idUsuario": null,
+    "descricao": "Pernil de porco, sem gordura, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 125.0,
+    "proteinas": 21.0,
+    "gorduras": 4.1,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 322,
+    "idUsuario": null,
+    "descricao": "Peixe, bacalhau, salgado, cozido",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 103.0,
+    "proteinas": 23.3,
+    "gorduras": 0.9,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 323,
+    "idUsuario": null,
+    "descricao": "Peixe, bacalhau, salgado, cru",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 134.0,
+    "proteinas": 29.1,
+    "gorduras": 1.1,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 324,
+    "idUsuario": null,
+    "descricao": "Peixe, cação, cozido",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 121.0,
+    "proteinas": 24.1,
+    "gorduras": 2.5,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 325,
+    "idUsuario": null,
+    "descricao": "Peixe, cação, cru",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 85.0,
+    "proteinas": 18.0,
+    "gorduras": 1.1,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 326,
+    "idUsuario": null,
+    "descricao": "Peixe, merluza, cozida",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 98.0,
+    "proteinas": 21.0,
+    "gorduras": 1.2,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 327,
+    "idUsuario": null,
+    "descricao": "Peixe, merluza, crua",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 91.0,
+    "proteinas": 17.0,
+    "gorduras": 1.9,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 328,
+    "idUsuario": null,
+    "descricao": "Peixe, salmão, assado",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 208.0,
+    "proteinas": 22.0,
+    "gorduras": 13.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 329,
+    "idUsuario": null,
+    "descricao": "Peixe, salmão, cru",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 171.0,
+    "proteinas": 19.9,
+    "gorduras": 9.9,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 330,
+    "idUsuario": null,
+    "descricao": "Pescada, branca, frita",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 199.0,
+    "proteinas": 26.6,
+    "gorduras": 9.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 331,
+    "idUsuario": null,
+    "descricao": "Pescada, branca, crua",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 89.0,
+    "proteinas": 17.0,
+    "gorduras": 1.9,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 332,
+    "idUsuario": null,
+    "descricao": "Sardinha, assada",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 164.0,
+    "proteinas": 24.2,
+    "gorduras": 6.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 333,
+    "idUsuario": null,
+    "descricao": "Sardinha, enlatada, em óleo",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 236.0,
+    "proteinas": 22.1,
+    "gorduras": 16.5,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 334,
+    "idUsuario": null,
+    "descricao": "Sardinha, enlatada, em tomate",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 140.0,
+    "proteinas": 20.3,
+    "gorduras": 6.2,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 335,
+    "idUsuario": null,
+    "descricao": "Sardinha, crua",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 109.0,
+    "proteinas": 19.0,
+    "gorduras": 3.7,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 336,
+    "idUsuario": null,
+    "descricao": "Camarão, cozido",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 99.0,
+    "proteinas": 20.9,
+    "gorduras": 1.4,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 337,
+    "idUsuario": null,
+    "descricao": "Camarão, cru",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 99.0,
+    "proteinas": 20.9,
+    "gorduras": 1.4,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 338,
+    "idUsuario": null,
+    "descricao": "Caranguejo, cozido",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 99.0,
+    "proteinas": 21.0,
+    "gorduras": 1.4,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 339,
+    "idUsuario": null,
+    "descricao": "Caranguejo, cru",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 99.0,
+    "proteinas": 21.0,
+    "gorduras": 1.4,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 340,
+    "idUsuario": null,
+    "descricao": "Lagosta, cozida",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 89.0,
+    "proteinas": 18.8,
+    "gorduras": 0.9,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 341,
+    "idUsuario": null,
+    "descricao": "Lagosta, crua",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 89.0,
+    "proteinas": 18.8,
+    "gorduras": 0.9,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 342,
+    "idUsuario": null,
+    "descricao": "Ostras, cruas",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 68.0,
+    "proteinas": 7.0,
+    "gorduras": 2.3,
+    "carboidratos": 4.9
+  },
+  {
+    "id": 343,
+    "idUsuario": null,
+    "descricao": "Queijo, minas, frescal",
+    "categoria": "Leites e derivados",
+    "calorias": 264.0,
+    "proteinas": 17.4,
+    "gorduras": 20.0,
+    "carboidratos": 2.8
+  },
+  {
+    "id": 344,
+    "idUsuario": null,
+    "descricao": "Queijo, mussarela",
+    "categoria": "Leites e derivados",
+    "calorias": 334.0,
+    "proteinas": 24.2,
+    "gorduras": 25.2,
+    "carboidratos": 2.0
+  },
+  {
+    "id": 345,
+    "idUsuario": null,
+    "descricao": "Queijo, parmesão",
+    "categoria": "Leites e derivados",
+    "calorias": 453.0,
+    "proteinas": 37.0,
+    "gorduras": 33.0,
+    "carboidratos": 3.2
+  },
+  {
+    "id": 346,
+    "idUsuario": null,
+    "descricao": "Queijo, prato",
+    "categoria": "Leites e derivados",
+    "calorias": 358.0,
+    "proteinas": 23.3,
+    "gorduras": 28.5,
+    "carboidratos": 2.2
+  },
+  {
+    "id": 347,
+    "idUsuario": null,
+    "descricao": "Queijo, requeijão, cremoso",
+    "categoria": "Leites e derivados",
+    "calorias": 269.0,
+    "proteinas": 9.9,
+    "gorduras": 23.4,
+    "carboidratos": 2.8
+  },
+  {
+    "id": 348,
+    "idUsuario": null,
+    "descricao": "Leite, de vaca, integral",
+    "categoria": "Leites e derivados",
+    "calorias": 58.0,
+    "proteinas": 3.2,
+    "gorduras": 3.0,
+    "carboidratos": 4.7
+  },
+  {
+    "id": 349,
+    "idUsuario": null,
+    "descricao": "Leite, de vaca, integral, em pó",
+    "categoria": "Leites e derivados",
+    "calorias": 496.0,
+    "proteinas": 25.0,
+    "gorduras": 26.0,
+    "carboidratos": 38.0
+  },
+  {
+    "id": 350,
+    "idUsuario": null,
+    "descricao": "Leite, de vaca, desnatado",
+    "categoria": "Leites e derivados",
+    "calorias": 36.0,
+    "proteinas": 3.3,
+    "gorduras": 0.2,
+    "carboidratos": 4.8
+  },
+  {
+    "id": 351,
+    "idUsuario": null,
+    "descricao": "Leite, de vaca, desnatado, em pó",
+    "categoria": "Leites e derivados",
+    "calorias": 359.0,
+    "proteinas": 35.0,
+    "gorduras": 1.0,
+    "carboidratos": 51.0
+  },
+  {
+    "id": 352,
+    "idUsuario": null,
+    "descricao": "Leite, de vaca, semi-desnatado",
+    "categoria": "Leites e derivados",
+    "calorias": 45.0,
+    "proteinas": 3.3,
+    "gorduras": 1.5,
+    "carboidratos": 4.7
+  },
+  {
+    "id": 353,
+    "idUsuario": null,
+    "descricao": "Iogurte, natural, integral",
+    "categoria": "Leites e derivados",
+    "calorias": 60.0,
+    "proteinas": 4.1,
+    "gorduras": 3.0,
+    "carboidratos": 4.8
+  },
+  {
+    "id": 354,
+    "idUsuario": null,
+    "descricao": "Iogurte, natural, desnatado",
+    "categoria": "Leites e derivados",
+    "calorias": 50.0,
+    "proteinas": 4.5,
+    "gorduras": 0.1,
+    "carboidratos": 7.0
+  },
+  {
+    "id": 355,
+    "idUsuario": null,
+    "descricao": "Pão, de queijo, industrializado",
+    "categoria": "Leites e derivados",
+    "calorias": 298.0,
+    "proteinas": 8.8,
+    "gorduras": 11.4,
+    "carboidratos": 41.5
+  },
+  {
+    "id": 356,
+    "idUsuario": null,
+    "descricao": "Balas, mastigáveis",
+    "categoria": "Açúcares e derivados",
+    "calorias": 395.0,
+    "proteinas": 0.1,
+    "gorduras": 4.9,
+    "carboidratos": 88.0
+  },
+  {
+    "id": 357,
+    "idUsuario": null,
+    "descricao": "Caramelos, com chocolate",
+    "categoria": "Açúcares e derivados",
+    "calorias": 414.0,
+    "proteinas": 2.7,
+    "gorduras": 10.4,
+    "carboidratos": 76.8
+  },
+  {
+    "id": 358,
+    "idUsuario": null,
+    "descricao": "Chocolate, ao leite",
+    "categoria": "Açúcares e derivados",
+    "calorias": 544.0,
+    "proteinas": 7.5,
+    "gorduras": 31.0,
+    "carboidratos": 60.0
+  },
+  {
+    "id": 359,
+    "idUsuario": null,
+    "descricao": "Chocolate, ao leite, com castanha de caju",
+    "categoria": "Açúcares e derivados",
+    "calorias": 526.0,
+    "proteinas": 8.0,
+    "gorduras": 30.0,
+    "carboidratos": 55.0
+  },
+  {
+    "id": 360,
+    "idUsuario": null,
+    "descricao": "Chocolate, meio amargo",
+    "categoria": "Açúcares e derivados",
+    "calorias": 523.0,
+    "proteinas": 7.5,
+    "gorduras": 30.0,
+    "carboidratos": 58.0
+  },
+  {
+    "id": 361,
+    "idUsuario": null,
+    "descricao": "Chocolate, branco",
+    "categoria": "Açúcares e derivados",
+    "calorias": 541.0,
+    "proteinas": 6.8,
+    "gorduras": 30.0,
+    "carboidratos": 61.0
+  },
+  {
+    "id": 362,
+    "idUsuario": null,
+    "descricao": "Chocolate, granulado",
+    "categoria": "Açúcares e derivados",
+    "calorias": 470.0,
+    "proteinas": 3.7,
+    "gorduras": 20.0,
+    "carboidratos": 68.0
+  },
+  {
+    "id": 363,
+    "idUsuario": null,
+    "descricao": "Coco, bala, a base de",
+    "categoria": "Açúcares e derivados",
+    "calorias": 395.0,
+    "proteinas": 1.6,
+    "gorduras": 13.9,
+    "carboidratos": 66.8
+  },
+  {
+    "id": 364,
+    "idUsuario": null,
+    "descricao": "Cocada, branca",
+    "categoria": "Açúcares e derivados",
+    "calorias": 444.0,
+    "proteinas": 1.2,
+    "gorduras": 22.0,
+    "carboidratos": 60.4
+  },
+  {
+    "id": 365,
+    "idUsuario": null,
+    "descricao": "Creme, tipo chantilly",
+    "categoria": "Açúcares e derivados",
+    "calorias": 341.0,
+    "proteinas": 2.2,
+    "gorduras": 30.0,
+    "carboidratos": 15.0
+  },
+  {
+    "id": 366,
+    "idUsuario": null,
+    "descricao": "Doce de leite",
+    "categoria": "Açúcares e derivados",
+    "calorias": 315.0,
+    "proteinas": 6.0,
+    "gorduras": 8.0,
+    "carboidratos": 55.0
+  },
+  {
+    "id": 367,
+    "idUsuario": null,
+    "descricao": "Geléia, de frutas",
+    "categoria": "Açúcares e derivados",
+    "calorias": 272.0,
+    "proteinas": 0.4,
+    "gorduras": 0.2,
+    "carboidratos": 67.2
+  },
+  {
+    "id": 368,
+    "idUsuario": null,
+    "descricao": "Marmelada",
+    "categoria": "Açúcares e derivados",
+    "calorias": 240.0,
+    "proteinas": 0.3,
+    "gorduras": 0.2,
+    "carboidratos": 62.0
+  },
+  {
+    "id": 369,
+    "idUsuario": null,
+    "descricao": "Mel, de abelha",
+    "categoria": "Açúcares e derivados",
+    "calorias": 304.0,
+    "proteinas": 0.3,
+    "gorduras": 0.0,
+    "carboidratos": 82.1
+  },
+  {
+    "id": 370,
+    "idUsuario": null,
+    "descricao": "Melado",
+    "categoria": "Açúcares e derivados",
+    "calorias": 290.0,
+    "proteinas": 0.0,
+    "gorduras": 0.0,
+    "carboidratos": 75.0
+  },
+  {
+    "id": 371,
+    "idUsuario": null,
+    "descricao": "Paçoca, rolha",
+    "categoria": "Açúcares e derivados",
+    "calorias": 500.0,
+    "proteinas": 15.0,
+    "gorduras": 25.0,
+    "carboidratos": 55.0
+  },
+  {
+    "id": 372,
+    "idUsuario": null,
+    "descricao": "Pudim, mistura em pó",
+    "categoria": "Açúcares e derivados",
+    "calorias": 374.0,
+    "proteinas": 0.1,
+    "gorduras": 0.1,
+    "carboidratos": 92.0
+  },
+  {
+    "id": 373,
+    "idUsuario": null,
+    "descricao": "Rapadura",
+    "categoria": "Açúcares e derivados",
+    "calorias": 369.0,
+    "proteinas": 0.4,
+    "gorduras": 0.0,
+    "carboidratos": 96.0
+  },
+  {
+    "id": 374,
+    "idUsuario": null,
+    "descricao": "Refresco, em pó",
+    "categoria": "Açúcares e derivados",
+    "calorias": 381.0,
+    "proteinas": 0.0,
+    "gorduras": 0.0,
+    "carboidratos": 95.0
+  },
+  {
+    "id": 375,
+    "idUsuario": null,
+    "descricao": "Sorvete, de massa, chocolate",
+    "categoria": "Açúcares e derivados",
+    "calorias": 182.0,
+    "proteinas": 3.7,
+    "gorduras": 8.0,
+    "carboidratos": 24.1
+  },
+  {
+    "id": 376,
+    "idUsuario": null,
+    "descricao": "Sorvete, de massa, creme",
+    "categoria": "Açúcares e derivados",
+    "calorias": 182.0,
+    "proteinas": 3.7,
+    "gorduras": 8.0,
+    "carboidratos": 24.1
+  },
+  {
+    "id": 377,
+    "idUsuario": null,
+    "descricao": "Sorvete, de massa, morango",
+    "categoria": "Açúcares e derivados",
+    "calorias": 182.0,
+    "proteinas": 3.7,
+    "gorduras": 8.0,
+    "carboidratos": 24.1
+  },
+  {
+    "id": 378,
+    "idUsuario": null,
+    "descricao": "Adoçante, sacarina",
+    "categoria": "Diversos",
+    "calorias": 0.0,
+    "proteinas": 0.0,
+    "gorduras": 0.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 379,
+    "idUsuario": null,
+    "descricao": "Azeite de dendê",
+    "categoria": "Diversos",
+    "calorias": 900.0,
+    "proteinas": 0.0,
+    "gorduras": 100.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 380,
+    "idUsuario": null,
+    "descricao": "Café, em pó",
+    "categoria": "Diversos",
+    "calorias": 286.0,
+    "proteinas": 13.9,
+    "gorduras": 13.6,
+    "carboidratos": 22.0
+  },
+  {
+    "id": 381,
+    "idUsuario": null,
+    "descricao": "Café, infuso",
+    "categoria": "Diversos",
+    "calorias": 1.0,
+    "proteinas": 0.1,
+    "gorduras": 0.1,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 382,
+    "idUsuario": null,
+    "descricao": "Caldo de carne, em tablete",
+    "categoria": "Diversos",
+    "calorias": 234.0,
+    "proteinas": 10.0,
+    "gorduras": 1.5,
+    "carboidratos": 45.0
+  },
+  {
+    "id": 383,
+    "idUsuario": null,
+    "descricao": "Caldo de galinha, em tablete",
+    "categoria": "Diversos",
+    "calorias": 234.0,
+    "proteinas": 10.0,
+    "gorduras": 1.5,
+    "carboidratos": 45.0
+  },
+  {
+    "id": 384,
+    "idUsuario": null,
+    "descricao": "Catchup",
+    "categoria": "Diversos",
+    "calorias": 101.0,
+    "proteinas": 1.2,
+    "gorduras": 0.3,
+    "carboidratos": 23.4
+  },
+  {
+    "id": 385,
+    "idUsuario": null,
+    "descricao": "Chá, em pó",
+    "categoria": "Diversos",
+    "calorias": 0.0,
+    "proteinas": 0.0,
+    "gorduras": 0.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 386,
+    "idUsuario": null,
+    "descricao": "Chá, infuso",
+    "categoria": "Diversos",
+    "calorias": 1.0,
+    "proteinas": 0.1,
+    "gorduras": 0.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 387,
+    "idUsuario": null,
+    "descricao": "Fermento, biológico",
+    "categoria": "Diversos",
+    "calorias": 113.0,
+    "proteinas": 17.5,
+    "gorduras": 1.9,
+    "carboidratos": 8.0
+  },
+  {
+    "id": 388,
+    "idUsuario": null,
+    "descricao": "Fermento, químico",
+    "categoria": "Diversos",
+    "calorias": 105.0,
+    "proteinas": 0.0,
+    "gorduras": 0.0,
+    "carboidratos": 25.0
+  },
+  {
+    "id": 389,
+    "idUsuario": null,
+    "descricao": "Maionese, industrializada",
+    "categoria": "Diversos",
+    "calorias": 296.0,
+    "proteinas": 1.2,
+    "gorduras": 31.0,
+    "carboidratos": 3.7
+  },
+  {
+    "id": 390,
+    "idUsuario": null,
+    "descricao": "Sal",
+    "categoria": "Diversos",
+    "calorias": 0.0,
+    "proteinas": 0.0,
+    "gorduras": 0.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 391,
+    "idUsuario": null,
+    "descricao": "Sal light",
+    "categoria": "Diversos",
+    "calorias": 0.0,
+    "proteinas": 0.0,
+    "gorduras": 0.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 392,
+    "idUsuario": null,
+    "descricao": "Areia, areia",
+    "categoria": "Diversos",
+    "calorias": 0.0,
+    "proteinas": 0.0,
+    "gorduras": 0.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 393,
+    "idUsuario": null,
+    "descricao": "Areia, de praia",
+    "categoria": "Diversos",
+    "calorias": 0.0,
+    "proteinas": 0.0,
+    "gorduras": 0.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 394,
+    "idUsuario": null,
+    "descricao": "Água, potável",
+    "categoria": "Diversos",
+    "calorias": 0.0,
+    "proteinas": 0.0,
+    "gorduras": 0.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 395,
+    "idUsuario": null,
+    "descricao": "Pó de café",
+    "categoria": "Diversos",
+    "calorias": 286.0,
+    "proteinas": 13.9,
+    "gorduras": 13.6,
+    "carboidratos": 22.0
+  },
+  {
+    "id": 396,
+    "idUsuario": null,
+    "descricao": "Arroz, com casca, cru",
+    "categoria": "Cereais e derivados",
+    "calorias": 367.0,
+    "proteinas": 7.3,
+    "gorduras": 1.7,
+    "carboidratos": 77.0
+  },
+  {
+    "id": 397,
+    "idUsuario": null,
+    "descricao": "Aveia, flocos finos, crua",
+    "categoria": "Cereais e derivados",
+    "calorias": 394.0,
+    "proteinas": 13.5,
+    "gorduras": 8.0,
+    "carboidratos": 66.6
+  },
+  {
+    "id": 398,
+    "idUsuario": null,
+    "descricao": "Cevada, em grão, crua",
+    "categoria": "Cereais e derivados",
+    "calorias": 352.0,
+    "proteinas": 12.5,
+    "gorduras": 1.2,
+    "carboidratos": 73.0
+  },
+  {
+    "id": 399,
+    "idUsuario": null,
+    "descricao": "Cevadinha, em grão, crua",
+    "categoria": "Cereais e derivados",
+    "calorias": 352.0,
+    "proteinas": 12.5,
+    "gorduras": 1.2,
+    "carboidratos": 73.0
+  },
+  {
+    "id": 400,
+    "idUsuario": null,
+    "descricao": "Farro, em grão, cru",
+    "categoria": "Cereais e derivados",
+    "calorias": 335.0,
+    "proteinas": 13.0,
+    "gorduras": 2.5,
+    "carboidratos": 68.0
+  },
+  {
+    "id": 401,
+    "idUsuario": null,
+    "descricao": "Centeio, em grão, cru",
+    "categoria": "Cereais e derivados",
+    "calorias": 335.0,
+    "proteinas": 10.0,
+    "gorduras": 1.6,
+    "carboidratos": 75.0
+  },
+  {
+    "id": 402,
+    "idUsuario": null,
+    "descricao": "Grão de trigo, integral, cru",
+    "categoria": "Cereais e derivados",
+    "calorias": 333.0,
+    "proteinas": 12.5,
+    "gorduras": 1.5,
+    "carboidratos": 71.0
+  },
+  {
+    "id": 403,
+    "idUsuario": null,
+    "descricao": "Kamut, em grão, cru",
+    "categoria": "Cereais e derivados",
+    "calorias": 337.0,
+    "proteinas": 14.0,
+    "gorduras": 2.2,
+    "carboidratos": 70.0
+  },
+  {
+    "id": 404,
+    "idUsuario": null,
+    "descricao": "Milho, em grão, cru",
+    "categoria": "Cereais e derivados",
+    "calorias": 365.0,
+    "proteinas": 9.4,
+    "gorduras": 4.7,
+    "carboidratos": 74.0
+  },
+  {
+    "id": 405,
+    "idUsuario": null,
+    "descricao": "Quinoa, em grão, crua",
+    "categoria": "Cereais e derivados",
+    "calorias": 368.0,
+    "proteinas": 14.1,
+    "gorduras": 6.1,
+    "carboidratos": 64.2
+  },
+  {
+    "id": 406,
+    "idUsuario": null,
+    "descricao": "Triticale, em grão, cru",
+    "categoria": "Cereais e derivados",
+    "calorias": 338.0,
+    "proteinas": 13.0,
+    "gorduras": 2.0,
+    "carboidratos": 70.0
+  },
+  {
+    "id": 407,
+    "idUsuario": null,
+    "descricao": "Amaranto, em grão, cru",
+    "categoria": "Cereais e derivados",
+    "calorias": 371.0,
+    "proteinas": 13.6,
+    "gorduras": 7.0,
+    "carboidratos": 65.0
+  },
+  {
+    "id": 408,
+    "idUsuario": null,
+    "descricao": "Cuscuz, cozido",
+    "categoria": "Cereais e derivados",
+    "calorias": 112.0,
+    "proteinas": 3.8,
+    "gorduras": 0.2,
+    "carboidratos": 23.2
+  },
+  {
+    "id": 409,
+    "idUsuario": null,
+    "descricao": "Pão, de forma, integral, torrado",
+    "categoria": "Cereais e derivados",
+    "calorias": 298.0,
+    "proteinas": 11.0,
+    "gorduras": 4.3,
+    "carboidratos": 56.0
+  },
+  {
+    "id": 410,
+    "idUsuario": null,
+    "descricao": "Pão, de forma, branco, torrado",
+    "categoria": "Cereais e derivados",
+    "calorias": 335.0,
+    "proteinas": 9.4,
+    "gorduras": 5.7,
+    "carboidratos": 62.0
+  },
+  {
+    "id": 411,
+    "idUsuario": null,
+    "descricao": "Torrada, simples",
+    "categoria": "Cereais e derivados",
+    "calorias": 407.0,
+    "proteinas": 12.0,
+    "gorduras": 7.0,
+    "carboidratos": 75.0
+  },
+  {
+    "id": 412,
+    "idUsuario": null,
+    "descricao": "Aveia, flocos grossos, crua",
+    "categoria": "Cereais e derivados",
+    "calorias": 394.0,
+    "proteinas": 13.5,
+    "gorduras": 8.0,
+    "carboidratos": 66.6
+  },
+  {
+    "id": 413,
+    "idUsuario": null,
+    "descricao": "Milho, farinha, de milho",
+    "categoria": "Cereais e derivados",
+    "calorias": 351.0,
+    "proteinas": 7.2,
+    "gorduras": 1.7,
+    "carboidratos": 77.2
+  },
+  {
+    "id": 414,
+    "idUsuario": null,
+    "descricao": "Milho, farinha, de milho, integral",
+    "categoria": "Cereais e derivados",
+    "calorias": 361.0,
+    "proteinas": 8.4,
+    "gorduras": 3.9,
+    "carboidratos": 72.0
+  },
+  {
+    "id": 415,
+    "idUsuario": null,
+    "descricao": "Milho, sêmola",
+    "categoria": "Cereais e derivados",
+    "calorias": 361.0,
+    "proteinas": 8.4,
+    "gorduras": 3.9,
+    "carboidratos": 72.0
+  },
+  {
+    "id": 416,
+    "idUsuario": null,
+    "descricao": "Farelo de trigo",
+    "categoria": "Cereais e derivados",
+    "calorias": 216.0,
+    "proteinas": 15.6,
+    "gorduras": 4.2,
+    "carboidratos": 64.5
+  },
+  {
+    "id": 417,
+    "idUsuario": null,
+    "descricao": "Germe de trigo",
+    "categoria": "Cereais e derivados",
+    "calorias": 360.0,
+    "proteinas": 23.0,
+    "gorduras": 9.0,
+    "carboidratos": 52.0
+  },
+  {
+    "id": 418,
+    "idUsuario": null,
+    "descricao": "Trigo sarraceno, em grão, cru",
+    "categoria": "Cereais e derivados",
+    "calorias": 343.0,
+    "proteinas": 13.3,
+    "gorduras": 3.4,
+    "carboidratos": 71.5
+  },
+  {
+    "id": 419,
+    "idUsuario": null,
+    "descricao": "Araruta, pó",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 357.0,
+    "proteinas": 0.3,
+    "gorduras": 0.0,
+    "carboidratos": 88.2
+  },
+  {
+    "id": 420,
+    "idUsuario": null,
+    "descricao": "Batata, baroa, cozida",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 105.0,
+    "proteinas": 1.2,
+    "gorduras": 0.2,
+    "carboidratos": 25.0
+  },
+  {
+    "id": 421,
+    "idUsuario": null,
+    "descricao": "Batata, baroa, crua",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 109.0,
+    "proteinas": 1.2,
+    "gorduras": 0.2,
+    "carboidratos": 26.0
+  },
+  {
+    "id": 422,
+    "idUsuario": null,
+    "descricao": "Batata, doce, chips",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 520.0,
+    "proteinas": 3.0,
+    "gorduras": 30.0,
+    "carboidratos": 60.0
+  },
+  {
+    "id": 423,
+    "idUsuario": null,
+    "descricao": "Batata, doce, assada",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 90.0,
+    "proteinas": 1.6,
+    "gorduras": 0.1,
+    "carboidratos": 20.7
+  },
+  {
+    "id": 424,
+    "idUsuario": null,
+    "descricao": "Beterraba, cozida",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 39.0,
+    "proteinas": 1.5,
+    "gorduras": 0.1,
+    "carboidratos": 9.0
+  },
+  {
+    "id": 425,
+    "idUsuario": null,
+    "descricao": "Beterraba, crua",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 43.0,
+    "proteinas": 1.6,
+    "gorduras": 0.1,
+    "carboidratos": 9.6
+  },
+  {
+    "id": 426,
+    "idUsuario": null,
+    "descricao": "Broto de bambu, cozido",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 12.0,
+    "proteinas": 1.4,
+    "gorduras": 0.3,
+    "carboidratos": 2.3
+  },
+  {
+    "id": 427,
+    "idUsuario": null,
+    "descricao": "Broto de feijão, cru",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 30.0,
+    "proteinas": 3.0,
+    "gorduras": 0.1,
+    "carboidratos": 6.0
+  },
+  {
+    "id": 428,
+    "idUsuario": null,
+    "descricao": "Cogumelo, shitake, seco",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 296.0,
+    "proteinas": 10.0,
+    "gorduras": 0.8,
+    "carboidratos": 75.0
+  },
+  {
+    "id": 429,
+    "idUsuario": null,
+    "descricao": "Mandioca, farinha, crua, flocada",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 362.0,
+    "proteinas": 1.6,
+    "gorduras": 0.2,
+    "carboidratos": 87.8
+  },
+  {
+    "id": 430,
+    "idUsuario": null,
+    "descricao": "Mandioca, farinha, crua, fina",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 362.0,
+    "proteinas": 1.6,
+    "gorduras": 0.2,
+    "carboidratos": 87.8
+  },
+  {
+    "id": 431,
+    "idUsuario": null,
+    "descricao": "Mandioca, farinha, crua, grossa",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 362.0,
+    "proteinas": 1.6,
+    "gorduras": 0.2,
+    "carboidratos": 87.8
+  },
+  {
+    "id": 432,
+    "idUsuario": null,
+    "descricao": "Pepino, casca, cru",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 12.0,
+    "proteinas": 0.7,
+    "gorduras": 0.1,
+    "carboidratos": 2.7
+  },
+  {
+    "id": 433,
+    "idUsuario": null,
+    "descricao": "Pepino, sem casca, cru",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 10.0,
+    "proteinas": 0.6,
+    "gorduras": 0.1,
+    "carboidratos": 2.3
+  },
+  {
+    "id": 434,
+    "idUsuario": null,
+    "descricao": "Salsão, cru",
+    "categoria": "Verduras, hortaliças e derivados",
+    "calorias": 16.0,
+    "proteinas": 0.7,
+    "gorduras": 0.2,
+    "carboidratos": 3.0
+  },
+  {
+    "id": 435,
+    "idUsuario": null,
+    "descricao": "Abacate, creme",
+    "categoria": "Frutas",
+    "calorias": 182.0,
+    "proteinas": 1.2,
+    "gorduras": 17.0,
+    "carboidratos": 7.0
+  },
+  {
+    "id": 436,
+    "idUsuario": null,
+    "descricao": "Caju, castanha, torrada, salgada",
+    "categoria": "Nozes e sementes",
+    "calorias": 574.0,
+    "proteinas": 18.0,
+    "gorduras": 46.0,
+    "carboidratos": 30.0
+  },
+  {
+    "id": 437,
+    "idUsuario": null,
+    "descricao": "Castanha do pará, crua",
+    "categoria": "Nozes e sementes",
+    "calorias": 656.0,
+    "proteinas": 14.0,
+    "gorduras": 66.0,
+    "carboidratos": 12.0
+  },
+  {
+    "id": 438,
+    "idUsuario": null,
+    "descricao": "Castanha, de caju, torrada, salgada",
+    "categoria": "Nozes e sementes",
+    "calorias": 574.0,
+    "proteinas": 18.0,
+    "gorduras": 46.0,
+    "carboidratos": 30.0
+  },
+  {
+    "id": 439,
+    "idUsuario": null,
+    "descricao": "Castanha, de caju, crua",
+    "categoria": "Nozes e sementes",
+    "calorias": 553.0,
+    "proteinas": 18.0,
+    "gorduras": 44.0,
+    "carboidratos": 30.0
+  },
+  {
+    "id": 440,
+    "idUsuario": null,
+    "descricao": "Coco, fresco",
+    "categoria": "Nozes e sementes",
+    "calorias": 354.0,
+    "proteinas": 3.3,
+    "gorduras": 33.0,
+    "carboidratos": 15.2
+  },
+  {
+    "id": 441,
+    "idUsuario": null,
+    "descricao": "Coco, ralado, seco",
+    "categoria": "Nozes e sementes",
+    "calorias": 591.0,
+    "proteinas": 5.9,
+    "gorduras": 56.6,
+    "carboidratos": 23.0
+  },
+  {
+    "id": 442,
+    "idUsuario": null,
+    "descricao": "Gergelim, semente",
+    "categoria": "Nozes e sementes",
+    "calorias": 583.0,
+    "proteinas": 21.0,
+    "gorduras": 50.0,
+    "carboidratos": 22.0
+  },
+  {
+    "id": 443,
+    "idUsuario": null,
+    "descricao": "Noz, pecan, crua",
+    "categoria": "Nozes e sementes",
+    "calorias": 691.0,
+    "proteinas": 9.2,
+    "gorduras": 72.0,
+    "carboidratos": 14.0
+  },
+  {
+    "id": 444,
+    "idUsuario": null,
+    "descricao": "Amêndoa, crua",
+    "categoria": "Nozes e sementes",
+    "calorias": 575.0,
+    "proteinas": 21.0,
+    "gorduras": 49.0,
+    "carboidratos": 22.0
+  },
+  {
+    "id": 445,
+    "idUsuario": null,
+    "descricao": "Amendoim, cru",
+    "categoria": "Nozes e sementes",
+    "calorias": 567.0,
+    "proteinas": 25.8,
+    "gorduras": 49.2,
+    "carboidratos": 16.1
+  },
+  {
+    "id": 446,
+    "idUsuario": null,
+    "descricao": "Amendoim, torrado",
+    "categoria": "Nozes e sementes",
+    "calorias": 583.0,
+    "proteinas": 25.4,
+    "gorduras": 49.9,
+    "carboidratos": 20.9
+  },
+  {
+    "id": 447,
+    "idUsuario": null,
+    "descricao": "Avelã, crua",
+    "categoria": "Nozes e sementes",
+    "calorias": 628.0,
+    "proteinas": 15.0,
+    "gorduras": 61.0,
+    "carboidratos": 17.0
+  },
+  {
+    "id": 448,
+    "idUsuario": null,
+    "descricao": "Castanha, do Pará, torrada",
+    "categoria": "Nozes e sementes",
+    "calorias": 656.0,
+    "proteinas": 14.0,
+    "gorduras": 66.0,
+    "carboidratos": 12.0
+  },
+  {
+    "id": 449,
+    "idUsuario": null,
+    "descricao": "Castanha, portuguesa, cozida",
+    "categoria": "Nozes e sementes",
+    "calorias": 131.0,
+    "proteinas": 2.0,
+    "gorduras": 1.4,
+    "carboidratos": 29.0
+  },
+  {
+    "id": 450,
+    "idUsuario": null,
+    "descricao": "Macadâmia, crua",
+    "categoria": "Nozes e sementes",
+    "calorias": 718.0,
+    "proteinas": 7.9,
+    "gorduras": 76.0,
+    "carboidratos": 14.0
+  },
+  {
+    "id": 451,
+    "idUsuario": null,
+    "descricao": "Noz, em casca",
+    "categoria": "Nozes e sementes",
+    "calorias": 654.0,
+    "proteinas": 15.0,
+    "gorduras": 65.0,
+    "carboidratos": 14.0
+  },
+  {
+    "id": 452,
+    "idUsuario": null,
+    "descricao": "Pinhão, cozido",
+    "categoria": "Nozes e sementes",
+    "calorias": 177.0,
+    "proteinas": 4.1,
+    "gorduras": 3.8,
+    "carboidratos": 32.5
+  },
+  {
+    "id": 453,
+    "idUsuario": null,
+    "descricao": "Pinhão, cru",
+    "categoria": "Nozes e sementes",
+    "calorias": 240.0,
+    "proteinas": 6.1,
+    "gorduras": 5.7,
+    "carboidratos": 44.0
+  },
+  {
+    "id": 454,
+    "idUsuario": null,
+    "descricao": "Pistache, torrado, salgado",
+    "categoria": "Nozes e sementes",
+    "calorias": 562.0,
+    "proteinas": 20.0,
+    "gorduras": 45.0,
+    "carboidratos": 28.0
+  },
+  {
+    "id": 455,
+    "idUsuario": null,
+    "descricao": "Semente de abóbora, torrada, salgada",
+    "categoria": "Nozes e sementes",
+    "calorias": 574.0,
+    "proteinas": 24.5,
+    "gorduras": 49.0,
+    "carboidratos": 20.0
+  },
+  {
+    "id": 456,
+    "idUsuario": null,
+    "descricao": "Semente de girassol, torrada, salgada",
+    "categoria": "Nozes e sementes",
+    "calorias": 584.0,
+    "proteinas": 21.0,
+    "gorduras": 51.0,
+    "carboidratos": 20.0
+  },
+  {
+    "id": 457,
+    "idUsuario": null,
+    "descricao": "Feijão, branco, cozido",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 76.0,
+    "proteinas": 4.8,
+    "gorduras": 0.5,
+    "carboidratos": 13.6
+  },
+  {
+    "id": 458,
+    "idUsuario": null,
+    "descricao": "Feijão, branco, cru",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 321.0,
+    "proteinas": 20.8,
+    "gorduras": 1.2,
+    "carboidratos": 58.7
+  },
+  {
+    "id": 459,
+    "idUsuario": null,
+    "descricao": "Feijão, verde, cru",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 31.0,
+    "proteinas": 2.2,
+    "gorduras": 0.2,
+    "carboidratos": 6.8
+  },
+  {
+    "id": 460,
+    "idUsuario": null,
+    "descricao": "Feijão, verde, cozido",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 35.0,
+    "proteinas": 1.9,
+    "gorduras": 0.2,
+    "carboidratos": 7.7
+  },
+  {
+    "id": 461,
+    "idUsuario": null,
+    "descricao": "Feijão, manteiga, cozido",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 76.0,
+    "proteinas": 4.8,
+    "gorduras": 0.5,
+    "carboidratos": 13.6
+  },
+  {
+    "id": 462,
+    "idUsuario": null,
+    "descricao": "Feijão, manteiga, cru",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 321.0,
+    "proteinas": 20.8,
+    "gorduras": 1.2,
+    "carboidratos": 58.7
+  },
+  {
+    "id": 463,
+    "idUsuario": null,
+    "descricao": "Feijão, rajado, cozido",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 76.0,
+    "proteinas": 4.8,
+    "gorduras": 0.5,
+    "carboidratos": 13.6
+  },
+  {
+    "id": 464,
+    "idUsuario": null,
+    "descricao": "Feijão, rajado, cru",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 321.0,
+    "proteinas": 20.8,
+    "gorduras": 1.2,
+    "carboidratos": 58.7
+  },
+  {
+    "id": 465,
+    "idUsuario": null,
+    "descricao": "Soja, cozida",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 172.0,
+    "proteinas": 18.0,
+    "gorduras": 9.0,
+    "carboidratos": 10.0
+  },
+  {
+    "id": 466,
+    "idUsuario": null,
+    "descricao": "Soja, crua",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 446.0,
+    "proteinas": 36.5,
+    "gorduras": 19.9,
+    "carboidratos": 30.2
+  },
+  {
+    "id": 467,
+    "idUsuario": null,
+    "descricao": "Aves, codorna, inteira, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 140.0,
+    "proteinas": 20.0,
+    "gorduras": 6.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 468,
+    "idUsuario": null,
+    "descricao": "Carne bovina, coração, cozido",
+    "categoria": "Carnes e ovos",
+    "calorias": 149.0,
+    "proteinas": 26.6,
+    "gorduras": 4.1,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 469,
+    "idUsuario": null,
+    "descricao": "Carne bovina, coração, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 118.0,
+    "proteinas": 19.3,
+    "gorduras": 4.2,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 470,
+    "idUsuario": null,
+    "descricao": "Carne bovina, fígado, cozido",
+    "categoria": "Carnes e ovos",
+    "calorias": 180.0,
+    "proteinas": 26.5,
+    "gorduras": 7.0,
+    "carboidratos": 3.7
+  },
+  {
+    "id": 471,
+    "idUsuario": null,
+    "descricao": "Carne bovina, rim, cozido",
+    "categoria": "Carnes e ovos",
+    "calorias": 139.0,
+    "proteinas": 25.1,
+    "gorduras": 3.7,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 472,
+    "idUsuario": null,
+    "descricao": "Carne bovina, rim, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 103.0,
+    "proteinas": 17.5,
+    "gorduras": 3.2,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 473,
+    "idUsuario": null,
+    "descricao": "Carne bovina, língua, cozida",
+    "categoria": "Carnes e ovos",
+    "calorias": 228.0,
+    "proteinas": 23.3,
+    "gorduras": 14.7,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 474,
+    "idUsuario": null,
+    "descricao": "Carne de porco, costelinha, assada",
+    "categoria": "Carnes e ovos",
+    "calorias": 361.0,
+    "proteinas": 29.8,
+    "gorduras": 25.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 475,
+    "idUsuario": null,
+    "descricao": "Carne de porco, costelinha, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 331.0,
+    "proteinas": 17.0,
+    "gorduras": 28.6,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 476,
+    "idUsuario": null,
+    "descricao": "Carne de porco, lombo, assado",
+    "categoria": "Carnes e ovos",
+    "calorias": 242.0,
+    "proteinas": 33.1,
+    "gorduras": 11.2,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 477,
+    "idUsuario": null,
+    "descricao": "Carne de porco, lombo, cru",
+    "categoria": "Carnes e ovos",
+    "calorias": 169.0,
+    "proteinas": 20.0,
+    "gorduras": 9.4,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 478,
+    "idUsuario": null,
+    "descricao": "Carne de porco, picanha, assada",
+    "categoria": "Carnes e ovos",
+    "calorias": 257.0,
+    "proteinas": 30.6,
+    "gorduras": 13.9,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 479,
+    "idUsuario": null,
+    "descricao": "Carne de porco, picanha, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 218.0,
+    "proteinas": 19.3,
+    "gorduras": 15.3,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 480,
+    "idUsuario": null,
+    "descricao": "Lingüiça, porco, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 315.0,
+    "proteinas": 14.0,
+    "gorduras": 28.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 481,
+    "idUsuario": null,
+    "descricao": "Presunto, cozido, gordo",
+    "categoria": "Carnes e ovos",
+    "calorias": 256.0,
+    "proteinas": 17.5,
+    "gorduras": 20.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 482,
+    "idUsuario": null,
+    "descricao": "Presunto, cozido, magro",
+    "categoria": "Carnes e ovos",
+    "calorias": 145.0,
+    "proteinas": 20.6,
+    "gorduras": 6.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 483,
+    "idUsuario": null,
+    "descricao": "Salsicha, carne de boi",
+    "categoria": "Carnes e ovos",
+    "calorias": 260.0,
+    "proteinas": 12.0,
+    "gorduras": 22.0,
+    "carboidratos": 3.0
+  },
+  {
+    "id": 484,
+    "idUsuario": null,
+    "descricao": "Salsicha, frango",
+    "categoria": "Carnes e ovos",
+    "calorias": 240.0,
+    "proteinas": 10.0,
+    "gorduras": 18.0,
+    "carboidratos": 6.0
+  },
+  {
+    "id": 485,
+    "idUsuario": null,
+    "descricao": "Cordeiro, costeleta, com gordura, assada",
+    "categoria": "Carnes e ovos",
+    "calorias": 331.0,
+    "proteinas": 28.0,
+    "gorduras": 23.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 486,
+    "idUsuario": null,
+    "descricao": "Cordeiro, costeleta, com gordura, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 277.0,
+    "proteinas": 17.0,
+    "gorduras": 23.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 487,
+    "idUsuario": null,
+    "descricao": "Cordeiro, costeleta, sem gordura, assada",
+    "categoria": "Carnes e ovos",
+    "calorias": 196.0,
+    "proteinas": 33.6,
+    "gorduras": 6.4,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 488,
+    "idUsuario": null,
+    "descricao": "Cordeiro, costeleta, sem gordura, crua",
+    "categoria": "Carnes e ovos",
+    "calorias": 115.0,
+    "proteinas": 20.3,
+    "gorduras": 3.2,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 489,
+    "idUsuario": null,
+    "descricao": "Bacalhau, desfiado, cru",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 134.0,
+    "proteinas": 29.1,
+    "gorduras": 1.1,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 490,
+    "idUsuario": null,
+    "descricao": "Bacalhau, desfiado, cozido",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 103.0,
+    "proteinas": 23.3,
+    "gorduras": 0.9,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 491,
+    "idUsuario": null,
+    "descricao": "Atum, enlatado, em óleo",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 200.0,
+    "proteinas": 25.0,
+    "gorduras": 10.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 492,
+    "idUsuario": null,
+    "descricao": "Atum, enlatado, em água",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 116.0,
+    "proteinas": 25.0,
+    "gorduras": 1.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 493,
+    "idUsuario": null,
+    "descricao": "Linguado, cru",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 83.0,
+    "proteinas": 17.0,
+    "gorduras": 1.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 494,
+    "idUsuario": null,
+    "descricao": "Linguado, cozido",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 103.0,
+    "proteinas": 21.0,
+    "gorduras": 1.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 495,
+    "idUsuario": null,
+    "descricao": "Pescada, filé, cru",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 89.0,
+    "proteinas": 17.0,
+    "gorduras": 1.9,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 496,
+    "idUsuario": null,
+    "descricao": "Pescada, filé, frito",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 199.0,
+    "proteinas": 26.6,
+    "gorduras": 9.8,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 497,
+    "idUsuario": null,
+    "descricao": "Salmão, defumado",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 117.0,
+    "proteinas": 18.0,
+    "gorduras": 4.5,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 498,
+    "idUsuario": null,
+    "descricao": "Tilápia, crua",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 96.0,
+    "proteinas": 20.0,
+    "gorduras": 1.7,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 499,
+    "idUsuario": null,
+    "descricao": "Tilápia, cozida",
+    "categoria": "Pescados e frutos do mar",
+    "calorias": 120.0,
+    "proteinas": 25.0,
+    "gorduras": 2.1,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 500,
+    "idUsuario": null,
+    "descricao": "Leite, de cabra, integral",
+    "categoria": "Leites e derivados",
+    "calorias": 69.0,
+    "proteinas": 3.6,
+    "gorduras": 4.1,
+    "carboidratos": 4.5
+  },
+  {
+    "id": 501,
+    "idUsuario": null,
+    "descricao": "Leite, de cabra, em pó, integral",
+    "categoria": "Leites e derivados",
+    "calorias": 490.0,
+    "proteinas": 25.0,
+    "gorduras": 28.0,
+    "carboidratos": 39.0
+  },
+  {
+    "id": 502,
+    "idUsuario": null,
+    "descricao": "Leite, de coco",
+    "categoria": "Leites e derivados",
+    "calorias": 230.0,
+    "proteinas": 2.3,
+    "gorduras": 24.0,
+    "carboidratos": 5.5
+  },
+  {
+    "id": 503,
+    "idUsuario": null,
+    "descricao": "Leite, de vaca, sem lactose, integral",
+    "categoria": "Leites e derivados",
+    "calorias": 58.0,
+    "proteinas": 3.2,
+    "gorduras": 3.0,
+    "carboidratos": 4.7
+  },
+  {
+    "id": 504,
+    "idUsuario": null,
+    "descricao": "Leite, de vaca, sem lactose, desnatado",
+    "categoria": "Leites e derivados",
+    "calorias": 36.0,
+    "proteinas": 3.3,
+    "gorduras": 0.2,
+    "carboidratos": 4.8
+  },
+  {
+    "id": 505,
+    "idUsuario": null,
+    "descricao": "Leite, de vaca, sem lactose, semi-desnatado",
+    "categoria": "Leites e derivados",
+    "calorias": 45.0,
+    "proteinas": 3.3,
+    "gorduras": 1.5,
+    "carboidratos": 4.7
+  },
+  {
+    "id": 506,
+    "idUsuario": null,
+    "descricao": "Iogurte, de frutas, integral",
+    "categoria": "Leites e derivados",
+    "calorias": 98.0,
+    "proteinas": 3.5,
+    "gorduras": 2.8,
+    "carboidratos": 15.0
+  },
+  {
+    "id": 507,
+    "idUsuario": null,
+    "descricao": "Iogurte, de frutas, desnatado",
+    "categoria": "Leites e derivados",
+    "calorias": 80.0,
+    "proteinas": 4.0,
+    "gorduras": 0.1,
+    "carboidratos": 15.0
+  },
+  {
+    "id": 508,
+    "idUsuario": null,
+    "descricao": "Iogurte, natural, integral, adoçado",
+    "categoria": "Leites e derivados",
+    "calorias": 95.0,
+    "proteinas": 3.8,
+    "gorduras": 2.9,
+    "carboidratos": 13.0
+  },
+  {
+    "id": 509,
+    "idUsuario": null,
+    "descricao": "Iogurte, natural, desnatado, adoçado",
+    "categoria": "Leites e derivados",
+    "calorias": 75.0,
+    "proteinas": 4.2,
+    "gorduras": 0.1,
+    "carboidratos": 14.0
+  },
+  {
+    "id": 510,
+    "idUsuario": null,
+    "descricao": "Açúcar, branco",
+    "categoria": "Açúcares e derivados",
+    "calorias": 387.0,
+    "proteinas": 0.0,
+    "gorduras": 0.0,
+    "carboidratos": 99.9
+  },
+  {
+    "id": 511,
+    "idUsuario": null,
+    "descricao": "Açúcar, mascavo",
+    "categoria": "Açúcares e derivados",
+    "calorias": 377.0,
+    "proteinas": 0.0,
+    "gorduras": 0.0,
+    "carboidratos": 97.0
+  },
+  {
+    "id": 512,
+    "idUsuario": null,
+    "descricao": "Açúcar, demerara",
+    "categoria": "Açúcares e derivados",
+    "calorias": 398.0,
+    "proteinas": 0.0,
+    "gorduras": 0.0,
+    "carboidratos": 99.5
+  },
+  {
+    "id": 513,
+    "idUsuario": null,
+    "descricao": "Açúcar, cristal",
+    "categoria": "Açúcares e derivados",
+    "calorias": 387.0,
+    "proteinas": 0.0,
+    "gorduras": 0.0,
+    "carboidratos": 99.9
+  },
+  {
+    "id": 514,
+    "idUsuario": null,
+    "descricao": "Chocolate, em pó",
+    "categoria": "Açúcares e derivados",
+    "calorias": 386.0,
+    "proteinas": 6.8,
+    "gorduras": 5.0,
+    "carboidratos": 80.0
+  },
+  {
+    "id": 515,
+    "idUsuario": null,
+    "descricao": "Leite condensado",
+    "categoria": "Açúcares e derivados",
+    "calorias": 321.0,
+    "proteinas": 7.0,
+    "gorduras": 8.0,
+    "carboidratos": 55.0
+  },
+  {
+    "id": 516,
+    "idUsuario": null,
+    "descricao": "Pé de moleque",
+    "categoria": "Açúcares e derivados",
+    "calorias": 490.0,
+    "proteinas": 15.0,
+    "gorduras": 25.0,
+    "carboidratos": 55.0
+  },
+  {
+    "id": 517,
+    "idUsuario": null,
+    "descricao": "Refrigerante, tipo cola",
+    "categoria": "Bebidas",
+    "calorias": 42.0,
+    "proteinas": 0.0,
+    "gorduras": 0.0,
+    "carboidratos": 10.6
+  },
+  {
+    "id": 518,
+    "idUsuario": null,
+    "descricao": "Refrigerante, tipo guaraná",
+    "categoria": "Bebidas",
+    "calorias": 41.0,
+    "proteinas": 0.0,
+    "gorduras": 0.0,
+    "carboidratos": 10.3
+  },
+  {
+    "id": 519,
+    "idUsuario": null,
+    "descricao": "Refrigerante, tipo laranja",
+    "categoria": "Bebidas",
+    "calorias": 45.0,
+    "proteinas": 0.0,
+    "gorduras": 0.0,
+    "carboidratos": 11.2
+  },
+  {
+    "id": 520,
+    "idUsuario": null,
+    "descricao": "Refrigerante, tipo limão",
+    "categoria": "Bebidas",
+    "calorias": 44.0,
+    "proteinas": 0.0,
+    "gorduras": 0.0,
+    "carboidratos": 11.0
+  },
+  {
+    "id": 521,
+    "idUsuario": null,
+    "descricao": "Cerveja, pilsen",
+    "categoria": "Bebidas",
+    "calorias": 43.0,
+    "proteinas": 0.5,
+    "gorduras": 0.0,
+    "carboidratos": 3.7
+  },
+  {
+    "id": 522,
+    "idUsuario": null,
+    "descricao": "Vinho, tinto, seco",
+    "categoria": "Bebidas",
+    "calorias": 85.0,
+    "proteinas": 0.1,
+    "gorduras": 0.0,
+    "carboidratos": 2.6
+  },
+  {
+    "id": 523,
+    "idUsuario": null,
+    "descricao": "Vodka",
+    "categoria": "Bebidas",
+    "calorias": 231.0,
+    "proteinas": 0.0,
+    "gorduras": 0.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 524,
+    "idUsuario": null,
+    "descricao": "Uísque",
+    "categoria": "Bebidas",
+    "calorias": 250.0,
+    "proteinas": 0.0,
+    "gorduras": 0.0,
+    "carboidratos": 0.0
+  },
+  {
+    "id": 525,
+    "idUsuario": null,
+    "descricao": "Aguá de coco",
+    "categoria": "Bebidas",
+    "calorias": 22.0,
+    "proteinas": 0.2,
+    "gorduras": 0.1,
+    "carboidratos": 5.3
+  },
+  {
+    "id": 526,
+    "idUsuario": null,
+    "descricao": "Salgadinho, de milho",
+    "categoria": "Alimentos preparados e produtos industrializados",
+    "calorias": 500.0,
+    "proteinas": 6.0,
+    "gorduras": 25.0,
+    "carboidratos": 60.0
+  },
+  {
+    "id": 527,
+    "idUsuario": null,
+    "descricao": "Salgadinho, de trigo",
+    "categoria": "Alimentos preparados e produtos industrializados",
+    "calorias": 510.0,
+    "proteinas": 7.0,
+    "gorduras": 28.0,
+    "carboidratos": 55.0
+  },
+  {
+    "id": 528,
+    "idUsuario": null,
+    "descricao": "Biscoito, doce, recheado com baunilha",
+    "categoria": "Cereais e derivados",
+    "calorias": 453.0,
+    "proteinas": 5.0,
+    "gorduras": 17.5,
+    "carboidratos": 70.8
+  },
+  {
+    "id": 529,
+    "idUsuario": null,
+    "descricao": "Biscoito, doce, recheado com brigadeiro",
+    "categoria": "Cereais e derivados",
+    "calorias": 468.0,
+    "proteinas": 5.9,
+    "gorduras": 19.3,
+    "carboidratos": 68.6
+  },
+  {
+    "id": 530,
+    "idUsuario": null,
+    "descricao": "Biscoito, doce, recheado com doce de leite",
+    "categoria": "Cereais e derivados",
+    "calorias": 475.0,
+    "proteinas": 5.5,
+    "gorduras": 20.0,
+    "carboidratos": 67.0
+  },
+  {
+    "id": 531,
+    "idUsuario": null,
+    "descricao": "Biscoito, doce, recheado com limão",
+    "categoria": "Cereais e derivados",
+    "calorias": 453.0,
+    "proteinas": 5.0,
+    "gorduras": 17.5,
+    "carboidratos": 70.8
+  },
+  {
+    "id": 532,
+    "idUsuario": null,
+    "descricao": "Biscoito, doce, recheado com coco",
+    "categoria": "Cereais e derivados",
+    "calorias": 460.0,
+    "proteinas": 4.8,
+    "gorduras": 18.0,
+    "carboidratos": 69.0
+  },
+  {
+    "id": 533,
+    "idUsuario": null,
+    "descricao": "Biscoito, doce, recheado com amendoim",
+    "categoria": "Cereais e derivados",
+    "calorias": 480.0,
+    "proteinas": 6.5,
+    "gorduras": 22.0,
+    "carboidratos": 65.0
+  },
+  {
+    "id": 534,
+    "idUsuario": null,
+    "descricao": "Bolo, de caneca, chocolate, preparado",
+    "categoria": "Cereais e derivados",
+    "calorias": 380.0,
+    "proteinas": 5.0,
+    "gorduras": 18.0,
+    "carboidratos": 50.0
+  },
+  {
+    "id": 535,
+    "idUsuario": null,
+    "descricao": "Bolo, de caneca, baunilha, preparado",
+    "categoria": "Cereais e derivados",
+    "calorias": 350.0,
+    "proteinas": 4.5,
+    "gorduras": 15.0,
+    "carboidratos": 48.0
+  },
+  {
+    "id": 536,
+    "idUsuario": null,
+    "descricao": "Pizza, massa pronta",
+    "categoria": "Cereais e derivados",
+    "calorias": 250.0,
+    "proteinas": 9.0,
+    "gorduras": 3.0,
+    "carboidratos": 45.0
+  },
+  {
+    "id": 537,
+    "idUsuario": null,
+    "descricao": "Pão, de forma, light",
+    "categoria": "Cereais e derivados",
+    "calorias": 200.0,
+    "proteinas": 8.0,
+    "gorduras": 2.0,
+    "carboidratos": 38.0
+  },
+  {
+    "id": 538,
+    "idUsuario": null,
+    "descricao": "Pão, sírio",
+    "categoria": "Cereais e derivados",
+    "calorias": 260.0,
+    "proteinas": 9.0,
+    "gorduras": 1.0,
+    "carboidratos": 50.0
+  },
+  {
+    "id": 539,
+    "idUsuario": null,
+    "descricao": "Pão, de batata",
+    "categoria": "Cereais e derivados",
+    "calorias": 280.0,
+    "proteinas": 8.0,
+    "gorduras": 5.0,
+    "carboidratos": 50.0
+  },
+  {
+    "id": 540,
+    "idUsuario": null,
+    "descricao": "Pão, de centeio",
+    "categoria": "Cereais e derivados",
+    "calorias": 250.0,
+    "proteinas": 9.0,
+    "gorduras": 2.0,
+    "carboidratos": 48.0
+  },
+  {
+    "id": 541,
+    "idUsuario": null,
+    "descricao": "Tapioca, massa, pronta",
+    "categoria": "Cereais e derivados",
+    "calorias": 240.0,
+    "proteinas": 0.5,
+    "gorduras": 0.1,
+    "carboidratos": 60.0
+  },
+  {
+    "id": 542,
+    "idUsuario": null,
+    "descricao": "Waffle, simples",
+    "categoria": "Cereais e derivados",
+    "calorias": 290.0,
+    "proteinas": 7.0,
+    "gorduras": 10.0,
+    "carboidratos": 45.0
+  },
+  {
+    "id": 543,
+    "idUsuario": null,
+    "descricao": "Biscoito, de polvilho",
+    "categoria": "Cereais e derivados",
+    "calorias": 480.0,
+    "proteinas": 2.0,
+    "gorduras": 20.0,
+    "carboidratos": 70.0
+  },
+  {
+    "id": 544,
+    "idUsuario": null,
+    "descricao": "Pizza, queijo",
+    "categoria": "Alimentos preparados e produtos industrializados",
+    "calorias": 260.0,
+    "proteinas": 10.0,
+    "gorduras": 10.0,
+    "carboidratos": 30.0
+  },
+  {
+    "id": 545,
+    "idUsuario": null,
+    "descricao": "Bolo, caseiro, fubá",
+    "categoria": "Cereais e derivados",
+    "calorias": 300.0,
+    "proteinas": 4.0,
+    "gorduras": 12.0,
+    "carboidratos": 45.0
+  },
+  {
+    "id": 546,
+    "idUsuario": null,
+    "descricao": "Cereal, barra de cereais, chocolate",
+    "categoria": "Cereais e derivados",
+    "calorias": 400.0,
+    "proteinas": 5.0,
+    "gorduras": 15.0,
+    "carboidratos": 60.0
+  },
+  {
+    "id": 547,
+    "idUsuario": null,
+    "descricao": "Cereal, barra de cereais, frutas",
+    "categoria": "Cereais e derivados",
+    "calorias": 380.0,
+    "proteinas": 4.0,
+    "gorduras": 12.0,
+    "carboidratos": 65.0
+  },
+  {
+    "id": 548,
+    "idUsuario": null,
+    "descricao": "Pão, de queijo, caseiro",
+    "categoria": "Cereais e derivados",
+    "calorias": 320.0,
+    "proteinas": 10.0,
+    "gorduras": 15.0,
+    "carboidratos": 35.0
+  },
+  {
+    "id": 549,
+    "idUsuario": null,
+    "descricao": "Grão de bico, farinha",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 387.0,
+    "proteinas": 22.0,
+    "gorduras": 7.0,
+    "carboidratos": 60.0
+  },
+  {
+    "id": 550,
+    "idUsuario": null,
+    "descricao": "Lentilha, farinha",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 354.0,
+    "proteinas": 25.0,
+    "gorduras": 1.0,
+    "carboidratos": 60.0
+  },
+  {
+    "id": 551,
+    "idUsuario": null,
+    "descricao": "Feijão, farinha, branca",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 330.0,
+    "proteinas": 22.0,
+    "gorduras": 1.0,
+    "carboidratos": 55.0
+  },
+  {
+    "id": 552,
+    "idUsuario": null,
+    "descricao": "Feijão, farinha, preta",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 330.0,
+    "proteinas": 22.0,
+    "gorduras": 1.0,
+    "carboidratos": 55.0
+  },
+  {
+    "id": 553,
+    "idUsuario": null,
+    "descricao": "Amendoim, pasta de amendoim, integral",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 588.0,
+    "proteinas": 22.0,
+    "gorduras": 50.0,
+    "carboidratos": 20.0
+  },
+  {
+    "id": 554,
+    "idUsuario": null,
+    "descricao": "Feijão, azuki, cozido",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 128.0,
+    "proteinas": 8.0,
+    "gorduras": 0.5,
+    "carboidratos": 23.0
+  },
+  {
+    "id": 555,
+    "idUsuario": null,
+    "descricao": "Feijão, azuki, cru",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 329.0,
+    "proteinas": 21.0,
+    "gorduras": 0.5,
+    "carboidratos": 62.0
+  },
+  {
+    "id": 556,
+    "idUsuario": null,
+    "descricao": "Feijão, bolinha, cozido",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 115.0,
+    "proteinas": 7.0,
+    "gorduras": 0.5,
+    "carboidratos": 20.0
+  },
+  {
+    "id": 557,
+    "idUsuario": null,
+    "descricao": "Feijão, bolinha, cru",
+    "categoria": "Leguminosas e derivados",
+    "calorias": 320.0,
+    "proteinas": 22.0,
+    "gorduras": 0.5,
+    "carboidratos": 20.0
+  }
+]
