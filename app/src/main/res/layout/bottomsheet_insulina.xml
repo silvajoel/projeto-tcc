@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:paddingBottom="32dp"
     android:background="@drawable/dialogbkg">
 
+    <!-- Ícone do topo -->
     <ImageView
         android:layout_width="80dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center|top"
+        android:layout_gravity="center"
         android:scaleType="centerCrop"
         android:src="@drawable/round_remove_24" />
 
+    <!-- Botão de fechar -->
     <ImageView
         android:id="@+id/close_bottom"
         android:layout_width="40dp"
@@ -34,7 +37,7 @@
         android:textSize="20sp"
         android:textStyle="bold" />
 
-    <!-- Quantidade de Insulina -->
+    <!-- Quantidade -->
     <com.google.android.material.textfield.TextInputLayout
         style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
@@ -47,13 +50,13 @@
             android:id="@+id/edit_insulina_quantidade"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
             android:inputType="numberDecimal"
+            android:textColor="@color/black"
             android:textColorHint="@color/gray_500"
             android:textSize="16sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- Tipo de Insulina -->
+    <!-- Tipo -->
     <com.google.android.material.textfield.TextInputLayout
         style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
         android:layout_width="match_parent"
@@ -66,13 +69,13 @@
             android:id="@+id/auto_complete_tipo_insulina"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
             android:inputType="none"
+            android:textColor="@color/black"
             android:textColorHint="@color/gray_500"
             android:textSize="16sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- Data e Hora da Aplicação -->
+    <!-- Data e hora -->
     <com.google.android.material.textfield.TextInputLayout
         style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
@@ -85,10 +88,10 @@
             android:id="@+id/edit_data_hora_aplicacao"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
             android:inputType="none"
             android:focusable="false"
             android:clickable="true"
+            android:textColor="@color/black"
             android:textColorHint="@color/gray_500"
             android:textSize="16sp" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -106,13 +109,13 @@
             android:id="@+id/edit_observacoes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
             android:inputType="textCapSentences"
+            android:textColor="@color/black"
             android:textColorHint="@color/gray_500"
             android:textSize="16sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- Momento da Aplicação -->
+    <!-- Momento -->
     <com.google.android.material.textfield.TextInputLayout
         style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
         android:layout_width="match_parent"
@@ -125,8 +128,8 @@
             android:id="@+id/auto_complete_momento"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
             android:inputType="none"
+            android:textColor="@color/black"
             android:textColorHint="@color/gray_500"
             android:textSize="16sp" />
     </com.google.android.material.textfield.TextInputLayout>
