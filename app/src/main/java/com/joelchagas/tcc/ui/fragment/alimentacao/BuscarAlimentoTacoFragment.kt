@@ -4,14 +4,20 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.joelchagas.tcc.R
 import com.joelchagas.tcc.data.adapter.TACOAdapter
+import com.joelchagas.tcc.data.db.DatabaseHelper
 import com.joelchagas.tcc.data.model.TacoAlimento
+import com.joelchagas.tcc.databinding.DialogAdicionarAlimentoBinding
+import com.joelchagas.tcc.databinding.DialogEditarAlimentoBinding
 import com.joelchagas.tcc.databinding.FragmentBuscarAlimentoTacoBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -44,20 +50,10 @@ class BuscarAlimentoTacoFragment : Fragment() {
     }
 
     private fun setupRecyclerView() {
-        val tipoRefeicao = arguments?.getString("TIPO_REFEICAO") // ← capturando o valor recebido
+        val tipoRefeicao = arguments?.getString("TIPO_REFEICAO")
 
         adapter = TACOAdapter(emptyList()) { selecionado ->
-            val frag = DetalharAlimentoSelecionadoFragment().apply {
-                arguments = Bundle().apply {
-                    putParcelable("alimentoSelecionado", selecionado)
-                    putString("TIPO_REFEICAO", tipoRefeicao) // ← repassando para a próxima tela
-                }
-            }
-
-            parentFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container, frag)
-                .addToBackStack(null)
-                .commit()
+            dialogAdicionarAlimento(selecionado) // Apenas exibe o dialog
         }
 
         binding.recyclerviewRefeicoes.apply {
@@ -66,6 +62,7 @@ class BuscarAlimentoTacoFragment : Fragment() {
             this.adapter = this@BuscarAlimentoTacoFragment.adapter
         }
     }
+
 
     private fun setupSearchView() {
         binding.searchView.apply {
@@ -111,6 +108,59 @@ class BuscarAlimentoTacoFragment : Fragment() {
             coerceInputValues = true
         }
             .decodeFromString(jsonString)
+    }
+
+    private fun dialogAdicionarAlimento(alimento: TacoAlimento) {
+        val dialogBinding = DialogAdicionarAlimentoBinding.inflate(layoutInflater)
+
+        dialogBinding.tvDescricao.text = alimento.descricao
+        dialogBinding.etQuantidade.setText("")
+
+        val tipoRefeicao = arguments?.getString("TIPO_REFEICAO") ?: "Indefinido"
+
+        val dialog = MaterialAlertDialogBuilder(requireContext())
+            .setTitle("Adicionar alimento")
+            .setView(dialogBinding.root)
+            .setNegativeButton("Cancelar", null)
+            .setPositiveButton("Adicionar") { _, _ ->
+                val quantidade = dialogBinding.etQuantidade.text.toString().toDoubleOrNull()
+
+                if (quantidade != null && quantidade > 0) {
+                    // Calcular valores proporcionalmente
+                    val fator = quantidade / 100
+
+                    val calorias = alimento.calorias * fator
+                    val proteinas = alimento.proteinas * fator
+                    val gorduras = alimento.gorduras * fator
+                    val carboidratos = alimento.carboidratos * fator
+
+                    val db = DatabaseHelper(requireContext())
+
+                    val dataHoraAtual =
+                        java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(java.util.Date())
+                    val idRefeicao = db.insertRefeicao(tipoRefeicao, dataHoraAtual).toInt()
+
+                    db.insertAlimento(
+                        descricao = alimento.descricao,
+                        categoria = alimento.categoria,
+                        quantidade_gramas = quantidade,
+                        calorias = calorias,
+                        proteinas = proteinas,
+                        gorduras = gorduras,
+                        carboidratos = carboidratos,
+                        idRefeicao = idRefeicao
+                    )
+
+                    Toast.makeText(
+                        requireContext(),
+                        "Alimento adicionado, retornando à tela inicial",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                }
+            }
+            .create()
+
+        dialog.show()
     }
 
     override fun onDestroyView() {

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_Home">
+
+    <fragment
+        android:id="@+id/fragment_Home"
+        android:name="com.joelchagas.tcc.ui.fragment.home.Fragment_Home"
+        android:label="Home"
+        tools:layout="@layout/fragment_home_">
+
+        <action
+            android:id="@+id/action_home_to_glicemia"
+            app:destination="@id/fragment_Glicemia" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_Glicemia"
+        android:name="com.joelchagas.tcc.ui.fragment.glicemia.Fragment_Glicemia"
+        android:label="Glicemia"
+        tools:layout="@layout/fragment_glicemia_" />
+
+    <fragment
+        android:id="@+id/fragment_Insulina"
+        android:name="com.joelchagas.tcc.ui.fragment.insulina.Fragment_Insulina"
+        android:label="Insulina"
+        tools:layout="@layout/fragment_insulina_" />
+
+    <fragment
+        android:id="@+id/fragment_Remedios"
+        android:name="com.joelchagas.tcc.ui.fragment.remedios.Fragment_Remedios"
+        android:label="Remédios"
+        tools:layout="@layout/fragment_remedios" />
+
+    <fragment
+        android:id="@+id/fragment_Relatorios"
+        android:name="com.joelchagas.tcc.ui.fragment.relatorios.Fragment_Relatorios"
+        android:label="Relatórios"
+        tools:layout="@layout/fragment_relatorios" />
+
+    <fragment
+        android:id="@+id/selecionarRefeicaoFragment"
+        android:name="com.joelchagas.tcc.ui.fragment.alimentacao.SelecionarRefeicaoFragment"
+        android:label="Escolher refeição"
+        tools:layout="@layout/fragment_selecionar_refeicao">
+
+        <action
+            android:id="@+id/action_selecionar_to_lista"
+            app:destination="@id/listaAlimentosRefeicaoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/listaAlimentosRefeicaoFragment"
+        android:name="com.joelchagas.tcc.ui.fragment.alimentacao.ListaAlimentosRefeicaoFragment"
+        android:label="Alimentos da refeição"
+        tools:layout="@layout/item_alimento_consumido">
+
+        <action
+            android:id="@+id/action_lista_to_buscar"
+            app:destination="@id/buscarAlimentoTacoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/buscarAlimentoTacoFragment"
+        android:name="com.joelchagas.tcc.ui.fragment.alimentacao.BuscarAlimentoTacoFragment"
+        android:label="Buscar alimento"
+        tools:layout="@layout/fragment_buscar_alimento_taco">
+
+        <action
+            android:id="@+id/action_buscar_to_detalhar"
+            app:destination="@id/detalharAlimentoSelecionadoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detalharAlimentoSelecionadoFragment"
+        android:name="com.joelchagas.tcc.ui.fragment.alimentacao.DetalharAlimentoSelecionadoFragment"
+        android:label="Adicionar alimento"
+        tools:layout="@layout/adicionar_alimento_fragment" />
+
+</navigation>

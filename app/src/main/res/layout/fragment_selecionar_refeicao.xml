@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/alimentacao_fragment"
@@ -8,33 +7,32 @@
     android:layout_height="match_parent"
     android:background="?attr/colorSurface"
     android:padding="16dp"
-    tools:context="ui.fragment.alimentacao.SelecionarRefeicaoFragment">
+    android:layout_marginBottom="130dp"
+    tools:context="com.joelchagas.tcc.ui.fragment.alimentacao.SelecionarRefeicaoFragment">
 
-    <!-- Título no topo -->
+    <!-- Card Café da Manhã -->
     <TextView
         android:id="@+id/textoTopo"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:paddingTop="50dp"
         android:text="Selecione a Refeição"
+        android:textColor="?attr/colorOnSurface"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:textColor="?attr/colorOnSurface"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Card Café da Manhã -->
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardCafeManha"
+        style="@style/Widget.Material3.CardView.Elevated"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        app:cardCornerRadius="12dp"
-        app:cardElevation="4dp"
-        app:strokeColor="?attr/colorOutline"
-        app:strokeWidth="1dp"
-        app:cardForegroundColor="?attr/colorSurface">
+        android:backgroundTint="@color/mint_cream">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -42,28 +40,34 @@
             android:orientation="vertical"
             android:padding="16dp">
 
+            <ImageView
+                android:id="@+id/iconCafeManha"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="Ícone Café da Manhã" />
+
             <TextView
-                android:id="@+id/tvDescricaoCafeManha"
+                android:id="@+id/labelCafeManha"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Café da Manhã"
-                android:textAppearance="?attr/textAppearanceTitleMedium"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:gravity="center"
                 android:maxLines="1"
-                android:ellipsize="end" />
+                android:text="Café da Manhã"
+                android:textAppearance="?attr/textAppearanceTitleMedium" />
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
     <!-- Card Almoço -->
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardAlmoco"
+        style="@style/Widget.Material3.CardView.Elevated"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        app:cardCornerRadius="12dp"
-        app:cardElevation="4dp"
-        app:strokeColor="?attr/colorOutline"
-        app:strokeWidth="1dp"
-        app:cardForegroundColor="?attr/colorSurface">
+        android:backgroundTint="@color/mint_cream">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -71,28 +75,34 @@
             android:orientation="vertical"
             android:padding="16dp">
 
+            <ImageView
+                android:id="@+id/iconAlmoco"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="Ícone Almoço" />
+
             <TextView
-                android:id="@+id/tvDescricaoAlmoco"
+                android:id="@+id/labelAlmoco"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Almoço"
-                android:textAppearance="?attr/textAppearanceTitleMedium"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:gravity="center"
                 android:maxLines="1"
-                android:ellipsize="end" />
+                android:text="Almoço"
+                android:textAppearance="?attr/textAppearanceTitleMedium" />
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
     <!-- Card Café da Tarde -->
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardCafeTarde"
+        style="@style/Widget.Material3.CardView.Elevated"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        app:cardCornerRadius="12dp"
-        app:cardElevation="4dp"
-        app:strokeColor="?attr/colorOutline"
-        app:strokeWidth="1dp"
-        app:cardForegroundColor="?attr/colorSurface">
+        android:backgroundTint="@color/mint_cream">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -100,28 +110,34 @@
             android:orientation="vertical"
             android:padding="16dp">
 
+            <ImageView
+                android:id="@+id/iconCafeTarde"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="Ícone Café da Tarde" />
+
             <TextView
-                android:id="@+id/tvDescricaoCafeTarde"
+                android:id="@+id/labelCafeTarde"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Café da Tarde"
-                android:textAppearance="?attr/textAppearanceTitleMedium"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:gravity="center"
                 android:maxLines="1"
-                android:ellipsize="end" />
+                android:text="Café da Tarde"
+                android:textAppearance="?attr/textAppearanceTitleMedium" />
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
     <!-- Card Jantar -->
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardJantar"
+        style="@style/Widget.Material3.CardView.Elevated"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        app:cardCornerRadius="12dp"
-        app:cardElevation="4dp"
-        app:strokeColor="?attr/colorOutline"
-        app:strokeWidth="1dp"
-        app:cardForegroundColor="?attr/colorSurface">
+        android:backgroundTint="@color/mint_cream">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -129,28 +145,34 @@
             android:orientation="vertical"
             android:padding="16dp">
 
+            <ImageView
+                android:id="@+id/iconJantar"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="Ícone Jantar" />
+
             <TextView
-                android:id="@+id/tvDescricaoJantar"
+                android:id="@+id/labelJantar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Jantar"
-                android:textAppearance="?attr/textAppearanceTitleMedium"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:gravity="center"
                 android:maxLines="1"
-                android:ellipsize="end" />
+                android:text="Jantar"
+                android:textAppearance="?attr/textAppearanceTitleMedium" />
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
     <!-- Card Ceia -->
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardCeia"
+        style="@style/Widget.Material3.CardView.Elevated"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        app:cardCornerRadius="12dp"
-        app:cardElevation="4dp"
-        app:strokeColor="?attr/colorOutline"
-        app:strokeWidth="1dp"
-        app:cardForegroundColor="?attr/colorSurface">
+        android:backgroundTint="@color/mint_cream">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -158,28 +180,34 @@
             android:orientation="vertical"
             android:padding="16dp">
 
+            <ImageView
+                android:id="@+id/iconCeia"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="Ícone Ceia" />
+
             <TextView
-                android:id="@+id/tvDescricaoCeia"
+                android:id="@+id/labelCeia"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Ceia"
-                android:textAppearance="?attr/textAppearanceTitleMedium"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:gravity="center"
                 android:maxLines="1"
-                android:ellipsize="end" />
+                android:text="Ceia"
+                android:textAppearance="?attr/textAppearanceTitleMedium" />
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
     <!-- Card Avulso -->
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardAvulso"
+        style="@style/Widget.Material3.CardView.Elevated"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        app:cardCornerRadius="12dp"
-        app:cardElevation="4dp"
-        app:strokeColor="?attr/colorOutline"
-        app:strokeWidth="1dp"
-        app:cardForegroundColor="?attr/colorSurface">
+        android:backgroundTint="@color/mint_cream">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -187,30 +215,39 @@
             android:orientation="vertical"
             android:padding="16dp">
 
+            <ImageView
+                android:id="@+id/iconAvulso"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="Ícone Refeição Avulsa" />
+
             <TextView
-                android:id="@+id/tvDescricaoAvulso"
+                android:id="@+id/labelAvulso"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Avulso"
-                android:textAppearance="?attr/textAppearanceTitleMedium"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:gravity="center"
                 android:maxLines="1"
-                android:ellipsize="end" />
+                android:text="Refeição Avulsa"
+                android:textAppearance="?attr/textAppearanceTitleMedium" />
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
-    <!-- Helper Flow para organizar os cards -->
+    <!-- Flow que organiza os cards -->
     <androidx.constraintlayout.helper.widget.Flow
         android:id="@+id/flow_cards"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:constraint_referenced_ids="cardCafeManha,cardAlmoco,cardCafeTarde,cardJantar,cardCeia,cardAvulso"
-        app:flow_wrapMode="chain"
         app:flow_horizontalGap="16dp"
-        app:flow_verticalGap="16dp"
         app:flow_maxElementsWrap="2"
-        app:layout_constraintTop_toBottomOf="@id/textoTopo"
-        app:layout_constraintStart_toStartOf="parent"
+        app:flow_verticalGap="16dp"
+        app:flow_wrapMode="chain"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textoTopo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
