@@ -18,6 +18,7 @@ import com.joelchagas.tcc.ui.fragment.insulina.Fragment_Insulina
 import com.joelchagas.tcc.ui.fragment.relatorios.Fragment_Relatorios
 import com.joelchagas.tcc.ui.fragment.remedios.Fragment_Remedios
 import com.joelchagas.tcc.data.model.HomeCardItem
+import com.joelchagas.tcc.ui.auth.HomeToMain
 
 class Fragment_Home : Fragment() {
 
@@ -84,10 +85,7 @@ class Fragment_Home : Fragment() {
             label.text = item.label
 
             card.setOnClickListener {
-                requireActivity().supportFragmentManager.beginTransaction()
-                    .replace(R.id.fragment_container, item.fragment)
-                    .addToBackStack(null)
-                    .commit()
+                (activity as? HomeToMain)?.openFragment(item.fragment)
             }
 
         }
